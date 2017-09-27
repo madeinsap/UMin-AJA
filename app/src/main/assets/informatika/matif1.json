@@ -1,0 +1,1769 @@
+{
+    "matkul": [
+        {
+            "id": "1",
+            "jawaban": "13",
+            "soal": "+3x+1, jika x=1\nFungsi h ditentukan dengan rumus h(x)= |\n+x?+3 , jika x>1\nNilai dari (hoh)(1) sama dengan ..."
+        },
+        {
+            "id": "2",
+            "jawaban": "h(-10) = 2",
+            "soal": "+ vx , jika x>0\nJika h:R-->R dengan h(x) =  |\n+ 2  , jika x=0\nMaka :"
+        },
+        {
+            "id": "3",
+            "jawaban": "#NAME?",
+            "soal": "-----    ----\nDaerah definisi dari v8-2x  + v9+x   :"
+        },
+        {
+            "id": "4",
+            "jawaban": "#NAME?",
+            "soal": "-----\nDomain dari f(x) = v25-x? adalah :"
+        },
+        {
+            "id": "5",
+            "jawaban": "~",
+            "soal": "x\nlim     -------- adalah...\nx->4      x - 4"
+        },
+        {
+            "id": "6",
+            "jawaban": "x=9",
+            "soal": "----\nBila g(x) = 5 + (v9-x)  maka daerah definisi g(x) adalah :"
+        },
+        {
+            "id": "7",
+            "jawaban": "2x",
+            "soal": "(x + h) - x?\nlim     ------------ adalah...\nx->0         h"
+        },
+        {
+            "id": "8",
+            "jawaban": "2-Jan",
+            "soal": "n? - 2n - 1\nlim     -----------     adalah :\nx->8    2n?- n  + 3"
+        },
+        {
+            "id": "9",
+            "jawaban": "4-Jan",
+            "soal": "x - 2\nlim    -------  adalah...\nx->2    x? - 4"
+        },
+        {
+            "id": "10",
+            "jawaban": "t' dan xy'z'",
+            "soal": "zt   zt'   z't'  z't\n        +-----------------------+\n    xy  |     |  v  |  v  |     |\n        +-----+-----+-----+-----|\n    xy' |     |  v  |  v  |  v  |\n        +-----+-----+-----+-----|\n    x'y'|     |  v  |  v  |     |\n        +-----+-----+--"
+        },
+        {
+            "id": "11",
+            "jawaban": "E = t' + xy'z'",
+            "soal": "zt    zt'   z't'  z't\n        +-----------------------+\n   xy   |     |  v  |  v  |     |\n        +-----+-----+-----+-----|\n   xy'  |     |  v  |  v  |  v  |\n        +-----+-----+-----+-----|\n   x'y' |     |  v  |  v  |     |\n        +-----+-----+--"
+        },
+        {
+            "id": "12",
+            "jawaban": "#NAME?",
+            "soal": "-----------\nDomain dariv(3-x)(2x-4) adalah :"
+        },
+        {
+            "id": "13",
+            "jawaban": "E = x'y' + z",
+            "soal": "yz    yz'   y'z'  y'z\n        +-----------------------+\n    x   |  v  |     |     |  v  |\n        +-----+-----+-----+-----|\n   x'   |  v  |     |  v  |  v  |\n        +-----------------------+ \nDari data Karnaugh di atas, minimal dnf untuk pernyataan"
+        },
+        {
+            "id": "14",
+            "jawaban": "y' dan zt'",
+            "soal": "zt    zt'   z't'  z't\n      +-----------------------+\n  xy  |     |  v  |     |     |      Pernyataan Boolean E menurut\n      +-----+-----+-----+-----|      peta Karnough di samping ini \n  xy' |  v  |  v  |  v  |  v  |      yang memiliki prime implikan"
+        },
+        {
+            "id": "15",
+            "jawaban": "x dan z",
+            "soal": "yz     yz'  y'z'  y'z\n      +-----------------------+     Prime implikan dari pernyataan\n   x  |  v  |  v  |  v  |  v  |     Boolean E menurut peta karnough \n      +-----+-----+-----+-----|     di samping ini adalah:\n   x' |  v  |     |     |  v  |"
+        },
+        {
+            "id": "16",
+            "jawaban": "f(3) = 3",
+            "soal": "+ 2x-1,    jika x<0\nFungsi f(x) ditentukan oleh f(x) = | x?+3x-2, jika 0=x=2\n                                   + 3      , jika x2\nmaka :"
+        },
+        {
+            "id": "17",
+            "jawaban": "E = y' + zt'",
+            "soal": "$%346  zt    zt'   z't'  z't\n    +-----------------------+\n xy |     |  v  |     |     |   Dari peta karnough di samping ini ,\n    +-----+-----+-----+-----|   minimal dnf yang sesuai untuk  xy'|  v  |  v  |  v  |  v  |   pernyataan Boolean E adalah:\n    +"
+        },
+        {
+            "id": "18",
+            "jawaban": "1;3",
+            "soal": "(A,R) Poset A ={1,2,3}; R= {(1,1),(2,2),(3,3),(2,3)} elemen maksimalnya adalah :"
+        },
+        {
+            "id": "19",
+            "jawaban": "tidak ada",
+            "soal": "(A,R) Poset, R relasi dalam A ={1,2,3}; R={(1,1),(2,2),(3,3),(2,3)} maka elemen pertamanya adalah :"
+        },
+        {
+            "id": "20",
+            "jawaban": "1;2",
+            "soal": "(A,R) Poset; A =(1,2,3); R={(1,1),(2,2),(3,3),(1,3),(2,3)}, maka elemen minimalnya adalah :"
+        },
+        {
+            "id": "21",
+            "jawaban": "3",
+            "soal": "(A,R) Poset; A ={1,2,3}; R={(1,1),(2,2),(3,3),(1,3),(2,3)} elemen terakhirnya adalah :"
+        },
+        {
+            "id": "22",
+            "jawaban": "tidak ada",
+            "soal": "(A,R) Poset; A= {1,2,3}; R=  {(1,1),(2,2),(3,3),(1,3),(2,3)} elemen pertamanya adalah :"
+        },
+        {
+            "id": "23",
+            "jawaban": "3",
+            "soal": "(A,R) Poset; A={1,2,3}; R={(1,1),(2,2),(3,3),(1,3),(2,3)} elemen maksimalnya adalah :"
+        },
+        {
+            "id": "24",
+            "jawaban": "2",
+            "soal": "(A,R) Poset; R relasi dalam A = {1,2,3,4,5,6}, dimana\nR={(1,1),(2,2),(3,3),(4,4),(5,5),(6,6),(1,2),(1,3),(1,4),(1,5),(1,6),(2,3),(2,4),(2,5),(2,6),(3,5),(3,6),(4,5),(4,6),(5,6)}\nB={3,4,5}  dengan order berasal dari R, maka Inf (B) adalah ;"
+        },
+        {
+            "id": "25",
+            "jawaban": "tidak ada",
+            "soal": "(A,R) Poset; R relasi dalam A = {1,2,3};  R = {(1,1),(2,2),(3,3),(2,3)} maka elemen terakhirnya adalah :"
+        },
+        {
+            "id": "26",
+            "jawaban": "1;3",
+            "soal": "(A,R) Poset; R relasi dalam A ={1,2,3}; R={(1,1),(2,2),(3,3),(2,3)} maka elemen minimalnya adalah :"
+        },
+        {
+            "id": "27",
+            "jawaban": "1",
+            "soal": "1Jika diketahui f(x) = ---- maka 1/f(?) adalah\n                           x?+1"
+        },
+        {
+            "id": "28",
+            "jawaban": "{(2,4),(4,2),(3,4),(4,3),(3,3),(4,4)}",
+            "soal": "A = {1,2,3,4} : R relasi dalam A; R: x+y=6, maka R=...."
+        },
+        {
+            "id": "29",
+            "jawaban": "{(1,1),(1,2)}",
+            "soal": "A = {1,2,3,4} : relasi R dalam A adalah refleksif; maka R =..."
+        },
+        {
+            "id": "30",
+            "jawaban": "{(4,4)}",
+            "soal": "A = {1,2,3,4} : Relasi R dalam A ditentukan sebagai x+y>7, maka R adalah:"
+        },
+        {
+            "id": "31",
+            "jawaban": "{(2,4),(4,2),(3,3)}",
+            "soal": "A = {1,2,3,4} ; Relasi R dalam A ditentukan sebagai : x+y=6 maka R=..."
+        },
+        {
+            "id": "32",
+            "jawaban": "16",
+            "soal": "A = {1,2,3,4}, himpunan kuasa A akan mempunyai anggota sebanyak :"
+        },
+        {
+            "id": "33",
+            "jawaban": "{(1,5)}",
+            "soal": "A = {1,2,3,4}; B={5,6}; R relasi dari A ke B, dimana R:x?+y?=27 ; maka R = ..."
+        },
+        {
+            "id": "34",
+            "jawaban": "Refleksif dan simetrik",
+            "soal": "A = {1,2,3} : relasi R dalam  A adalah: x pembagi y, maka R yang tidak benar adalah:"
+        },
+        {
+            "id": "35",
+            "jawaban": "{(1,1),(2,2)",
+            "soal": "A = {1,2,3} : relasi R dalam A adalah simetrik, antisimetrik,dan transitip, maka R=..."
+        },
+        {
+            "id": "36",
+            "jawaban": "{(1,2)}",
+            "soal": "A = {1,2,3} ; relasi R dalam A adalah transitip, maka R =..."
+        },
+        {
+            "id": "37",
+            "jawaban": "{(1,1),(2,2),(3,3),(1,3)}",
+            "soal": "A = {1,2,3} relasi R dalam A adalaha refleksif, antisimetrik dan transitif, maka R=..."
+        },
+        {
+            "id": "38",
+            "jawaban": "1024",
+            "soal": "A = {1,2,3}; banyaknya relasi yang dapat dibuat dalam A adalah:"
+        },
+        {
+            "id": "39",
+            "jawaban": "{(1,1),(1,2),(1,3),(2,2),(5,5)",
+            "soal": "A = {1,2,5}; R relasi dalam A; R :=x pembagi y, maka R =...."
+        },
+        {
+            "id": "40",
+            "jawaban": "{ }",
+            "soal": "A = {x|x =2n; n = 1,2,3,...};B = {x|x = 3n; n=1,2,3,...} \nMaka A n B =..."
+        },
+        {
+            "id": "41",
+            "jawaban": "{2,4,8,...,2n,...}",
+            "soal": "A = {x|x=2n; n=1,2,3,...};B={x|x=2n;n=1,2,3,...}\nMaka A n B = ..."
+        },
+        {
+            "id": "42",
+            "jawaban": "{ }",
+            "soal": "A = {x|x=2n;n=1,2,3,...};B={x|x=2n,n=1,2,3,...}\nMaka A - B = ..."
+        },
+        {
+            "id": "43",
+            "jawaban": "{x|x<8}",
+            "soal": "A = {x|x=8} Maka A'=..."
+        },
+        {
+            "id": "44",
+            "jawaban": "{x|3=x=8}",
+            "soal": "A = {x|x>8};B={x|x=3} maka A' n B' =..."
+        },
+        {
+            "id": "45",
+            "jawaban": "{-3,3}",
+            "soal": "A = {x|x?+3x+4=0};B={x|x?-9=0} Maka A U B =..."
+        },
+        {
+            "id": "46",
+            "jawaban": "{ }",
+            "soal": "A =(1,2,3,4} ;R adalah relasi dalam A ;R:x+y<2, maka R =..."
+        },
+        {
+            "id": "47",
+            "jawaban": "{(2,3)}",
+            "soal": "A ={1,2,3} ; relasi R dalam A adalah antisimetrik dan transitip maka R=..."
+        },
+        {
+            "id": "48",
+            "jawaban": "{(1,2)}",
+            "soal": "A ={1,2,3} relasi R dalam A adalah antisimetrik, maka R =..."
+        },
+        {
+            "id": "49",
+            "jawaban": "{(3,3)}",
+            "soal": "A ={1,2,3}: relasi R dalam A adalah simetrik, maka R =...\nA.{(1,2),(2,3)}"
+        },
+        {
+            "id": "50",
+            "jawaban": "{x|1=x=2;5<x=8}",
+            "soal": "A ={x|1=x=8}; B=x|2=x=5} Maka A-B =..."
+        },
+        {
+            "id": "51",
+            "jawaban": "{ }",
+            "soal": "A ={x|x>8}; B={x|x=3} maka A'-B=..."
+        },
+        {
+            "id": "52",
+            "jawaban": "{x|x<3}",
+            "soal": "A ={x|x>8}; B={x|x=8} maka A' n B' =..."
+        },
+        {
+            "id": "53",
+            "jawaban": "{ }",
+            "soal": "A ={x|x? + 1=0};B={x|x?+x+2=0}, maka A U B =..."
+        },
+        {
+            "id": "54",
+            "jawaban": "{ }",
+            "soal": "A ={x|x?+2x+3=0};B={x|x?-4=0} Maka A n B =..."
+        },
+        {
+            "id": "55",
+            "jawaban": "{ }",
+            "soal": "A ={x|x?+3x+4=0};B={x|x?-9=0} Maka (A n B)-A=..."
+        },
+        {
+            "id": "56",
+            "jawaban": "a+1=a, a*0=0",
+            "soal": "a,0,1 e (B,+,*) Aljabar Boole, maka berlakulah :"
+        },
+        {
+            "id": "57",
+            "jawaban": "a+x=1, a*x=0",
+            "soal": "a,0,1,a' e (B,+,*), dan x sembarang elemen dari B dan a' komplemen dari a, maka berlakulah :"
+        },
+        {
+            "id": "58",
+            "jawaban": "a+a=a, a*a=a",
+            "soal": "a,b e (B,+,*) Aljabar Boole, maka berlakulah :"
+        },
+        {
+            "id": "59",
+            "jawaban": "(a*b) = a' + b'",
+            "soal": "a,b e (B,+,*) Aljabar Boole, maka berlakulah :"
+        },
+        {
+            "id": "60",
+            "jawaban": "(a+b)' = a'*b'",
+            "soal": "a,b e (B,+,*) Aljabar Boole, maka berlakulah :"
+        },
+        {
+            "id": "61",
+            "jawaban": "a+(a*b)=a",
+            "soal": "a,b e (B,+,*) Aljabar Boole, maka berlakulah :"
+        },
+        {
+            "id": "62",
+            "jawaban": "a*(a+b)=a",
+            "soal": "a,b e (B,+,*), Aljabar Boole, maka berlakulah :"
+        },
+        {
+            "id": "63",
+            "jawaban": "{(1,1),(2,2),(2,3)}",
+            "soal": "A= {1,2,3} relasi R dalam A adalah refleksif dan simetrik, maka R=..."
+        },
+        {
+            "id": "64",
+            "jawaban": "{(3,6),(4,5),(4,6)}",
+            "soal": "A={1,2,3,4} ; R relasi dalam A; R: relasi A ke B, dimana R :x+y>8; maka R=..."
+        },
+        {
+            "id": "65",
+            "jawaban": "{(1,1),(2,2),(3,3)}",
+            "soal": "A={1,2,3} : relasi R dalam A adalah refleksif dan simetrik dan antisimetrik, maka R =...."
+        },
+        {
+            "id": "66",
+            "jawaban": "Refleksif dan simetrik",
+            "soal": "A={1,2,3} : relasi R dalam A ditentukan sebagai  x+y=2, maka R adalah"
+        },
+        {
+            "id": "67",
+            "jawaban": "64",
+            "soal": "A={1,2,3} ; B={4,5}; banyaknya relasi yang dapat dibuat dari A ke B adalah..."
+        },
+        {
+            "id": "68",
+            "jawaban": "{(2,2),(2,3),(3,2),93,3)}",
+            "soal": "A={1,2,3} ;relasi R dalam A adalah simetrik dan anti simetrik maka\nR=..."
+        },
+        {
+            "id": "69",
+            "jawaban": "{1,2},{2,3}",
+            "soal": "A={1,2,3} maka yang bukan partisi dari A adalah"
+        },
+        {
+            "id": "70",
+            "jawaban": "{(1,1),(2,3),(3,3),(1,3)}",
+            "soal": "A={1,2,3} relasi R dalam A Adalah refleksif dan transitif, maka R=..."
+        },
+        {
+            "id": "71",
+            "jawaban": "Refleksif",
+            "soal": "A={1,2,3} relasi R dalam A adalah x+y=6 maka R yang tidak benar adalah:"
+        },
+        {
+            "id": "72",
+            "jawaban": "{(1,6),(1,7),(2,6),(2,7),(5,6)}",
+            "soal": "A={1,2,3}; B={4,5} ; C={6,7}\nRelasi R1 adalah relasi dari A ke B, dimana R1={(1,4),(2,4),(3,5)}\nRelasi R2 adalah relasi dari B ke C, dimana R2={(1,6),(1,7),(2,6),(2,7)}\nmaka R1.R2=..."
+        },
+        {
+            "id": "73",
+            "jawaban": "{(2,2),(2,4),(4,4)",
+            "soal": "A={2,4} : R relasi dalam A; R:x pembagi y, maka R=..."
+        },
+        {
+            "id": "74",
+            "jawaban": "{1,2,3...}",
+            "soal": "A={x|x=2n;n=1,2,3,...};B={x|x=3n;n=1,2,3,...};C={x|x=n;n=1,2,3...}\nMaka A U B U C = ..."
+        },
+        {
+            "id": "75",
+            "jawaban": "{x|x=8}",
+            "soal": "A={x|x>8};B={x|x=3} maka A' U B' =..."
+        },
+        {
+            "id": "76",
+            "jawaban": "{4,5,6,7,...}",
+            "soal": "Ada xebilangan asli p(x)=x?-9=7 makla himpunan kebenaran Tp adalah :"
+        },
+        {
+            "id": "77",
+            "jawaban": "x=1 dan y=-1",
+            "soal": "arga x dan y yang memenuhi 2ix+3iy+i=6+y-5x adalah :"
+        },
+        {
+            "id": "78",
+            "jawaban": "Jika 5 adalah bilangan prima, maka 5 tidak habis membagi 15. \n5 habis membagi 15\n   --------------------------------------------------5 bukan bilangan prima",
+            "soal": "Argumen yang valid adalah :"
+        },
+        {
+            "id": "79",
+            "jawaban": "{x|1<x<27}",
+            "soal": "Banyaknya AxB yang dibentuk dari A={a,b}, B={1,2,3} adalah :"
+        },
+        {
+            "id": "80",
+            "jawaban": "y't+xz+yz'",
+            "soal": "Bentuk normal dijungtif minimal(minimal dnf) dari E= xy+y't+x'yz'+xy'zt' adalah :"
+        },
+        {
+            "id": "81",
+            "jawaban": "x'y'z + x'y'z'",
+            "soal": "Bentuk normal dishungtif lengkap dari E=y'(x+yz)' adalah :"
+        },
+        {
+            "id": "82",
+            "jawaban": "x'y'z +x'y'z'",
+            "soal": "Bentuk normal disjungtif lengkap dari dual dari E=(x'y')+y' adalah :"
+        },
+        {
+            "id": "83",
+            "jawaban": "xy'z'+xy'z'+x'yz+x'yz'",
+            "soal": "Bentuk normal disjungtif lengkap dari E=(x'+y)'+x'y adalah :"
+        },
+        {
+            "id": "84",
+            "jawaban": "xz+y'z'+yzt'",
+            "soal": "Bentuk normal disjungtif minimal(minimal dnf)  dari E = xyz+xyz'+x'yz'+x'y'z'+x'y'z adalah :"
+        },
+        {
+            "id": "85",
+            "jawaban": "zt'+y'z'+x'y'",
+            "soal": "Bentuk normal disjungtif minimal(minimal dnf) dari E= y't'+y'z'+yzt'+x'y'zt adalah :"
+        },
+        {
+            "id": "86",
+            "jawaban": "4 cis p/3",
+            "soal": "Bentuk polar dari 2+2v3 i adalah :"
+        },
+        {
+            "id": "87",
+            "jawaban": "v8(cos p/4 + i sin p/4)",
+            "soal": "Bentuk polar dari z=2+2i adalah :"
+        },
+        {
+            "id": "88",
+            "jawaban": "ac' + abc",
+            "soal": "Bentuk sederhana dari E= abc' + ab'c' + abc adalah :"
+        },
+        {
+            "id": "89",
+            "jawaban": "4+4=16 jika hanya jika 5-4=9",
+            "soal": "Berikut ini nilai kebenaran (truth value) yang true adalah:"
+        },
+        {
+            "id": "90",
+            "jawaban": "{(1,a),(2,a),(3,a),(4,a)}",
+            "soal": "Berikut ini yang merupakan fungsi dari A = {1,2,3,4} ke B = {a,b,c} adalah :"
+        },
+        {
+            "id": "91",
+            "jawaban": "{(1,s),(2,r),(3,t),(4,s)}",
+            "soal": "Bila A = {1,2,3,4} dan  {r,s,t} dan bila f:A--->B yang merupakan fungsi pada adalah :"
+        },
+        {
+            "id": "92",
+            "jawaban": "Relasi ekivalen",
+            "soal": "Bila dibereikan himpunan A = {1,2,3,4,5,6,7,8,9} dengan relasi kongruensi modulo 4 maka relasi R bersifat :"
+        },
+        {
+            "id": "93",
+            "jawaban": "{2,3,5,7}",
+            "soal": "Bila diberikan 210={x|xpembagi 210}\ntentukan atom dari D210 :"
+        },
+        {
+            "id": "94",
+            "jawaban": "[1,2,3,5]",
+            "soal": "Bila diberikan D60=[1,2,3,4,5,6,10,12,15,20,30,60] terurut dengan relasi \"dapat dibagi\".Elemen Joint Ireduciblenya adalah :"
+        },
+        {
+            "id": "95",
+            "jawaban": "Antisimetri dan transitif",
+            "soal": "Bila diberikan himpunan W = {1,2,3} dan relasi R yang didefinisikan sebagai R={(x,y)|x<y} maka R bersifat :"
+        },
+        {
+            "id": "96",
+            "jawaban": "Partial Ordering",
+            "soal": "Bila diberikan R{(x,y)|x pemabagi y} pada A yang beranggotakan semua bilangan asli nmaka R bersifat :"
+        },
+        {
+            "id": "97",
+            "jawaban": "R = {(2,3),(3,2),(2,2),(3,3),(1,3),(3,1),(1,1)}",
+            "soal": "Bila E = {1,2,3} maka R disebut bersifat transitif dan simetri bila:"
+        },
+        {
+            "id": "98",
+            "jawaban": "a dan b benar",
+            "soal": "Bila E = {1,2,3} maka relasi R yang bersifat transitif dan antisimetris dipenuhi oleh:"
+        },
+        {
+            "id": "99",
+            "jawaban": "x'y, x'z, y'z'",
+            "soal": "Bila E = xy'z'+x'y+x'y'z'+x'yz mempunyai bentuk Prime Implikan  :"
+        },
+        {
+            "id": "100",
+            "jawaban": "x=1 , x=-1",
+            "soal": "Bila f(x) = vx?-v1 maka daerah definisi f(x) adalah :"
+        },
+        {
+            "id": "101",
+            "jawaban": "0=x=1",
+            "soal": "Bila f(x)=vx-vx? tentukan daerah definisi f(x) adalah :"
+        },
+        {
+            "id": "102",
+            "jawaban": "Refleksif, Transitif dan Antisimetri",
+            "soal": "Bila relasi R = {(x,y) |x=y, x dan y bilangan cacah}. Relasi R tersebut bersifat :"
+        },
+        {
+            "id": "103",
+            "jawaban": "Bila x genap maka x? genap",
+            "soal": "Bila x? bilangan ganjil maka x ganjil\nekivalen dengan statemen"
+        },
+        {
+            "id": "104",
+            "jawaban": "8",
+            "soal": "Bilangan positif M yang memenuhi |(2x-4)/(2x+5)|=M untuk |x-?|<2? adalah :"
+        },
+        {
+            "id": "105",
+            "jawaban": "x' dan y",
+            "soal": "Boolean E = xy + x'y + x'y'. Prime implikannya adalah :"
+        },
+        {
+            "id": "106",
+            "jawaban": "84 cara",
+            "soal": "Dalam berapa carakah 9 hadiah dapat diberikan kepada 2 mahasiswa sehingga seorang menerima 3 hadiah dan yang lain menerima 6 hadiah ?"
+        },
+        {
+            "id": "107",
+            "jawaban": "70 buah",
+            "soal": "Dalam suatu ujian, seorang mahasiswa harus mengejakan 8 soal dari 12 soal yang tesedia. Jika 4 soal pertama wajib dikerjakan, maka banyaknya ragam pilihan soal adalah:"
+        },
+        {
+            "id": "108",
+            "jawaban": "10 orang",
+            "soal": "Dari 100 orang mahasiswa, 40 orang mengikuti kuliah Matematika, 45 orang mengikuti kuliah komputer, dan 25 orang tidak mengikuti kedua mata kuliah tersebut. Banyaknya mahasiswa yang mengikuti kedua mata kuliah adalah :"
+        },
+        {
+            "id": "109",
+            "jawaban": "-3",
+            "soal": "Dari f(x)=2x+1 dan g(x) =3-x?, maka nilai dari (f-g)(-1)=..."
+        },
+        {
+            "id": "110",
+            "jawaban": "{1,2}",
+            "soal": "Dari fungsi f={(2,a),(1,b),(-1,c),(0,d),(-2,c)}\nJika A={1,2} maka 1/f(f(A))adalah :"
+        },
+        {
+            "id": "111",
+            "jawaban": "{1,2}",
+            "soal": "Dari fungsi f={(2,p),(1,q),(-1,r),(0,5),(-2,r)}, jika P={1,2} maka\nf-1[f(p)] ="
+        },
+        {
+            "id": "112",
+            "jawaban": "E = x + y' + x'y",
+            "soal": "Dari pernyataan Boolean E = (x'+ y') + x'y, pernyataan-pernyataan berikut benar, kecuali:"
+        },
+        {
+            "id": "113",
+            "jawaban": "[9],[8],[2],[7]",
+            "soal": "Dari relasi konruensi modulo 4 pada A = {1,2,3,4,5,6,7,8,9}, partisi dari A adalah :"
+        },
+        {
+            "id": "114",
+            "jawaban": "R= {(1,1),(1,3),(2,2)(2,4),(3,3),(4,4)}",
+            "soal": "Dari relasi pada A = { 1,2,3,4) berikut ini yang membentuk poset adalah :"
+        },
+        {
+            "id": "115",
+            "jawaban": "R o R = {(p,q),(p,s),(t,s)}",
+            "soal": "Dari relasi R = {(p,q),(r,q),(p,r),(r,s),(t,u),(u,s)} :"
+        },
+        {
+            "id": "116",
+            "jawaban": "{(1,2),(2,3),(4,4),(1,3)}",
+            "soal": "Dari relasi-relasi pada W = {1,2,3,4} berikut ini yang bukan relasi transitif adalah :"
+        },
+        {
+            "id": "117",
+            "jawaban": "(a+b)' = a' + b'",
+            "soal": "Diantara pernyataan berikut yang salah adalah:"
+        },
+        {
+            "id": "118",
+            "jawaban": "Semua himpunan memiliki subset sejati",
+            "soal": "Diantara pernyataan-pernyataan berikut, yang merupakan pernyataan yang salah adalah:"
+        },
+        {
+            "id": "119",
+            "jawaban": "{(1,2),(2,2),(3,2)}",
+            "soal": "Diantara relasi dibawah ini, yang merupakan fungsi adalah :"
+        },
+        {
+            "id": "120",
+            "jawaban": "{(a,b),(a,c),(A,D),(A,E)}",
+            "soal": "Diantara relasi-relasi dibawah ini yang bukan fungsi adalah :"
+        },
+        {
+            "id": "121",
+            "jawaban": "Simetris",
+            "soal": "Diberikan himpunan A = {1,2,3} dan relasi R ={(1,1),(2,3),(3,2)} maka R bersifat :"
+        },
+        {
+            "id": "122",
+            "jawaban": "g(-v2) = 4",
+            "soal": "Didefinisikan fungsi g:R-->R sebagai : g(x) = | x?, jika x > 0\n                                              |  4, jika x = 0\n \nPernyataan berukut yang benar adalah:"
+        },
+        {
+            "id": "123",
+            "jawaban": "D3 U D7 = D3 dan D3 n D7 = D7",
+            "soal": "Didefinisikan sebuah interval terbuka Dn = ( 0, 1/n ) dimana n bilangan asli. Pernyataan yang benar adalah:"
+        },
+        {
+            "id": "124",
+            "jawaban": "B3 n B4 = {4}",
+            "soal": "Didefinisikan sebuah interval tertutup Bi = [ i, i+1 ], dimana i e Z\nPernyataan yang benar adalah :"
+        },
+        {
+            "id": "125",
+            "jawaban": "40 buah",
+            "soal": "Diketahui  himpunan A={2,3,5,7,8,9}. Banyaknya bilangan genap 3 angka (tanpa perulangan)yang dapat dibentuk dari elemen-elemen A adalah :"
+        },
+        {
+            "id": "126",
+            "jawaban": "x = 2 dan y = 5",
+            "soal": "Diketahui : (2x, y - 2) = ( y - 1, x + 1) Nilai-nilai x dan y adalah"
+        },
+        {
+            "id": "127",
+            "jawaban": "D60 adalah latice",
+            "soal": "Diketahui : D60={pembagi dari 60} dengan relasi \"dapat dibagi\". Dari pernyataan-pernyataan berikut ini yang benar adalah :"
+        },
+        {
+            "id": "128",
+            "jawaban": "3 adalah komplemen dari 10",
+            "soal": "Diketahui : D60={pembagi dari 60} dengan relasi \"dapat dibagi\".\nPernyataan-pernyataan dibawah ini yang benar adalah :"
+        },
+        {
+            "id": "129",
+            "jawaban": "a' + a'c",
+            "soal": "Diketahui : E = a'b'c + a'bc + a'bc'. Bentuk sederhana dari E adalah:"
+        },
+        {
+            "id": "130",
+            "jawaban": "f",
+            "soal": "Diketahui : P = {x|1<x<8, x bilangan asli} dan\n            Q = {y|(y - 3)(y - 4) < 0 , y bilangan real} P n Q = ..."
+        },
+        {
+            "id": "131",
+            "jawaban": "x=-2 atau x=2",
+            "soal": "Diketahui : proposisi \"x?-4 =0 dan 4 adalah bilangan genap\". Nilai-nilai berikut ini menyebabkan proposisi bernilai benar, kecuali:"
+        },
+        {
+            "id": "132",
+            "jawaban": "{(3,1),(3,2),(3,5)}",
+            "soal": "Diketahui : relasi-relasi R = {(3,1),(3,2),(1,4)}\n                      dan S = {(3.1),(1,1),(2,2),(1,5)}\n                      R o S = ..."
+        },
+        {
+            "id": "133",
+            "jawaban": "{(1,3),(2,2),(2,7),(3,1),(3,6),(4,5),(5,4),(6,3),(7,2)}",
+            "soal": "Diketahui A = {1,2,3,4,5,6,7}\nJika R = {(x,y)|x + y kuadrat murni } adalah relasi pada A maka R=.."
+        },
+        {
+            "id": "134",
+            "jawaban": "Simetris",
+            "soal": "Diketahui A={1,2,3,4,5,6,7} jika R={(x,y)|x+y kuadrat murni} adalah relasi pada A. Relasi R bersifat:"
+        },
+        {
+            "id": "135",
+            "jawaban": "R tidak transitif, tidak antisimetris, tidak refleksif",
+            "soal": "Diketahui A={1,2,3} dan berlaku relasi"
+        },
+        {
+            "id": "136",
+            "jawaban": "{(a,1),(b,3),(c,5),(c,7)}",
+            "soal": "Diketahui A={a,b,c} dan B={1,3,5,7}. Relasi dari himpunan A ke himpunan B berikut ini merupakan fungsi, kecuali:"
+        },
+        {
+            "id": "137",
+            "jawaban": "sup(12,9)=p.p.b.(12,9)",
+            "soal": "Diketahui D36 = {1,2,3,4,6,9,12,18,36} dan relasi R ={(x,y) x kelipatan y} didefisikan pada D36. Pernyataan yang benar adalah:"
+        },
+        {
+            "id": "138",
+            "jawaban": "{3,6,9,18}",
+            "soal": "Diketahui D36={1,2,3,4,6,9,12,18,36} adalah poset dibawah relasi 'x kelipatan y'. Poset tersebut merupakan Lattice juga. Diantara himpunan berikut, himpunan yang merupakan sub lattice adalh:\nA.{2,3,4}"
+        },
+        {
+            "id": "139",
+            "jawaban": "1,2,3,4,5",
+            "soal": "Diketahui D60={pembagi dari 60} dengan relasi \"dapat dibagi\".\nAdalah memiliki elemen-elemen yang join-irreducible berikut ini :"
+        },
+        {
+            "id": "140",
+            "jawaban": "{y|-2=y=0, yeR}",
+            "soal": "Diketahui f(x) = x?-2. Jika domainnya A={x|0=x=2,xeR}, maka rangenya adalah  :"
+        },
+        {
+            "id": "141",
+            "jawaban": "f(1-x) = 2x+4",
+            "soal": "Diketahui f(x)=4-2x. Pernytaan-pernyataan berikut benar, kecuali:"
+        },
+        {
+            "id": "142",
+            "jawaban": "{1,2}",
+            "soal": "Diketahui fungsi f = {(2,1),(1,b),(-1,c),(0,d),(-2,c)} jika A={1,2} maka 1/f(f(a)) adalah :"
+        },
+        {
+            "id": "143",
+            "jawaban": "gog(2) = 68",
+            "soal": "Diketahui fungsi f(x) = 1/2x dan g(x)=x?+3 maka pernyataan yang benar berikut ini adalah :"
+        },
+        {
+            "id": "144",
+            "jawaban": "-5",
+            "soal": "Diketahui fungsi g(x) adalah suatu fungsi konstan dengan g(x) = 5\nMaka g(3) =..."
+        },
+        {
+            "id": "145",
+            "jawaban": "33",
+            "soal": "Diketahui fungsi-fungsi f(x)=x? dan g(x)=?x+1, maka (gof)(8)=..."
+        },
+        {
+            "id": "146",
+            "jawaban": "x+1",
+            "soal": "Diketahui g(x) 1/(x+1) dan h(x)=g(x-1). Maka (hog) (x) ="
+        },
+        {
+            "id": "147",
+            "jawaban": "R bersifat refleksif",
+            "soal": "Diketahui himpunan A = {1,2,3} dan berlaku relasi \n    R = {(1,1),(2,2),(3,3)}\n    S = {(1,2),(1,2),(1,3),(2,1),(3,1),(3,3)}\n    T = {(1,2),(2,3),(3,2),(2,2)}"
+        },
+        {
+            "id": "148",
+            "jawaban": "600 buah",
+            "soal": "Diketahui himpunan A={2,3,5,7,8,9}. Banyaknya bilangan 5 angka (tanpa perulangan) yang tidak habis dibagi 5 adalah :"
+        },
+        {
+            "id": "149",
+            "jawaban": "{(1,5),(2,7)}",
+            "soal": "Diketahui himpunan D = {1,2,3,4,5,6,7} terdapat relasi :\n    R1 = {(x,y)|y=x+3}\n    R2 = {(x,y)|y=2x}\nMaka kompisisi R1.R2 adalah :"
+        },
+        {
+            "id": "150",
+            "jawaban": "statemen 1 dan 3",
+            "soal": "Diketahui lima buah statement majemuk yang dinyatakan sebagai :\n(1) Buku bagus, tidak murah\n(2) Buku tidak bagus, murah\n(3) Buku murah, tidak bagus\n(4) Buku tidak bagus, tidak murah\n(5) Buku tidak murah, bagus\n\nStatemen-statemen yang mengatakan hal yang s"
+        },
+        {
+            "id": "151",
+            "jawaban": "{1,4,5}",
+            "soal": "Diketahui R = {(1,2),(1,4),(3,4),(3,1),(3,5),(5,1),(5,4),(5,2)} secara tabular, himpunan { 'x | (3,x) e R } ditulis sebagai:"
+        },
+        {
+            "id": "152",
+            "jawaban": "{2,4}",
+            "soal": "Diketahui R = {(1,2),(1,4),(3,4),(3,1),(3,5),(5,1),(5,4),(5,2)}\nHimpunan {x|(1,x)eR} adalah:"
+        },
+        {
+            "id": "153",
+            "jawaban": "{1,5,4}",
+            "soal": "Diketahui R = {(1,2),(1,4),(3,4),(3,1),(3,5),(5,1),(5,4),(5,2)}\nHimpunan {x|(3,x)eR} adalah:"
+        },
+        {
+            "id": "154",
+            "jawaban": "{3}",
+            "soal": "Diketahui R = {(1,2),(1,4),(3,4),(3,1),(3,5),(5,1),(5,4),(5,2)}\nsecara tabular, himpunan { x | (x,2) e R } sama dengan :"
+        },
+        {
+            "id": "155",
+            "jawaban": "{5,3}",
+            "soal": "Diketahui R = {(4,5),(5,4),(3,4),(3,7)}\nHimpunan {x|(x,4)eR} adalah:"
+        },
+        {
+            "id": "156",
+            "jawaban": "{1,3),(2,3),(3,3)}",
+            "soal": "Diketahui relasi-relasi R ={(1,1),(1,3),(3,1),(2,2)} dan \nS = {(1,3)<(2,3),(4,1)} maka R.S adalah :"
+        },
+        {
+            "id": "157",
+            "jawaban": "Semua bilangan prima",
+            "soal": "Diketahui sebuah poset (N,'x habis membagi y') yang juga merupakan sebuah lattice. Elemen join-iredusibel pada lattice tersebut adalah:"
+        },
+        {
+            "id": "158",
+            "jawaban": "semua bilangan prima",
+            "soal": "Diketahui sebuah poset (N,'x kelipatan membagi y') yang juga merupakan sebuah lattice. Elemen yang merupakan atom pada lattice tersebut adalah :"
+        },
+        {
+            "id": "159",
+            "jawaban": "Semua guru tidak hadir dan semua murid mengerjakan PR",
+            "soal": "Diketahui statemen:\n\" Jika setiap guru tidak hadir, maka beberapa murid tidak mengerjakan PR\"\nIngkaran dari statemen tersebut ekivaalen dengan statemen :"
+        },
+        {
+            "id": "160",
+            "jawaban": "-2v5 i",
+            "soal": "Diketahui z1=v5 (cos 5p/4+i sin 5p/4) dan z2=v4(cos p/4+i sin p/4) Harga dari z1.z2 adalah :"
+        },
+        {
+            "id": "161",
+            "jawaban": "z=1+i",
+            "soal": "Diketahui z?= 2(cos p/2 +i sinp/2). Pernyataan yang benar adlah :"
+        },
+        {
+            "id": "162",
+            "jawaban": "2,3,5",
+            "soal": "Diketahui: D60={ pembagi dari 60 } dengan relasi \"dapat dibagi\".\nElemen-elemen yang merupakan atom-atom daro D60 adalah :"
+        },
+        {
+            "id": "163",
+            "jawaban": "1/f(x)=(3+x)/(1-2x)",
+            "soal": "Duketahui himpunan A = R-{-?} dan B = R-{-?}. Didefinisikan fungsi f:A-->B sebagai f(x)=(x-3)/(2x+1)"
+        },
+        {
+            "id": "164",
+            "jawaban": "~q-->p",
+            "soal": "Ekivalen dari pernyataan ~p-->q adalah :"
+        },
+        {
+            "id": "165",
+            "jawaban": "{(a,d),(b,e),(c,d)}",
+            "soal": "f adalah fungsi dari A ={a,b,c} ke B={d,e},jika f adalah fungsi pada maka f="
+        },
+        {
+            "id": "166",
+            "jawaban": "{(1,4),(2,5),(3,6)}",
+            "soal": "f adalah fungsi dari A=1,2,3} ke B={4,5,6,7,8,9}, dimana f(x)=x+3, maka f adalah:"
+        },
+        {
+            "id": "167",
+            "jawaban": "{(1,5),(2,5),(3,5)}",
+            "soal": "f fungsi dari A={1,2,3} ke B={5,7,8}, dimana f(x)=5, maka f adalah:"
+        },
+        {
+            "id": "168",
+            "jawaban": "{(1,8),(2,17),(3,32)}",
+            "soal": "f fungsi dari A={1,2,3} ke B={8,11,17,19,32}, dimana f(x)=3x?5, maka f adalah:"
+        },
+        {
+            "id": "169",
+            "jawaban": "9x? - 18 x + 5",
+            "soal": "Fungsi f dan g didefinisikan pada himpunan bilangan riil R, sebagai berikut:\n    f(x) = x? + 2x - 3          g(x) = (3/x) - 4\nJika h = f o g, maka h (1/x) = ....."
+        },
+        {
+            "id": "170",
+            "jawaban": "[-5,-2] dan [2,5]",
+            "soal": "Fungsi f didefinisikan pada himpunan bilangan riil R, sebagai \nf(x) = x?. Tentukan 1/f ([4,25])"
+        },
+        {
+            "id": "171",
+            "jawaban": "Domainnya tunggal",
+            "soal": "Fungsi konstan dapat merupakan fungsi satu-satu asalkan :"
+        },
+        {
+            "id": "172",
+            "jawaban": "x=-8 atau x=2",
+            "soal": "Harga x yang memenuhi pertidaksamaan 2x?+6x-8=0 adalah :"
+        },
+        {
+            "id": "173",
+            "jawaban": "-?<x dan x>2",
+            "soal": "Harga x yang tidak memenuhi pertidaksamaan 8+3x-2x?=6 adalah:"
+        },
+        {
+            "id": "174",
+            "jawaban": "R={(x,y)|0=x-y=6}",
+            "soal": "Himpunan A = {1,3,5,7} dengan relasi R adalah poset, jika relasi R adalah :"
+        },
+        {
+            "id": "175",
+            "jawaban": "{x|x=1}",
+            "soal": "Himpunan A = {x|2x?+4x-6=0,x>0} sama dengan himpunan :"
+        },
+        {
+            "id": "176",
+            "jawaban": "{x|0<x<2?}",
+            "soal": "Himpunan B = {x||2x-1|=4, x>0} sama dengan himpunan :"
+        },
+        {
+            "id": "177",
+            "jawaban": "{a| 7 - a = 7 }",
+            "soal": "Himpunan-himpunan berikut ini adalah himpunan kosong, kecuali :"
+        },
+        {
+            "id": "178",
+            "jawaban": "1/h(x) = (7x-3)/(5x-2)",
+            "soal": "Invers dari h(x) = 2x-3/5x-7 adalah :"
+        },
+        {
+            "id": "179",
+            "jawaban": "[1] = [2] = [3]",
+            "soal": "Jika A = {1,2,3,4,5,6,7} dengan elasi komgruensi modul 3, maka berikut ini kelas-kelas ekivalen, kecuali :"
+        },
+        {
+            "id": "180",
+            "jawaban": "{6}",
+            "soal": "Jika A = {1,2,3,4}; B = {2,4,5}; C = {1,6}; S = {1,2,3,4,5,6,7} maka (A U B )'- C' = ..."
+        },
+        {
+            "id": "181",
+            "jawaban": "{6}",
+            "soal": "Jika A = {1,2,3,4};B = {2,4,5}; C = {1,6}; S = { 1,2,3,4,5,6,7} maka (A' n B') - C' =..."
+        },
+        {
+            "id": "182",
+            "jawaban": "{ }",
+            "soal": "Jika A = {1,2,3,4};B = {2,4,5}; C = {1,6}; S = {1,2,3,4,5,6,7} maka A' - B' - C' =..."
+        },
+        {
+            "id": "183",
+            "jawaban": "Antisimetris",
+            "soal": "Jika A = {2,3,4,5} maka relasi R = {(2,2),(3,4),(5,1)} pada A bersifat :"
+        },
+        {
+            "id": "184",
+            "jawaban": "Anti simetris",
+            "soal": "Jika a = {p,q,r,s}, Relasi R = {(p,p),(q,r),(s,r)}, maka relasi R bersifat:"
+        },
+        {
+            "id": "185",
+            "jawaban": "{2}",
+            "soal": "Jika A = {x|x?-4=0}; B = {x|x?+2x-8=0} Maka A n B =..."
+        },
+        {
+            "id": "186",
+            "jawaban": "{-4,-2,2}",
+            "soal": "Jika A = {x|x?-4=0}; B = {x|x?+2x-8=0} Maka A U B =..."
+        },
+        {
+            "id": "187",
+            "jawaban": "{ }",
+            "soal": "Jika A = {x|x?-x-2=0};B = {x|x?-2x-8=0} Maka A n B =..."
+        },
+        {
+            "id": "188",
+            "jawaban": "Simetris",
+            "soal": "Jika A adalah sebuah keluarga himpunan dan R : x n y = f,  x,y e A\nSifat yang dipenuhi:"
+        },
+        {
+            "id": "189",
+            "jawaban": "a + 0 = a, a*1=a",
+            "soal": "Jika a,0 e(B,+,*) Aljabar Boale, 0 elemen satuan terhadap +, berlakulah :"
+        },
+        {
+            "id": "190",
+            "jawaban": "a",
+            "soal": "Jika a,b e (B,+,*) Aljabar Boale, dan a+b=b+a=b+b=b,a+a=a maka elemen satuan terhadap + adalah :"
+        },
+        {
+            "id": "191",
+            "jawaban": "b",
+            "soal": "Jika a,b e (B,+,*) Aljabar Boole, dan a*b=b*a=a*a=a, b*b=b maka elemen satuan terhadap * adalah :"
+        },
+        {
+            "id": "192",
+            "jawaban": "a*(b+c) = (a*b) + (a*c)",
+            "soal": "Jika a,b,c e (B,+,*) Aljabar Boale, maka berlakulah :"
+        },
+        {
+            "id": "193",
+            "jawaban": "a + (b*c) = (a*b) * (a+c)",
+            "soal": "Jika a,b,c e (B,+,*) Aljabar Boale, maka berlakulah :"
+        },
+        {
+            "id": "194",
+            "jawaban": "Refleksif, simetri, transitif antisimetris",
+            "soal": "Jika A= {1,3,5}, relasi R = {(1,1),(3,3),(5,5)} maka R bersifat :"
+        },
+        {
+            "id": "195",
+            "jawaban": "B x B",
+            "soal": "Jika B = {a,b,c,d}, relasi pada B yang merupakan relasi ekivalen adalah :"
+        },
+        {
+            "id": "196",
+            "jawaban": "6",
+            "soal": "Jika D36 ={pembagi dari 36} dengan relasi \"membagi\" maka elemen- elemen dari D36 adalah join -irreducible, kecuali:"
+        },
+        {
+            "id": "197",
+            "jawaban": "2 dan 3",
+            "soal": "Jika D36 ={pembagi dari 36} dengan relasi \"membagi\", maka memiliki\natom-atom :"
+        },
+        {
+            "id": "198",
+            "jawaban": "{1,4,9,12}",
+            "soal": "Jika D36={pembagi dari 36} dengan relasi \"membagi\" maka sub-sub himpunan berikut ini merupakan sub-lattice, kecuali:"
+        },
+        {
+            "id": "199",
+            "jawaban": "tidak memiliki sub-lattice",
+            "soal": "Jika D36={pembagi dari 36} dengan relasi \"membagi\", maka sifat-sifat yang tidak dimiliki D36 tersebut adalah:"
+        },
+        {
+            "id": "200",
+            "jawaban": "D36 adalah lattice",
+            "soal": "Jika D36={pembagi dari 36} dengan relasi \"membagi, maka dari pernyataan-pernyataan berikut ini yang benar adalah:"
+        },
+        {
+            "id": "201",
+            "jawaban": "y? - 4xy + 4x? - 4y + 8x + 3",
+            "soal": "Jika didefinisikan pada himpunan bilangan real sebagai F(x) = x? - 4 x + 3, maka F(y - 2x) adalah:"
+        },
+        {
+            "id": "202",
+            "jawaban": "benar",
+            "soal": "Jika diketahui (p --> q) bernilai salah, maka ( � p V � q ) --> q bernilai :"
+        },
+        {
+            "id": "203",
+            "jawaban": "2(x-3",
+            "soal": "Jika diketahui f(x) = ?x-3, maka invers 1/f(x) adalah :"
+        },
+        {
+            "id": "204",
+            "jawaban": "x sembarang dan y tak dapat dicari",
+            "soal": "Jika diketahui pasangan terurut (2x, y-2)=(2x, y+2), maka :"
+        },
+        {
+            "id": "205",
+            "jawaban": "gof(x)=4x?+6x-1",
+            "soal": "Jika f dan g fungsi-fungsi pada bilangan real, masing-masing f(x)=x?+3x+1 dan g(x)=2x-3 maka:"
+        },
+        {
+            "id": "206",
+            "jawaban": "4",
+            "soal": "Jika f(x) = 2x+1 dan g(x) = 3-x?, maka nilai (f+g)(2)=..."
+        },
+        {
+            "id": "207",
+            "jawaban": "2",
+            "soal": "Jika f(x) = x? + 1 dan g(x) = 2 ln x, maka f(1) + g(1) ="
+        },
+        {
+            "id": "208",
+            "jawaban": "0",
+            "soal": "Jika f(x) = x? + 1 dan g(x) = 2 ln x, maka f(2).g(1) ="
+        },
+        {
+            "id": "209",
+            "jawaban": "4ln?a + 1",
+            "soal": "Jika f(x) = x? + 1 dan g(x) = 2 ln x, maka f[g(a)] ="
+        },
+        {
+            "id": "210",
+            "jawaban": "10",
+            "soal": "Jika f:R-->R, didefinisikan sebagai f(x)= | x?-3x, jika x=2 \n                                          | x+2, jika x<2\nmaka f(5) =..."
+        },
+        {
+            "id": "211",
+            "jawaban": "F(-v2) = 4",
+            "soal": "Jika fungsi f:Riil--->Riil didefinisikan sebagai berikut :\n               + x? jika x>0\n        f(x) = |                 maka\n               + 4  jika x=0"
+        },
+        {
+            "id": "212",
+            "jawaban": "Jika Ali masuk sekolah maka hari tidak hujan",
+            "soal": "Jika hari hujan maka Ali tidak masuk sekolah ekivalen (logically equivalent) dengan statemen"
+        },
+        {
+            "id": "213",
+            "jawaban": "Transitif",
+            "soal": "Jika himpunan C = {1,3,5,7} dan R + {(x,y)|x>y xeC, yeC}\nMaka relasi tersebut bersifat :"
+        },
+        {
+            "id": "214",
+            "jawaban": "{M,{1},{{2,3}},f}",
+            "soal": "Jika M = { 1, {2,3}}}, maka powerset dari M adalah :"
+        },
+        {
+            "id": "215",
+            "jawaban": "Jakarta ibukota Belanda dan Indonesia terletak di Asia",
+            "soal": "Jika p : Jakarta ibukota Belanda\n     q : Indonesia terletak di benua Asia\nMaka pernyataan yang bernilai benar adalah :"
+        },
+        {
+            "id": "216",
+            "jawaban": "~p adalah : orang negro tidak berambut",
+            "soal": "Jika p adalah statemen\"Orang neegro bereambut keriting\"\ndan q adalah statemen \"Paris berada di Perancis\" maka :"
+        },
+        {
+            "id": "217",
+            "jawaban": "p?+q? adalah bilangan genap",
+            "soal": "Jika p bilangan ganjil dan q bilangan genap, maka pernyataan yang salah adalah :"
+        },
+        {
+            "id": "218",
+            "jawaban": "{(1,2),(2,4),(3,6)}",
+            "soal": "Jika R + {(x,y)| x = 2y, y e W } dimana W = {1,2,3,4,5,6,7}\nmaka R =..."
+        },
+        {
+            "id": "219",
+            "jawaban": "{(1,2),(2,4),(3,6)}",
+            "soal": "Jika R = {(2,1),(4,2),(6,3)} dimana W = {(1,2,3,4,5,6,7}\n1/R=..."
+        },
+        {
+            "id": "220",
+            "jawaban": "2 dan 3",
+            "soal": "Jika R adalah relasi kongruensi mod 5 yang didefinisikan pada D={1,2,3,4,5,6,7,8,9} maka dari pernyataan berikut:\n    1. R bersifat transitif antisimetris refleksif"
+        },
+        {
+            "id": "221",
+            "jawaban": "Jika R anti-simetris, maka 1/R anti-simetris",
+            "soal": "Jika R adalah relasi pada himpunan A dan 1/R adalah invers dari relasi R, pernyataan yang benar adalah:"
+        },
+        {
+            "id": "222",
+            "jawaban": "R simetris",
+            "soal": "Jika R n 1/R = f maka:"
+        },
+        {
+            "id": "223",
+            "jawaban": "{(2,1),(3,1),(1,2)}",
+            "soal": "Jika R1 = {93,1),(2,5),(1,3)} dan R2 = {(1,1),(2,3),(3,2),(5,1)}\nmaka R1 o R2 = ..."
+        },
+        {
+            "id": "224",
+            "jawaban": "Transitif",
+            "soal": "Jika S = {a,b,c} maka pernyataan berikut salah kecuali :\nRelasi S = {(p,q),(p,r),(p,s),(q,r),(q,s),(r,s)} bersifat :"
+        },
+        {
+            "id": "225",
+            "jawaban": "W x W\n   (2,4),(1,4)}",
+            "soal": "Jika W = { 1,2,3,4}, relasi pada W yang merupakan relasi ekivalen adalah :"
+        },
+        {
+            "id": "226",
+            "jawaban": "?(x+y)=vxvy",
+            "soal": "Jika x=0, y=0, maka:"
+        },
+        {
+            "id": "227",
+            "jawaban": "R = {(a,b) | a mod 4 = b mod 4 }",
+            "soal": "Keempat relasi berikut didefinisikan pada himpunan bilangan bulat Z. Relasi yang merupakan relasi ekivalen adalah:"
+        },
+        {
+            "id": "228",
+            "jawaban": "10",
+            "soal": "Kelas yang memuat 40 siswa, 20 suka Matematika, 30 suka Fisika, 40 siswa suka Kimia. Banyak minimum siswa yang suka ketiga-tiganya adalah :"
+        },
+        {
+            "id": "229",
+            "jawaban": "0",
+            "soal": "Kelas yang memuat 50 siswa, 20 siswa suka Matematika, 30 siswa suka Fisika, 40 siswa suka Kimia. Banyak minimum siswa yang suka ketiga-tiganya adalah..."
+        },
+        {
+            "id": "230",
+            "jawaban": "20",
+            "soal": "Kelas yang memuat 50 siswa, 20 siswa suka Matematika, 30 siswa suka Fisika. Banyak maksimum siswa yang tidak suka kedua-duanya adalah :"
+        },
+        {
+            "id": "231",
+            "jawaban": "jika terjadi perang maka kehidupan menjadi kacau",
+            "soal": "Kesimpulan dari argumen : \"Jika terjadi perang maka setiap orang gelisah\" dan \"jika setiap orang gelisah maka kehidupan menjadi kacau\"adalah:"
+        },
+        {
+            "id": "232",
+            "jawaban": "Beberapa guru bukan ahli komputer",
+            "soal": "Konklusi yang membuat argumen fallacy untuk kumpulan premis:\n    P1: Semua penyair miskin \n    P2: Untuk dapat menjadi guru, seseorang harus lulus perguruan\n        tinggi  \n    P3: Beberapa ahli komputer adalah penyair\n    P4: Tidak ada lulusan perguruan"
+        },
+        {
+            "id": "233",
+            "jawaban": "Jika dia kalah maka dia tidak berlatih  terus",
+            "soal": "Kontra positif dari pernyataan berikut \n    \"Hanya jika berlatih terus dia akan menang\""
+        },
+        {
+            "id": "234",
+            "jawaban": "Jika si Ani ke pasar tidak memakai payung maka hari tidak panas terik.",
+            "soal": "Kontra positif dari pernyataan: 'Jika hari panas terik, maka si Ani ke pasar memakai payung\" adalah :"
+        },
+        {
+            "id": "235",
+            "jawaban": "Dia kalah maka dia tidak punya keberanian",
+            "soal": "Kontrapositif dari \"jika dia mempunyai keberanian maka dia akan menang\" adalah :"
+        },
+        {
+            "id": "236",
+            "jawaban": "Jika saya tidak lulus ujian, maka saya bermain basket dan saya tidak belajar",
+            "soal": "Kontrapositif dari statemen :\n    \" Jika saya tidak bermain basket dan saya belajar, maka saya lulus ujian\" \nadalah :"
+        },
+        {
+            "id": "237",
+            "jawaban": "[1] = [3] = [5] = {1,3,5}, [2] =[4] = {2,4}",
+            "soal": "Kuosien dari himpunan A = { 1,2,3,4,5 } terhadap ralasi \nR = {(x,y)| x mod 2 = y mod 2 x,y e A} adalah"
+        },
+        {
+            "id": "238",
+            "jawaban": "R simetri",
+            "soal": "L adalah himpunan garis lurus \nDidef sebuah relasi R pada L dimana \nR = {(x,y)|x tegak lurus y,  x,y e L}"
+        },
+        {
+            "id": "239",
+            "jawaban": "Simetris",
+            "soal": "L adalah himpunan garis lurus dan R : x tegak lurus y, x,y e L. Sifat yang dipenuhi R adalah"
+        },
+        {
+            "id": "240",
+            "jawaban": "R adalah relasi ekivalen",
+            "soal": "L adalah himpunan garis lurus. Didefinisikan sbuah relasi R pada L dimana R : x sejajar y . Relasi R memenuhi :"
+        },
+        {
+            "id": "241",
+            "jawaban": "Setiap mahasiswa Gunadarma, tetapkan NPM-nya",
+            "soal": "Mana dari pernyataan berikut yang merupakan fungsi satu-satu :"
+        },
+        {
+            "id": "242",
+            "jawaban": "Relasi '=' bersifat ekuivalen",
+            "soal": "Mana yang benar"
+        },
+        {
+            "id": "243",
+            "jawaban": "{1,3}, {5}, {2,4,6}",
+            "soal": "Mana yang merupakan partisi dari W = {1,2,3,4,5,6,}"
+        },
+        {
+            "id": "244",
+            "jawaban": "E(x,y,z) = xy+y'z bukan bentuk normal disjunctive",
+            "soal": "Manakah diantara pernyataan berikut yang benar"
+        },
+        {
+            "id": "245",
+            "jawaban": "xy'z+xy'=xy'",
+            "soal": "Manakah diantara pernyataan berikut yang benar:"
+        },
+        {
+            "id": "246",
+            "jawaban": "E(x,y,z) = xy+y'z bukan bentuk normal disjunctive",
+            "soal": "Manakah diantara pernyataan berikut yang salah :"
+        },
+        {
+            "id": "247",
+            "jawaban": "E=x'",
+            "soal": "Minimal Dnf dari E = x'y'+yx' adalah :"
+        },
+        {
+            "id": "248",
+            "jawaban": "E=xzt'+xy'z'+x'y'z+x'z't'",
+            "soal": "Minimal DNF dari E(x,y,z,t)=x'y't'+xyz+xy't+y'z't+xyzt'+x'yz't' adalah:"
+        },
+        {
+            "id": "249",
+            "jawaban": "xy'+yz'",
+            "soal": "Minimal DNF dari E=xy'+xyz+x'y'z'+x'yz' adalah :"
+        },
+        {
+            "id": "250",
+            "jawaban": "E=xz+y'z'+zyt'",
+            "soal": "Minimal Dnf dari E=xy'+xyz+x'y'z'+x'yzt'adalah:"
+        },
+        {
+            "id": "251",
+            "jawaban": "x' + y",
+            "soal": "Minimal dnf dari pernyataan Boolean E = xy + x'y + x'y' adalah :"
+        },
+        {
+            "id": "252",
+            "jawaban": "E = xy'+zt'+y'zt",
+            "soal": "Minimal DNF dari pernytaan berikut :\n    E=y'zt+xzt'+xy'z'"
+        },
+        {
+            "id": "253",
+            "jawaban": "R = { C,A,P(x,y)}",
+            "soal": "Misalkan A = [0,8), B = (-8,0], C = [2,8), D = (-8,-2] dan P(x,y) sebuah pernyataan yang dinyatakan sebagai \"x? - y? = 4\". Misalkan sebuah relasi R dinyatakan sebagai : R = { X,Y, P(x,y)} dimana X dan Y adalah himpunan yang belum diketahui. Relasi yang me"
+        },
+        {
+            "id": "254",
+            "jawaban": "R = {(3.1),(5,1),(5,3)}",
+            "soal": "Misalkan A = {1,3,5} san R ={x,y)|x>y} maka relasi R beranggotakan :"
+        },
+        {
+            "id": "255",
+            "jawaban": "C1",
+            "soal": "Misalkan A = {a,b,c,d,e,f,g} dan diketahui \n    A1 = {a,b,c}, A2 = {d,e,f}, A3 = {f,g}\n    B2 = {a},  B2 = {b,c,d,e}, B3 = {g}\n    C1 = {a,b,c,d,e,f,g}\nMaka yang merupakan partisi dari A adalah"
+        },
+        {
+            "id": "256",
+            "jawaban": "{c} dan 0",
+            "soal": "Misalkan A = {a,b,c} terurut dengan relasi x subset y batas bawah dari {a,c} dan {b,c} adalah :"
+        },
+        {
+            "id": "257",
+            "jawaban": "12 dan 8",
+            "soal": "Misalkan A =[2,3,4,6,12,8] terurut dengan relasi x membagi y, maka elemen maximalnya adalah :"
+        },
+        {
+            "id": "258",
+            "jawaban": "{b,c}",
+            "soal": "Misalkan A ={a,b,c} terurut dengan relasi x subset y, Suprimum dari {a},{a,c},{b} adalah :"
+        },
+        {
+            "id": "259",
+            "jawaban": "R1, R2 dan R4",
+            "soal": "Misalkan A, B dan C adalah interval tertutup A=[-4,4], B=[0,4] dan \nC=[-4,0]. Sebuah pernyataan P(x,y) dinyatakan sebagai :\n    \"x? + 4y? = 16\"\nRelasi R1, R2 R3 dan R4 dinyatakan sebagai berikut:\n    R1 = {A,B,P(x,y)}           R2 = {A,C,P(x,y)}\n    R3 ="
+        },
+        {
+            "id": "260",
+            "jawaban": "D10 tidak countable",
+            "soal": "Misalkan D10={10,20,30,...} dan N ={1,2,3,...}\npernyataan yang benar jika f:N--->D,F(n) = 10n adalah:"
+        },
+        {
+            "id": "261",
+            "jawaban": "f(4) = 11",
+            "soal": "Misalkan fungsi f:R --> R didefinisikan \n                   +\n                   | 3x - 1   jika  x > 3 \n             f(x)  | x? - 2   jika -2 = x = 3\n                   | 2x + 3   jika x < -2\n                   +\nMaka :"
+        },
+        {
+            "id": "262",
+            "jawaban": "f(3)  = 7",
+            "soal": "Misalkan fungsi f:R--->R didefinisikan oleh :\n              +  3x-1  jika x>3\n    f(x) =    |  x?-2  jika -2=x=-3\n              +  2x+3  jika x<-2\nMaka :"
+        },
+        {
+            "id": "263",
+            "jawaban": "(4,27)<(4,21)",
+            "soal": "Misalkan NxN terurut secara Lexicographical, pernyataan yang salah diantara pernyataan berikut adalah :"
+        },
+        {
+            "id": "264",
+            "jawaban": "Tp ={x|x<5,xeN}",
+            "soal": "Misalkan p(x) adalah x+5<10 maka himpunan kebenaran dari p(x) dengan xen = {bilangan asli}"
+        },
+        {
+            "id": "265",
+            "jawaban": "P1 n P2 n P3 = { }",
+            "soal": "Misalkan Pn = { n,2n, 3n, ... }, dimana n bilangan asli. Pernyatan berikut salah, kecuali :"
+        },
+        {
+            "id": "266",
+            "jawaban": "R = { (1,3),(1,5),(2,3),(2,5),(3,5),(4,5) }",
+            "soal": "Misalkan R adalah relasi dari A = { 1,2,3,4} ke B = { 1,3,5 } yang didefinisikan oleh kalimat terbuka \"x lebih kecil daripada y. Penyajian R sebagai himpunan pasangan terurut ditampilkan oleh:"
+        },
+        {
+            "id": "267",
+            "jawaban": "R1 dan R4",
+            "soal": "Misalkan T = {a,b,c,d}  pandang relasi relasi berikut pada T\n    R1 = { (a,b),(b,c),(c,d),(d,a) }\n    R2 = { (b,a),(c,d),(b,a),(a,b),(d,b) }\n    R3 = { (d,c),(c,b),(a,b),(d,d) }\n    R4 = { (a,a),(b,a),(c,a),(d,a) }\nRelasi yang merupakan fungsi adalah :"
+        },
+        {
+            "id": "268",
+            "jawaban": "Setiap mahasiswa mengambil mata kuliah pilihan",
+            "soal": "Negasi dari \"setidaknya ada seorang mahasiswa yang tidak mengambil mata kuliah pilihan\" adalah :"
+        },
+        {
+            "id": "269",
+            "jawaban": "Ada siswa melengkapi tugas dan guru hadir",
+            "soal": "Negasi dari :\n    \"Semua siswa tidak melengkapi tugas atau guru tidak hadir\" adalah :"
+        },
+        {
+            "id": "270",
+            "jawaban": "Guru tidak masuk dan semua pelajar mengerjakan PR.",
+            "soal": "Negasi dari pernyataan \"Jika guru tidak masuk, maka beberapa pelajar tidak mengerjakan PR\" adalah :"
+        },
+        {
+            "id": "271",
+            "jawaban": "Terdapat bilangan asli n dimana n + 2 = 8",
+            "soal": "Negasi dari pernyataan \"Untuk semua bilangan asli n berlaku n + 2 > 8\" adalah :"
+        },
+        {
+            "id": "272",
+            "jawaban": "Ada huru-hara dan setiap orang hidup",
+            "soal": "Negasi dari pernyataan : \"Jika ada huru-hara maka seseorang akan terbunuh\" adalah :"
+        },
+        {
+            "id": "273",
+            "jawaban": "Hari tidak siang atau tidak semua orang sudah bangun",
+            "soal": "Negasi dari pernyataan berikut :\n    Hari sudah siang dan semua orang sudah bangun \nadalah :"
+        },
+        {
+            "id": "274",
+            "jawaban": "Ada mahasiswa Gunadarma yang tidak pintar",
+            "soal": "Negasi dari setiap xeUniversitas Gunadarma, P9x)=pintar adalah :"
+        },
+        {
+            "id": "275",
+            "jawaban": "3 + 3 = 6 jika dan hanya jika 4 + 5 = 9",
+            "soal": "Nilai kebenaran (truth value) yang false adalah:"
+        },
+        {
+            "id": "276",
+            "jawaban": "[7]",
+            "soal": "Nyatakan dimana diantara pernyataan berikut yang terurut linier bila diberikan A={x|xebilangan asli} dengan relasi x membagiy\""
+        },
+        {
+            "id": "277",
+            "jawaban": "[1,2,4,8]",
+            "soal": "NYatakan dimana diantara pernytaan berikut yang terurut linier bila diberikan A=[1,2,3,4,6,8,12,18,36] dengan relasi \"x membagi y\""
+        },
+        {
+            "id": "278",
+            "jawaban": "1",
+            "soal": "Pada Aljabar Boole (B,+,*), maka (a+b)*(b+c)*(a'+b+c')="
+        },
+        {
+            "id": "279",
+            "jawaban": "1",
+            "soal": "Pada aljabar Boole (B,+,*), maka a + (a' * b)+ a' ="
+        },
+        {
+            "id": "280",
+            "jawaban": "a+b",
+            "soal": "Pada Aljabar Boole (B,+,*), maka a + (a*b)="
+        },
+        {
+            "id": "281",
+            "jawaban": "a * b",
+            "soal": "Pada Aljabar Boole (B,+,*), maka a*(a' + b)="
+        },
+        {
+            "id": "282",
+            "jawaban": "0",
+            "soal": "Pada Aljabar Boole (B,+,*); maka (a*b)+(b*c)+(a'*b*c')="
+        },
+        {
+            "id": "283",
+            "jawaban": "a",
+            "soal": "Pada Aljabar Boole (B,+,*); maka a +(a*b) + (a*c) ="
+        },
+        {
+            "id": "284",
+            "jawaban": "0",
+            "soal": "Pada aljabar Boole (B<+,*); a*(a' + b)* a'="
+        },
+        {
+            "id": "285",
+            "jawaban": "6<9",
+            "soal": "Pada diagram Poset dari himpunan A={1,2,3,4,6,9,12,18}\ndengan relasi \"x membagi y\" pernyataan yang salah adalah:"
+        },
+        {
+            "id": "286",
+            "jawaban": "q implikasi logik p-->q",
+            "soal": "Perhatikan fungsi proposisi p-->q,maka :"
+        },
+        {
+            "id": "287",
+            "jawaban": "Orang Sunda berkulit  kuning jika dan hanya jika Bandung tidak    berada di Jawa Barat",
+            "soal": "Perhatikan pernyataan berikut ini :\np : orang Sunda berkulit kuning \nq : Bandung berada di Jawa Barat\n\nMaka proposisi yang bernilai benar untuk p-->~q adalah :"
+        },
+        {
+            "id": "288",
+            "jawaban": "xy' dan x'y",
+            "soal": "Pernyataan Boolean E = (x'+y') + x'y memiliki prime implikan:"
+        },
+        {
+            "id": "289",
+            "jawaban": "(p-->q)  (q-->p)-->(p<-->q)",
+            "soal": "Pernyataan dibawah ini benar, kecuali:"
+        },
+        {
+            "id": "290",
+            "jawaban": "Terdapat bilangan asli k yang memenuhi k? = k jika dan hanya jika terdapat bilangan riil r yang memenuhi r? - 2r - 3 = 0",
+            "soal": "Pernyataan yang benar adalah :"
+        },
+        {
+            "id": "291",
+            "jawaban": "Inggris terletak di Eropa dan Ibu adalah seorang pria, jika dan hanya jika California terletak di Depok atau Depok terletak di California",
+            "soal": "Pernyataan yang memiliki nilai kebenaran yang ekivalen dengan nilai kebenaran pernyataan: \"Jika Belanda terletak di Jakarta atau Ibu adalah pria maka Belanda tidak terletak di California dan Bapak bukan wanita\" adalah pernyataan:"
+        },
+        {
+            "id": "292",
+            "jawaban": "Untuk semua bilangan riil x berlaku vx > 0",
+            "soal": "Pernyataan yang memiliki nilai kebenaran yang sama dengan pernyataan \"Untuk semua bilangan bulat z berlaku 2z + 2 < z\" adalah :"
+        },
+        {
+            "id": "293",
+            "jawaban": "xz', xy', yz'",
+            "soal": "Prime implikan dari E=xy'+xyz'+x'yz' adalah :"
+        },
+        {
+            "id": "294",
+            "jawaban": "xy,y't,yz',xt,xz,z't",
+            "soal": "Prime implikan dari E=xy+y't+x'yz'+xy'zt' adalah :"
+        },
+        {
+            "id": "295",
+            "jawaban": "xy,yz',x'y'z",
+            "soal": "Prime implikan dari E=xyz+xyz'+x'yz'+x'y'z adalah:"
+        },
+        {
+            "id": "296",
+            "jawaban": "x'z',xy,x'y',yz'",
+            "soal": "Prime implikan dari E=xyz+x'z'+xyz'+x'y'z+x'yz' adalah :"
+        },
+        {
+            "id": "297",
+            "jawaban": "jika anda tidak sakit jantung dan tidak sakit paru-paru maka anda tidak merokok",
+            "soal": "Proposisi yang ekivalen dengan \"jika anda merokok maka anda sakit jantung atau sakit paru-paru\" adalah:"
+        },
+        {
+            "id": "298",
+            "jawaban": "{ (x,y)| x? + y? = 25   y = 4x/3   x,y e R }",
+            "soal": "R = { (x,y) | x? + y? = 25    y = 3x/4   x,y bilangan real }\nInvers dari R adalah :"
+        },
+        {
+            "id": "299",
+            "jawaban": "{(1,4),(2,4),(3,4)}",
+            "soal": "R adalah relasi dari A ={1,2,3} ke B={4,5}, maka relasi R yang juga merupakan fungsi adalah:"
+        },
+        {
+            "id": "300",
+            "jawaban": "{(1,4),(2,4),(2,5)}",
+            "soal": "R relasi A={1,2,3} ke B={4,5}, maka relasi R yang bukan fungsi:"
+        },
+        {
+            "id": "301",
+            "jawaban": "{(1,1),(2,2),(3,3)}",
+            "soal": "R relasi dalam A = {1,2,3} , (A,R) Poset jika R=..."
+        },
+        {
+            "id": "302",
+            "jawaban": "x = y",
+            "soal": "R relasi dalam A = {1,2,3},(A,R) poset jika R berbentuk :"
+        },
+        {
+            "id": "303",
+            "jawaban": "{(1,1),(2,2),(3,3),(1,2),(1,3),(2,3)}",
+            "soal": "R relasi dalam A = {1,2,3}; (A,R) Toset jika R ="
+        },
+        {
+            "id": "304",
+            "jawaban": "{(1,1).(2,2)}",
+            "soal": "R relasi dalam A = {1,2}; agar R ekivalen, maka R =..."
+        },
+        {
+            "id": "305",
+            "jawaban": "{(1,1),(2,2),(3,3),(2,3)}",
+            "soal": "R relasi dalam A = 1,2,3, (A,R) Post jika R berbentuk:"
+        },
+        {
+            "id": "306",
+            "jawaban": "x=y",
+            "soal": "R relasi dalam A ={1,2,3}, (A,R) Toset jika R berbentuk :"
+        },
+        {
+            "id": "307",
+            "jawaban": "{(1,1),(2,2),(3,3),(1,2),(1,3),(2,2)}",
+            "soal": "R relasi dalam A={1,2,3} maka (A,R) Poset yang juga Toset jika R ="
+        },
+        {
+            "id": "308",
+            "jawaban": "x pembagi y",
+            "soal": "R relasi dalam A={1,2,3}, (A,R) Poset jika R berbentuk :"
+        },
+        {
+            "id": "309",
+            "jawaban": "x = y",
+            "soal": "R relasi dalam A={1,2,3},(A,R) poset jika R =..."
+        },
+        {
+            "id": "310",
+            "jawaban": "{(4,1),(5,1)}",
+            "soal": "R relasi dari A={4,5} ke B={1,2,3}, maka relasi R yang juga merupakan fungsi adalah:"
+        },
+        {
+            "id": "311",
+            "jawaban": "{ x| -5 < x < 5 }",
+            "soal": "Range dari relasi {(x,y) | x? + y? < 25 } adalah:"
+        },
+        {
+            "id": "312",
+            "jawaban": "Antisimetri",
+            "soal": "Relasi garis x sejajar garis y pada suatu bidang bersifat sebagai berikut kecuali:"
+        },
+        {
+            "id": "313",
+            "jawaban": "Relasi R = 1/S dan S = 1/R",
+            "soal": "Relasi komposisi 1/R o 1/S adalah relasi T = {(x,y) | x = y } jika"
+        },
+        {
+            "id": "314",
+            "jawaban": "{(x,y) | x = 4y }",
+            "soal": "Relasi komposisi 1/R o 1/S dari relasi R = {(x,y) | 2x = y } dan relasi S = {(x,y) | 2x = y } adalah:"
+        },
+        {
+            "id": "315",
+            "jawaban": "Range R = {2,3,4,7}",
+            "soal": "Relasi R = {(1,2),(3,4),(4,7),(4,3),(3,7)} maka"
+        },
+        {
+            "id": "316",
+            "jawaban": "Range R adalah {2,4,6,8}",
+            "soal": "Relasi R = {(1,2),(3,4),(5,6),(7,8)} maka :"
+        },
+        {
+            "id": "317",
+            "jawaban": "Domain dari 1/R = {a,c,i,n}",
+            "soal": "Relasi R = {(c,l),(i,d),(n,i),(a,a)}"
+        },
+        {
+            "id": "318",
+            "jawaban": "Transitif",
+            "soal": "Relasi S = {(a,b),(a,c),(a,d),(b,c),(b,d),(c,d)} bersifat :"
+        },
+        {
+            "id": "319",
+            "jawaban": "relasi =",
+            "soal": "Relasi yang bersifat partial ordering adalah:"
+        },
+        {
+            "id": "320",
+            "jawaban": "R = {(1,2),(2,1)}",
+            "soal": "Relasi yang bersifat terurut parsial (Partial Ordering) dibawah ini adalah :"
+        },
+        {
+            "id": "321",
+            "jawaban": "{(a,b),(b,c),(d,d),(a,c)}",
+            "soal": "Relasi-relasi pada B = { a,b,c,d } berikut ini yang merupakan relasi transitif kecuali :"
+        },
+        {
+            "id": "322",
+            "jawaban": "R={(a,a),(a,c),(b,b),(b,d),(c,c),(d,d)}",
+            "soal": "Relasi-relasi pada x={a,b,c,d} berikut ini yang membentuk poset adalah:"
+        },
+        {
+            "id": "323",
+            "jawaban": "0 0 0 0  \n    1 1 0 0  \n    1 1 1 1",
+            "soal": "S adalah relasi dari himpunan P = { 2,4,6 } ke himpunan \nQ = {2,3,4,5} yang didefinisikan dengan pernyataan \"p lebih bear dari q\" dimana p e P dan q e Q. Matriks relasi yang sesuai dengan S adalah :"
+        },
+        {
+            "id": "324",
+            "jawaban": "Argumen diatas valid",
+            "soal": "S1 : jika Tono pergi dengan Tini maka Toni marah-marah \nS2 : jika Toni marah-marah  maka ibu Toni bersedih\nS  : Bila Toni pergi dengan Tini maka ibu Toni bersedih\nYang benar adalah:"
+        },
+        {
+            "id": "325",
+            "jawaban": "Argumen Fallacy",
+            "soal": "S1: Jika hari hujan besar maka Jakarta banjir\nS2: Hari tidak hujan besar\nS : Tentu Jakarta tidak banjir\nArgumen diatas bersifat :"
+        },
+        {
+            "id": "326",
+            "jawaban": "200 cara",
+            "soal": "Sebuah kotak berisi 6 bola merah da 5 bola putih. Banyaknya cara pengambilan 6 bola dimana 3 bola berwarna putih dan 3 bola berwarna merah adalah :"
+        },
+        {
+            "id": "327",
+            "jawaban": "150 cara",
+            "soal": "Sebuah panitia yang beranggotakan 7 orang akan dibentuk dari 6 ahli kimia dan 5 ahli biologi. 4 orang dalam panitia tersebut adalah ahli kimia. Dalam berapa cara pembentukan panitia dapat dilakukan ?"
+        },
+        {
+            "id": "328",
+            "jawaban": "729 buah",
+            "soal": "Sebuah perusahaan merencanakan pembuatan nomor matrikulasi kendaraan bermotor. Setiap plat nomor harus diawali 2 huruf diikuti oleh tiga angka dan diakhiri oleh 2 huruf. Pilihan hurufnya adalah A,B,D dan F, dan pilihan angkanya adalah 0,2,4 dan 6. Jika se"
+        },
+        {
+            "id": "329",
+            "jawaban": "3",
+            "soal": "Sebuah relasi R = {(a,a),(a,c),(b,b,),(c,a),(c,c,),(d,d,)} didefinisikan pada himpunan A = { a,b,c,d }. Kelas ekivalen dari A terhadap R memberikan partisi dari himpuanan A sebanyak"
+        },
+        {
+            "id": "330",
+            "jawaban": "142 buah",
+            "soal": "Sebuah segi 19 beraturan memiliki diagonal sebanyak :"
+        },
+        {
+            "id": "331",
+            "jawaban": "9!3! cara",
+            "soal": "Sebuah tumpukan 6 buku dari 9 buku yang ada dapat disusun dalam :"
+        },
+        {
+            "id": "332",
+            "jawaban": "S1 dan S3 benar",
+            "soal": "Selidiki nilai keebenaran dari pernyataan berikut :\n        S1 : Jika 7<2 maka -2<-7\n        S2 : Jika 1+1=2 maka 2+3=6\n        S3 : 2+2=4 jika dan hanya jika 4+4=10\n        S4 : 1+1=2 jika dan hanya jika 4+4=10"
+        },
+        {
+            "id": "333",
+            "jawaban": "Jika matriks A berorde (mxn) dan matriks B dan C berorde (nxp), maka Ax(B+C)=(BxA)+(CxA)",
+            "soal": "Semua pernyataan berikut benar, kecuali:"
+        },
+        {
+            "id": "334",
+            "jawaban": "{-1,3,11,23}",
+            "soal": "Suatu fungsi f: x -> 2x?+2x-1 jika domainnya {0,1,2,3} maka rangenya adalah:"
+        },
+        {
+            "id": "335",
+            "jawaban": "Terbatas, distributif, berkomplemen",
+            "soal": "Suatu Lattice L dapat disebut sebagai aljabar Boolean bila :"
+        },
+        {
+            "id": "336",
+            "jawaban": "Simetris Antisimetris refleksif",
+            "soal": "Suatu relasi biner R pada himpunan A disebut parsial  ordering bila R memenuhi sifat :"
+        },
+        {
+            "id": "337",
+            "jawaban": "R = {(b,d),(c,a),(b,c),(d,d)}",
+            "soal": "T = {a, b, c, d} sebuah relasi R didefinisikan pada T. Relasi R berikut ini yang bukan fungsi:"
+        },
+        {
+            "id": "338",
+            "jawaban": "Jika bukan segiempat siku-siku maka bukan bujursangkar",
+            "soal": "Tentukan kontra positif dari :\n    \"Cukuplah berbentuk bujursangkar maka menjadi segiempat siku\""
+        },
+        {
+            "id": "339",
+            "jawaban": "x positif maka x tidak lebih kecil dari nol",
+            "soal": "Tentukan kontrapositif dari pernyataan :\n    Jika x lebih kecil dari nol maka x tidak positif\nadalah :"
+        },
+        {
+            "id": "340",
+            "jawaban": "0",
+            "soal": "Tiga buah fungsi f, g, dan h didefinisikan pada himpunan bilangan asli N, dimana :\n    f(n) = n + 1                g(n) = 2n\n           \n           + 0, jika n genap\n    h(n) = |\n           + 1, jika n ganjil\n\nJika k = (h o g) o f, maka k ="
+        },
+        {
+            "id": "341",
+            "jawaban": "5 orang",
+            "soal": "Tujuh puluh lima anak berkunjung ke sebuah tempat hiburan dimana mereka bisa naik komidi putar, roller coster dan kereta api mini. Diketahui 20 orang diantara mereka telah menaiki ketiga permainan tersebut dan 55 orang telah menaiki dua dari ketiga permai"
+        },
+        {
+            "id": "342",
+            "jawaban": "Setiap laki-laki bukan penjahit",
+            "soal": "Tuliskan negasi dari :\n    Ada laki-laki yang menjadi penjahit"
+        },
+        {
+            "id": "343",
+            "jawaban": "~(p-->q)",
+            "soal": "Tuliskan pernyataan berikut dalam bentuk simbol proposisi p dan q (p=hari hujan, q=Ali sakit)\nTidak benar jika hari hujan maka Ali sakit"
+        },
+        {
+            "id": "344",
+            "jawaban": "[1], [2], [3], [4], [5]",
+            "soal": "Untuk relasi kongruensi modulo 5 pada W = {1,2,3,4,5,6,7,8}, maka partisi W adalah:"
+        },
+        {
+            "id": "345",
+            "jawaban": "P - Q + Q - P",
+            "soal": "Untuk sembarang himpunan P dan Q, pernyataan yang benar adalah :"
+        },
+        {
+            "id": "346",
+            "jawaban": "{-3,-2,-1,0,1,2,3}",
+            "soal": "xebilangan bulat p(x)=x?-5=11 maka himpunan kebenaran Tp adalah:"
+        },
+        {
+            "id": "347",
+            "jawaban": "Relasi membagi dalam membagi bilangan bulat adalah relasi terurut parsial",
+            "soal": "Yang benar dari pernyataan dibawah ini adalah :"
+        },
+        {
+            "id": "348",
+            "jawaban": "Jika Tono kuliah maka hari tidak hujan",
+            "soal": "Yang bernilai ekivalen dengan pernytaan \"JIka hari hujan, maka Tono tidak kuliah\" adalah"
+        },
+        {
+            "id": "349",
+            "jawaban": "Paris terletak di Inggris jika dan hanya jika London terletak di  Perancis.",
+            "soal": "Yang bernilai salah dari pernyataan dibawah ini adalah"
+        },
+        {
+            "id": "350",
+            "jawaban": "Antisimetris",
+            "soal": "Yang dimaksud dengan relasi ekivalen adalah relasi yang bersifat sebagai berikut kecuali:"
+        },
+        {
+            "id": "351",
+            "jawaban": "Produk dua relasi",
+            "soal": "Yang dimaksud komposisi relasi adalah:"
+        },
+        {
+            "id": "352",
+            "jawaban": "{(a,1),(b,1),(c,1),(d,1)}",
+            "soal": "Yang merupakan fungsi dari P={a,b,c,d} ke Q={1,2,3} berikut ini adalah:"
+        },
+        {
+            "id": "353",
+            "jawaban": "E = x + z",
+            "soal": "yz   yz'  y'z'  y'z       Minimal dnf untuk pernyataan Boolean\n     +--------------------+      E yang sesuai dengan peta Karnough\n   x | v  | v  |  v  |  v |      di samping ini adalah:\n     +----+----+-----+----|\n   x'| v  |    |     |  v |\n     +------"
+        }
+    ]
+}

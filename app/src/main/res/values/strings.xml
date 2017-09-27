@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">UMin AJA</string>
+
+    <string name="spinner_prompt">Choose 1 below</string>
+
+    <string-array name="spinner_arrays">
+        <item>Database out of dates</item>
+        <item>Cheat not working</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

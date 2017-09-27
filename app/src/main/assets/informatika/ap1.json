@@ -1,0 +1,3210 @@
+{
+    "matkul":
+    [
+        {
+            "id": "1",
+            "jawaban": "DUA",
+            "soal": "10 INPUT X\n    20 IF X<1 OR X>3 THEN END\n    30 ON X GOTO 100,200,300\n    40 PRINT \"LAIN\":END\n    50 PRINT \"SATU\":END\n    60 PRINT \"DUA\":END\n    70 PRINT \"TIGA\":END\nBila X diisi dengan 2, outputnya :"
+        },
+        {
+            "id": "2",
+            "jawaban": "TIDAK ADA OUTPUT",
+            "soal": "10 INPUT X\n    20 IF X<1 OR X>3 THEN END\n    30 ON X GOTO 100,200,300\n    40 PRINT \"LAIN\":END\n    50 PRINT \"SATU\":END\n    60 PRINT \"DUA\":END\n    70 PRINT \"TIGA\":END\nBila X diisi dengan 4, outputnya :"
+        },
+        {
+            "id": "3",
+            "jawaban": "10 FOR A=1 TO 5\n   20 FOR B=1 TO A\n   30 PRINT \"*\"\n   40 NEXT B\n   50 PRINT\n   60 NEXT A\n   70 END",
+            "soal": "*****\n****\n***\n**\n*"
+        },
+        {
+            "id": "4",
+            "jawaban": "10 FOR A=5 TO 1 STEP -1        \n   20 FOR B=A TO 1 STEP -1      \n   30 PRINT \"*\"                       \n   40 NEXT B              \n   50 PRINT                           \n   60 NEXT A           \n   70 END",
+            "soal": "*****\n****\n***\n**\n*"
+        },
+        {
+            "id": "5",
+            "jawaban": "10 FOR A=1 TO 5           \n   20 PRINT TAB(A);A\n   30 NEXT A \n   40 FOR A=4 TO 1 STEP -1       \n   50 PRINT TAB (A);A\n   60 NEXT A                 \n   70 END",
+            "soal": "1          \n  2                    \n    3          \n      4                      \n        5                                    \n      4                                      \n    3\n  2        \n1"
+        },
+        {
+            "id": "6",
+            "jawaban": "8,5,9,12,999",
+            "soal": "1. Mula-mula A berharga = 8"
+        },
+        {
+            "id": "7",
+            "jawaban": "jika jawaban 2 dan 4 yang benar",
+            "soal": "1. pada statement DATA tanda $ dan , ahrus ada"
+        },
+        {
+            "id": "8",
+            "jawaban": "88000",
+            "soal": "1. Variable x berharga 80 buah saputangan"
+        },
+        {
+            "id": "9",
+            "jawaban": "*",
+            "soal": "10  CLS\n20  A=1\n30  B=2\n40  A=A+2\n50  B=A+3*3\n60  PRINT A+B\n\nPada baris 50, operator yang dijalankan pertama kali adalah :"
+        },
+        {
+            "id": "10",
+            "jawaban": "4",
+            "soal": "10  DATA 2,5,7,13,999\n20  C = 0\n30  READ X\n40  IF X = 999 THEN 70\n50  C = C + 1\n60  GOTO 30\n70  PRINT C\n80  END\nRUN"
+        },
+        {
+            "id": "11",
+            "jawaban": "3",
+            "soal": "10  DATA 3,4\n20  READ A,B\n30  PRINT C\n40  LET C = B+1\n50  PRINT B\n60  PRINT C\n70  END\n\nHasil dari program diatas adalah :"
+        },
+        {
+            "id": "12",
+            "jawaban": "13",
+            "soal": "10  DATA 3,6\n20  READ A,B\n30  LET A=A*A\n40  LET B=A\n50  LET A=B+1\n60  PRINT A+3\n70  END\n\nHasil dari program diatas adalah :"
+        },
+        {
+            "id": "13",
+            "jawaban": "10",
+            "soal": "10  DATA 3,6\n20  READ A,B\n30  LET A=A*A\n40  LET B=A\n50  PRINT B+1\n60  END\n\nHasil ari program diatas adalah :"
+        },
+        {
+            "id": "14",
+            "jawaban": "3",
+            "soal": "10  DATA 3,8\n20  READ C,B\n30  PRINT C\n40  LET C = B+1\n50  PRINT B,C\n60  END\n\nHasil program diatas adalah :"
+        },
+        {
+            "id": "15",
+            "jawaban": "A",
+            "soal": "10  DATA 4,7,11\n20  READ A,B,X \n30  LET A=A+1\n40  PRINT \"A\"\n50  LET X=A*X\n60  PRINT X\n70  END\n\nHasil dari program diatas adalah :"
+        },
+        {
+            "id": "16",
+            "jawaban": "7",
+            "soal": "10  DATA 7,3\n20  READ X,Y\n30  PRINT X\n40  LET X=Y\n50  PRINT X\n60  PRINT Y\n70  END\nHasil dari program diatas adalah :"
+        },
+        {
+            "id": "17",
+            "jawaban": "10",
+            "soal": "10  LET D=0\n20  LET D=D+1\n30  LET D=D+2\n40  LET D=D+3\n50  LET D=D+4\n60  PRINT D\n70  END\n\nHasil dari program diatas adalah :"
+        },
+        {
+            "id": "18",
+            "jawaban": "5 7    \n   9   8",
+            "soal": "10  READ A,B              Hasil dari program disamping adalah :\n20  ? A;B                 \n30  READ A,B                 \n40  ? A,                     \n50  ? B                   \n60  DATA 5,7,9,8         \n70  END"
+        },
+        {
+            "id": "19",
+            "jawaban": "1286                       \n    1234  52",
+            "soal": "10  X = 1234\n20  Y% = 52 \n30  PRINT X + Y%\n40  PRINT STRG(X) + STR$(Y%)\nRUN"
+        },
+        {
+            "id": "20",
+            "jawaban": "9",
+            "soal": "10  X = 3\n20  GOSUB 100\n30  PRINT \"ASKI\"\n40  N = N + 1\n50  GOSUB 100\n60  PRINT \"ASMI\"\n70  GOTO 130 : X = N\n100 PRINT X * X\n110 RETURN\n120 END\nRUN"
+        },
+        {
+            "id": "21",
+            "jawaban": "B=VAL(STR$(ASC(A$)-64))",
+            "soal": "10 A$=\"AKU CINTA KAMU\"\n20 B=....\n30 ?B\nJika hasil program diatas adalah 1, maka pada line number 20 harus diisi:"
+        },
+        {
+            "id": "22",
+            "jawaban": "1 -2 3 -4 5 ... -20",
+            "soal": "10 A=-1 : FOR I=1 TO 20\n20 B=INT(I/2) : C=I\n30 IF B=I/2 THEN C=C*A\n40 ?C; : NEXT I\nOutput yang dihasilkan dari program diatas:"
+        },
+        {
+            "id": "23",
+            "jawaban": "-4",
+            "soal": "10 A8=\"14\"\n20 A=-1*INT(VAL(A8)/3)\n30 PRINT A\n40 END\nRUN"
+        },
+        {
+            "id": "24",
+            "jawaban": "syntax error in 50",
+            "soal": "10 B=1\n40 A=B*C-2\n30 IF B=5 THEN END\n20 C=2\n50 PRINT B, : A=A+1\n60 GOTO 30"
+        },
+        {
+            "id": "25",
+            "jawaban": "1 2",
+            "soal": "10 C = C + 1\n20 IF C >= 3 THEN END\n30 ?C;: GOTO 10\nOutput yang dihasilkan dari program BASIC tersebut adalah :"
+        },
+        {
+            "id": "26",
+            "jawaban": "6",
+            "soal": "10 CLS\n20 FOR A=1 TO 3\n30 FOR B=1 TO A\n40      PRINT \"*\"\n50\n60 PRINT\n70\n80 END\nPerintah PRINT pada baris 40 dilakukan sebanyak....kali"
+        },
+        {
+            "id": "27",
+            "jawaban": "9",
+            "soal": "10 CLS\n20 FOR A=1 TO 3\n30 FOR B=1 TO A\n40      PRINT \"*\";\n50\n60 PRINT\n70\n80 END\nSecara keseluruhan jumlah proses looping adalah sebanyak ... kali"
+        },
+        {
+            "id": "28",
+            "jawaban": "*",
+            "soal": "10 CLS\n20 FOR A=1 TO 3\n30 FOR B=1 TO A\n40     PRINT \"*\";\n50 \n60 PRINT\n70\n80 END\nOutput yang dihasilkan dari program tersebut adalah:"
+        },
+        {
+            "id": "29",
+            "jawaban": "Ketua kelompok ini adalah Ricky",
+            "soal": "10 DATA \" PUSPITA\", \"KIKI\", \"RICKY\"\n20 DATA \"RATNA\", \"RUSLAN\", \"NOVI\"\n30 DATA \"RIRIK\", \"REVI\",\"NURUL\"\n40 FOR S= 1 TO 9\n50 READ K$(S)\n60 NEXT K\n70 PRINT \"KETUA KELOMPOK INI ADALAH\"\n80 PRINT K$(S)\n90 END\n\nHasil tampilan diatas adalah :"
+        },
+        {
+            "id": "30",
+            "jawaban": "25\n   B SAMA DENGAN 3",
+            "soal": "10 DATA 20,3\n20 READ A,B\n30 A=A+2\n40 LET C=A+B\n50 PRINT C\n60 PRINT \"B SAMA DENGAN\";B\n70 END\n\nHasil dari program di atas adalah :"
+        },
+        {
+            "id": "31",
+            "jawaban": "35                              \n   B SAMA DENGAN 9",
+            "soal": "10 DATA 24,9\n20 READ A,B\n30 A=A+2\n40 LET C=A+B\n50 PRINT C\n60 PRINT\"B SAMA DENGAN \";B\n70 END\n\nHasil dari program di atas adalah :"
+        },
+        {
+            "id": "32",
+            "jawaban": "3\n   4           5           6           6\n   8           8           8           5",
+            "soal": "10 DATA 3, 5, 8\n20 FOR K = 1 TO 3\n30 READ P(K)\n40 NEXT K\n50 PRINT P(1)\n60 PRINT P(2) + 1\n70 PRINT P(3 - 1)\n80 END\n\nHasil dari program berikut ini adalah :"
+        },
+        {
+            "id": "33",
+            "jawaban": "24",
+            "soal": "10 DATA 3, 6\n20 READ A, B\n30 LET A = A+1\n40 LET C = A*B \n50 PRINT C\n60 PRINT A\n70 END\n\nHasil dari program di atas adalah :"
+        },
+        {
+            "id": "34",
+            "jawaban": "5",
+            "soal": "10 DATA 3,5,2,4,0 : READ L\n20 READ K\n30 IF K=0 THEN PRINT L : END\n40 IF L>=K THEN 20\n50 L=K : GOTO 20\nOutput dari program diatas adalah:"
+        },
+        {
+            "id": "35",
+            "jawaban": "Maximum",
+            "soal": "10 DATA 3,5,2,4,0 : READ L\n20 READ K\n30 IF K=0 THEN PRINT L : END\n40 IF L>=K THEN 20\n50 L=K : GOTO 20\nProgram diatas untuk mencari nilai:"
+        },
+        {
+            "id": "36",
+            "jawaban": "24",
+            "soal": "10 DATA 3,6\n20 READ A,B\n30 LET A = A+1\n40 LET C = A*B\n50 PRINT C\n60 PRINT A\n70 END\n\nApa hasil program ini :"
+        },
+        {
+            "id": "37",
+            "jawaban": "18",
+            "soal": "10 DATA 3,6,7   \n20 READ A,B\n30 PRINT A*B\n40 A=A+C\n50 PRINT 1\n60 PRINT \"A+B\"\n70 END\nApakah hasil dari program tersebut diatas:"
+        },
+        {
+            "id": "38",
+            "jawaban": "14\n   B SAMA DENGAN 9\n   \n   $%",
+            "soal": "10 DATA 3,9\n20 READ A,B\n30 A=A+2\n40 LET C=A+B\n50 PRINT C\n60 PRINT \"B SAMA DENGAN \";B\n70 END\n\nApakah hasil dari program di atas?"
+        },
+        {
+            "id": "39",
+            "jawaban": "14\n   A sama dengan 9",
+            "soal": "10 DATA 3,9\n20 READ X,A\n30 X=X+2 : LET C=A+X\n50 PRINT C\n60 PRINT  \"A sama dengan \";A\n70 END"
+        },
+        {
+            "id": "40",
+            "jawaban": "28",
+            "soal": "10 DATA 4,7,13,9,2,8,1,5\n20 FOR M=1 TO 8 : READ A(M) : NEXT M\n50 PRINT A(3) *2+A(2+3)\nOutput yang dihasilkan dari program diatas adalah:"
+        },
+        {
+            "id": "41",
+            "jawaban": "5\n   9           6           11          11\n   2           14          4           2\n   2           13          4           2",
+            "soal": "10 DATA 5, 7, 8, 2\n20 FOR K = 1 TO 4\n30 READ X(K)\n40 NEXT  K\n50 PRINT X (1)\n60 PRINT X (2)+4\n70 PRINT X (2*2)\n80 PRINT X (3+1)\n90 END\n\nApakah hasil dari program diatas :"
+        },
+        {
+            "id": "42",
+            "jawaban": "7",
+            "soal": "10 DATA 7, 8, 2\n15 REM LOOP\n20 READ X\n30 PRINT X\n40 GOTO 20\n50 END\n\nOutputnya :"
+        },
+        {
+            "id": "43",
+            "jawaban": "28",
+            "soal": "10 DEFINT A\n20 INPUT B,C\n30 A = B + C\n40 PRINT A\nJika B = 15.70 dan C = 13.27 , maka outputnya adalah :"
+        },
+        {
+            "id": "44",
+            "jawaban": "6  10",
+            "soal": "10 DIM (3,4) \n20 FOR I=1 TO 3\n30 FOR K=1 TO 4\n40 READ A(I,K)\n50 NEXT K\n60 NEXT I\n70 PRINT A(2,3),A(3,2)\n80 DATA 1,2,3,5,6,7,8,9,10,11,12,13,14\nHasil program diatas:"
+        },
+        {
+            "id": "45",
+            "jawaban": "SUBCRIPT OF RANGE IN 30",
+            "soal": "10 DIM N(10)\n20 FOR K=0 TO 10 : READ N(K) : NEXT K\n40 DATA 11,10,9,8,7,6,5,4,3,2\n50 ?N(10),N(5+1),N(6)*2\nOutput yang dihasilkan dari program diatas:"
+        },
+        {
+            "id": "46",
+            "jawaban": "11 12                   \n   13 14",
+            "soal": "10 DIM X(3,5)\n20 FOR I=1 TO 2\n30 FOR J=1 TO 2\n40 READ X(I,J) : PRINT X(I,J); : NEXT J : ? NEXT I\n50 DATA 11,12,13,14,21,22,23,24,25,31,32,33,34,35\n60 END\nHasil keluaran program diatas adalah:"
+        },
+        {
+            "id": "47",
+            "jawaban": "14",
+            "soal": "10 FOR I=1 TO 2\n20      FOR J=I TO 3\n30          FOR K=J TO 4\n40              N=N+1\n50          NEXT K\n60      NEXT J\n70 NEXT I : PRINT N\nOutput program diatas adalah:"
+        },
+        {
+            "id": "48",
+            "jawaban": "1   2    3",
+            "soal": "10 for i=1 to 2\n20 for j=1 to 3\n30 read A(i,j)\n40 next j\n50 for j=1 to 2\n60 for j=1 to 3\n70 print a(i,j)\n80 next j\n90 print\n100 next i\n110 data 1,2,3,4,5,6\n120 end\nOutputnta adalah:"
+        },
+        {
+            "id": "49",
+            "jawaban": "ANDA TIDAK MENDAPAT APA-APA\n   ANDA MENDAPAT MEDALI PERAK          ANDA TIDAK MENDAPAT APA-APA",
+            "soal": "10 FOR I=1 TO 2\n20 READ A\n30 IF A/2=<4 THEN ON A/2 GOTO 50,60,70,80\n40 A=A-2 : GOTO 30\n50 PRINT \"ANDA MENDAPAT MEDALI EMAS\" \n60 PRINT \"ANDA MENDAPAT MEDALI PERAK\"\n70 PRINT \"ANDA MENDAPAT MEDALI PERUNGGU\"\n80 PRINT \"ANDA TIDAK MENDAPAT APA-APA\"\n90 NEXT I\n10"
+        },
+        {
+            "id": "50",
+            "jawaban": "subscript out of range in 30",
+            "soal": "10 FOR I=10 : READ A(I) : NEXT I\n30 PRINT A(I) : ? A(I) + 1 : ? A(6+2) + 6\n40 END\n20 DATA 1,2,,4,5,6,7,8,9,10\nHasil keluaran dari prorgam diatas adalah:"
+        },
+        {
+            "id": "51",
+            "jawaban": "Break in 50",
+            "soal": "10 FOR K = 1 TO 3 : READ X\n30 GOSUB 100\n40 NEXT K\n50 STOP\n60 PRINT K;X*X;\n100 RETURN\n110 DATA 5,7,9 : END"
+        },
+        {
+            "id": "52",
+            "jawaban": "3",
+            "soal": "10 FOR K=1 TO ...\n20 FOR J=1 TO A\n30 PRINT J;\n40 NEXT J\n50 PRINT\n60 NEXT K\n70 END\nOutputnya adalah:       1\n                        1 2\n                        1 2 3\nBaris 10 adalah:"
+        },
+        {
+            "id": "53",
+            "jawaban": "3  2  1",
+            "soal": "10 for k=1 to 3\n20 for j=1 to a\n30 print j;\n40 next j\n50 print\n60 next k\n70 end"
+        },
+        {
+            "id": "54",
+            "jawaban": "1",
+            "soal": "10 for k=1 to 3\n20 for j=1 to a\n30 print j;\n40 next j\n50 print\n60 next k\n70 end\nOutputnya adalah:"
+        },
+        {
+            "id": "55",
+            "jawaban": "1 25                \n   2 49\n   3 81\n   BREAK IN 50",
+            "soal": "10 FOR K=1 TO 3\n20 READ X\n30 GOSUB 60\n40 NEXT K\n50 STOP\n60 PRINT K;X*X\n100 RETURN\n110 DATA 5,7,9  : END"
+        },
+        {
+            "id": "56",
+            "jawaban": "Salah semua      \n      $%",
+            "soal": "10 for k=1 to 4\n20 for j=1 to a\n30 print j;\n40 next k;\n50 print\n60 next k\n70 end"
+        },
+        {
+            "id": "57",
+            "jawaban": "5",
+            "soal": "10 FOR K=1 TO 4\n20 READ A(K)\n30 NEXT K\n40 FOR I=1 TO 3\n50 READ B(I)\n60 NEXT I\n70 FOR K=1 TO 3\n80 N(K)=A(K+1)+B(K)\n90 PRINT N(K)\n100 NEXT K\n110 DATA 5,4,3,2,1,2,3\nHasil dari program diatas:"
+        },
+        {
+            "id": "58",
+            "jawaban": "Step -1",
+            "soal": "10 for k=3 to 1 step ....\n20 for j=a to 1 step -1\n30 print j;\n40 next j\n50 print\n60 next k\n70 end\nOutputnya adalah:   3   2   1\n                    3   2\n                    1"
+        },
+        {
+            "id": "59",
+            "jawaban": "3    2    1                  \n   3    2\n   1",
+            "soal": "10 for k=3 to 1 step -1\n20 for j=a to 1 step -1\n30 print j;\n40 next j\n50 print\n60 next k\n70 end\nOutputnya adalah:"
+        },
+        {
+            "id": "60",
+            "jawaban": "4    3    2     1           \n   4    3    2\n   4    3\n   4",
+            "soal": "10 FOR K=4 TO 1 STEP -1\n20 FOR J=K TO 1 STEP -1\n30 PRINT J;\n40 NEXT J\n50 PRINT\n60 NEXT K\n70 END\nOutputnya adalah:"
+        },
+        {
+            "id": "61",
+            "jawaban": "3    C",
+            "soal": "10 FOR K=4 TO 1 STEP -1\n20 READ A(K),B$(K): NEXT K : ?A(2),B$(2)\n30 DATA 4,D,2,B,3,C,1,A\nOutput yang dilasilkan dari program diatas:"
+        },
+        {
+            "id": "62",
+            "jawaban": "3",
+            "soal": "10 FOR N= 1 TO 8 STEP 2\n20 M=M+N\n30 IF M>5 THEN STOP\n40 PRINT M\n50 NEXT N\n\nPada program diatas statement diantara FOR-NEXT akan dijalankan sebanyak:"
+        },
+        {
+            "id": "63",
+            "jawaban": "1  5",
+            "soal": "10 FOR X = 1 TO 5\n20 FOR Y = 5 TO 1 STEP - 1\n30 PRINT = X,Y\n40 NEXT Y\n50 NEXT X\n60 END\n\nOutputnya adalah :"
+        },
+        {
+            "id": "64",
+            "jawaban": "jika jawaban 1 dan 3 yang benar",
+            "soal": "10 H = 20\n15 R = -5\n20 PRINT HOURS=;R\n25 PRINT RATE=,H\n\nProgram di atas ini mengandung error :"
+        },
+        {
+            "id": "65",
+            "jawaban": "A",
+            "soal": "10 INPUT \"NAMA ANDA\";NM$\n20 FOR I=LEN(NM$) TO 2 STEP -1\n21      A$=A$+MID$(NM$,1,1)\n30 NEXT I\n40 FOR I=1 TO LEN(NM$)\n50 PRINT SPC(LEN(NM$)-I);\n60 IF I>I THEN PRINT RIGHT$(A$,I,-1);\n70 PRINT LEFT$(NM$,I)\n80 NEXT I\nOutput program diatas adalah jika NM$=AB"
+        },
+        {
+            "id": "66",
+            "jawaban": "21000",
+            "soal": "10 INPUT G\n20 IF G<100000 THEN B=0.02*G\n30 IF G<200000 THEN B=0.30*G\n40 IF G<300000 THEN B=0.35*G\n50 IF G>300000 THEN B=0.40*G\n60 PRINT B\nJika G=60000 maka nilai B adalah...."
+        },
+        {
+            "id": "67",
+            "jawaban": "35000",
+            "soal": "10 INPUT G\n20 IF G<100000 THEN B=0.20*G\n30 IF G<200000 THEN B=0.30*G\n40 IF G<300000 THEN B=0.35*G\n50 IF G>300000 THEN B=0.40*G\n60 PRINT B\nJika G=100000 maka nilai B adalah:"
+        },
+        {
+            "id": "68",
+            "jawaban": "70000",
+            "soal": "10 INPUT G\n20 IF G<100000 THEN B=0.20*G\n30 IF G<200000 THEN B=0.30*G\n40 IF G<300000 THEN B=0.35*G\n50 IF G>300000 THEN B=0.40*G\n60 PRINT B\nJika G=200000 maka nilai B adalah:"
+        },
+        {
+            "id": "69",
+            "jawaban": "0",
+            "soal": "10 INPUT G\n20 IF G<100000 THEN B=0.20*G\n30 IF G<200000 THEN B=0.30*G\n40 IF G<300000 THEN B=0.35*G\n50 IF G>300000 THEN B=0.40*G\n60 PRINT B\nJika G=300000 maka nilai B adalah:"
+        },
+        {
+            "id": "70",
+            "jawaban": "160000",
+            "soal": "10 INPUT G\n20 IF G<100000 THEN B=0.20*G\n30 IF G<200000 THEN B=0.30*G\n40 IF G<300000 THEN B=0.35*G\n50 IF G>300000 THEN B=0.40*G\n60 PRINT B\nJika G=400000 maka nilai B adalah:"
+        },
+        {
+            "id": "71",
+            "jawaban": "1 2 3 4 4",
+            "soal": "10 J=0 : N=1\n20 IF J=4 THEN ? j : GOTO 60\n30 PRINT J+N\n40 J+J+1\n50 GOTO 20\n60 END"
+        },
+        {
+            "id": "72",
+            "jawaban": "nol kali",
+            "soal": "10 JUMLAH = 0 \n20 I=1\n30 WHILE JUMLAH < 0\n40 JUMLAH = JUMLAH + I\n50 I=I+1\n60 WEND\n70 PRINT JUMLAH\nPERINTAH : JUMLAH =JUMLAH + 1, akan dilaksanakan:"
+        },
+        {
+            "id": "73",
+            "jawaban": "DASA     DARMA",
+            "soal": "10 LET A$=\"DASAWARSA\"\n20 LET B$=\"GUNADARMA\"\n30 C$=LEFT$(A$,4)\n40 D$=RIGHT$(B$,5)\n50 PRINT C$,D$\n60 END"
+        },
+        {
+            "id": "74",
+            "jawaban": "ADUH",
+            "soal": "10 LET A=2\n20 GOSUB 100\n30 PRINT A\n40 GOTO 150\n100 PRINT \"ADUH\"\n110 LET A=A+1\n120 RETURN\n150 END"
+        },
+        {
+            "id": "75",
+            "jawaban": "14",
+            "soal": "10 Let S = D\n20 Let S = S+2\n30 Let S = S+5\n40 Let S = S+7\n50 Print S\n60 End\nHasil pemrograman tsb adalah :"
+        },
+        {
+            "id": "76",
+            "jawaban": "FOR K=1 TO 100",
+            "soal": "10 LET S=0\n20 ....\n30 LET S=S+K\n40 NEXT K\n50 END\nOutputnya adalah: 5050\nMaka baris 20 adalah:"
+        },
+        {
+            "id": "77",
+            "jawaban": "for k=1 to 100",
+            "soal": "10 let s=0\n20 .....\n30 let s=s+k\n40 next k\n50 end\nOutputnya 5050, maka baris 20 adalah:"
+        },
+        {
+            "id": "78",
+            "jawaban": "55",
+            "soal": "10 let s=0\n20 For k=1 to 10\n30 let s=s+k\n40 next k\n50 print s \n60 end\n\nHasilnya adalah :"
+        },
+        {
+            "id": "79",
+            "jawaban": "4  6  2",
+            "soal": "10 M=0  : K=0 : B=0 \n20 FOR I=1 TO 4\n30 READ N\n40 IF N=0 THEN GOTO 110\n50 IF N>60 THEN M=M+1 ELSE K=K+1\n60 IF N<60 THEN B=B+1 \n70 IF M+K=10 THEN GOTO 110\n80 GOTO 30\n90 DATA 30,55,70,80,65,30\n100 DATA 60,80,58,53,70,59,34\n110 PRINT M,K,B\nHasil dari program"
+        },
+        {
+            "id": "80",
+            "jawaban": "IF P$(K)>N$ THEN ?P$(K)",
+            "soal": "10 N$=\"BUDI\"\n20 FOR K=1 TO 4\n30 READ P$(K)\n40 .........\n50 NEXT K\n60 DATA ANI,BADU,BUGI,DEWI\nAgar tercetak BUGI    DEWI maka nomor baris 40 dapat diisi dengan:"
+        },
+        {
+            "id": "81",
+            "jawaban": "25   5",
+            "soal": "10 N=1\n20 IF INT(N/2) <> N/2 THEN PRINT N\n30 GOTO 40 : J=J+1 : T=T+N\n40 N=N+1\n50 IF N>10 THEN PRINT T;J\n60 GOTO 20\nBerapa output dari baris 50"
+        },
+        {
+            "id": "82",
+            "jawaban": "'BASIC'             \n   HARI INI",
+            "soal": "10 PRINT 'MIDTES'\n20 A$=\"INI\"\n30 B$=\"HARI\" : ? '\"BASIC'\"\n40 ?B$;\" \";A$\nOutput yang dihasilkan dari program diatas adalah:"
+        },
+        {
+            "id": "83",
+            "jawaban": "17, 50",
+            "soal": "10 PRINT USING A$ : 17, 5\n20 A$ = ' ##.## '\nOutputnya adalah :"
+        },
+        {
+            "id": "84",
+            "jawaban": "5",
+            "soal": "10 READ A,B : C=A+B : PRINT A\n20 GOTO 60\n30 PRINT B\n60 READ D,E : PRINT D,E : DATA 5,10,15,20 : END\nOutput dari program diatas adalah:"
+        },
+        {
+            "id": "85",
+            "jawaban": "0",
+            "soal": "10 READ A,B : PRINT A,B\n20 IF B>120 THEN 60\n30 B=A*B   : C=C*B\n40 PRINT C : GOTO 20 : DATA 5,4,3,2,5,0\n60 END\nOutput paling akhir yang dihasilkan dari program diatas:"
+        },
+        {
+            "id": "86",
+            "jawaban": "1 1 1",
+            "soal": "10 READ A,B,C \n20 PRINT A,\n30 RESTORE\n40 READ B,C,D\n50 PRINT B\n60 RESTORE\n70 READ C,D,E\n80 PRINT C\n90 DATA 1,2,3,4,5,6,7,8,9\nHasil dari program  diatas adalah:"
+        },
+        {
+            "id": "87",
+            "jawaban": "12   4    5",
+            "soal": "10 READ A,B,C : A=A+B+C\n20 PRINT A,B,C\n30 READ D,E,F  : RESTORE\n40 PRINT D,E,F\n50 DATA 3,4\n60 DATA 5,6,7,8\n70 END\nHasil keluaran program tersebut diatas adalah:"
+        },
+        {
+            "id": "88",
+            "jawaban": "10   20    3\n    11   22    7\n    Out of data in 20",
+            "soal": "10 READ A,B,C : J=J+A : K=K+B : L=L+C\n20 PRINT J,K,L\n30 GOTO 10\nDATA 10,20,3,1,2,4\nOutput dari program diatas adalah:"
+        },
+        {
+            "id": "89",
+            "jawaban": "5    8    20\n    10   20   100\n    out of data in 10",
+            "soal": "10 READ A,T : IF A=999 THEN END \n20 L=(A*T)/2 : PRINT A,T,L\n30 GOTO 10\n40 DATA 5,8,10,20,999\nOutput dari program diatas adalah:"
+        },
+        {
+            "id": "90",
+            "jawaban": "ADI 2900\n   SENA 3000               SENA 2400\n   GALI 4000               GALI 3200",
+            "soal": "10 READ NAMA$,N\n20 IF N=0 THEN STOP\n30 IF N>8 THEN K=1 : GOTO 60\n40 IF N>6 THEN K=2 : GOTO 60\n50 K=3\n60 ON K GOTO 70,80,90\n70 GAJI = N*500\n80 GAJI = N*400 \n90 GAJI = N*300\n100 PRINT NAMA$,GAJI\n110 GOTO 10\n120 DATA ADI,7,SENA,6,GALI,8\nHasil program diatas"
+        },
+        {
+            "id": "91",
+            "jawaban": "jika jawaban 1 dan 3 yang benar",
+            "soal": "10 S = 12.500\n20 I = S * 13.5\n30 PRINT \"BUNGA TAHUNAN =\"I\n31 REM HITUNG T\n35 I + S = T\n40 PRINT \"TOTAL \";T\n45 HITUNG PAJAK ATAS BUNGA\n50 F =  I * .15\n05 PRINT PAJAK ATAS BUNGA;F\n60 REM HITUNG BUNGA YANG DITERIMA N\n70 N = 1.135 * 12500 - .135 * .27 * 12500"
+        },
+        {
+            "id": "92",
+            "jawaban": "jika jawaban 1 dan 3 yang benar",
+            "soal": "10 S = 12.500\n20 I = S * 13.5\n30 PRINT \"BUNGA TAHUNAN =\"I\n31 REM HITUNG T\n35 I + S = T\n40 PRINT \"TOTAL \";T\n45 HITUNG PAJAK ATAS BUNGA\n50 F = I * .15\n05 PRINT PAJAK ATAS BUNGA;F\n60 REM HITUNG BUNGA YANG DITERIMA N\n70 N = 1.135 * 12500 - .135 * .27 * 12500"
+        },
+        {
+            "id": "93",
+            "jawaban": "5 22 7",
+            "soal": "10 X=5 : Y=10 : Z=7\n20 IF Y>(Z+3) THEN X=INT(X/3)\n30 IF X>(Y-5) THEN Z=Z MOD 4\n40 Y=X+Y+Z\n50 PRINT X;Y;Z\nOutput program diatas adalah:"
+        },
+        {
+            "id": "94",
+            "jawaban": "RABA",
+            "soal": "100 A$=\"Surabaya\"\n200 Nama $=Mid$(A$,3,4)\n210 Print Nama $\n\nHasil output dari potongan diatas adalah :"
+        },
+        {
+            "id": "95",
+            "jawaban": "10 DATA 2,4,7,1,3,5,6         \n   20 FOR A=1 TO 2                   \n   30 FOR B=1 TO 2                   \n   40 READ X(B,A)                    \n   50 PRINT X(B,A)                   \n   60 NEXT B                         \n   70 PRINT",
+            "soal": "2   4   7\n1   3   5"
+        },
+        {
+            "id": "96",
+            "jawaban": "10 DATA -2.25,-.75,.75,2.25\n   20 FOR A=1 TO 4\n   30 READ P(A)\n   40 PRINT P(A).INT(P(A)),FIX(P(A))\n   50 NEXT A\n   60 END",
+            "soal": "-2.25    -3    -2\n- .75    -1     0\n  .75     0     0\n 2.25     2     2"
+        },
+        {
+            "id": "97",
+            "jawaban": "9 9 9 9\n    11   3",
+            "soal": "20 K=3\n30 FOR I=K TO K*K STEP (K-1) : ? K * K; : NEXT I : PRINT : ?I,K\nOutput yang dihasilkan program diatas:"
+        },
+        {
+            "id": "98",
+            "jawaban": "2 3",
+            "soal": "20 read x,y\n30 print x;y\n35 restore\n40 read a,b,c\n50 print a;b;c\n55 data 2,3,4,5\n60 end\nOutputnya adalah:"
+        },
+        {
+            "id": "99",
+            "jawaban": "0\n    2\n    subscript of range in 35",
+            "soal": "5  DIM A(11)\n10 FOR I=1 TO 10 : READ A(I) : NEXT : PRINT A(I) : ? A(1) + 1\n35 ? A(6+6) + 6\n40 END : DATA 1,2,3,4,5,6,7,8,9,10\nHasil keluaran program diatas adalah:"
+        },
+        {
+            "id": "100",
+            "jawaban": "Illegal function call in 5",
+            "soal": "5  DIM A(-11)\n10 FOR I=1 TO 10 : READ A(I) : NEXT I\n30 PRINT A(I) : ? A(1) + 1 : ? A(6+2) + 6 : END\n20 DATA 1,2,3,4,5,6,7,8,9,10\nHasil keluaran program diatas adalah:"
+        },
+        {
+            "id": "101",
+            "jawaban": "1                                   \n   2\n   3\n   subscript out of range in 20",
+            "soal": "5  DIM A(3)\n10 FOR I=1 TO 5\n20 READ A(I) : PRINT A(I) : NEXT I : ? A(1)+1 : PRINT A(I)\n40 ? A(6+6)+6 : END : DATA 1,2,3,4,56,7,8,9,10\nHasil keluaran dari program diatas adalah:"
+        },
+        {
+            "id": "102",
+            "jawaban": "0              \n    2\n   14",
+            "soal": "5 DIM A(10.9)\n10 FOR I=1 TO 10 : READ A(I) : NEXT I\n30 PRINT A(I) : ? A(1) + 1 : ? A(6+2) + 6\n40 END\n20 DATA 1,2,3,4,5,6,7,8,9,10\nHasil keluaran program diatas adalah:"
+        },
+        {
+            "id": "103",
+            "jawaban": "13    4",
+            "soal": "5 DIM A(12)     \n10 FOR N=1 TO 12\n20 READ A(N) : A=4\n40 NEXT N\n50 ? N,A : END\n60 DATA 1,2,3,4,5,6,7,8,9,01,11,12\nOutput yang dihasilkan program diatas:"
+        },
+        {
+            "id": "104",
+            "jawaban": "345.89",
+            "soal": "A$ = \"     #####.##\"\nA=345.8965\nB=78.98 \nC=A+B\n? USING A$;A\n? USIMG A$;B\n? USING A$;C"
+        },
+        {
+            "id": "105",
+            "jawaban": "3  18  108",
+            "soal": "Ada sebuah susunan langkah-langkah  algoritma sebagai berikut:"
+        },
+        {
+            "id": "106",
+            "jawaban": "5 10 50",
+            "soal": "Ada sebuah susunan langkah-langkah algoritma sbb:\n    1. Nilai awal sebuah variabel S=2,R=5,N=1"
+        },
+        {
+            "id": "107",
+            "jawaban": "I = 0",
+            "soal": "Agar program dapat membaca 10 buah data maka....di lengkapi dengan :\n\n10  LET I = 10\n15  IF...THEN 99\n20  READ T\n25  LET I = I - 1\n30  GO TO 15\n99  END"
+        },
+        {
+            "id": "108",
+            "jawaban": "I = 10",
+            "soal": "Agar program dapat membaca 10 buah data maka...di lengkapi dengan :\n\n10  LET I = 0\n15  IF...THEN 99\n20  READ G\n25  LET I = I + 1\n30  GO TO 15\n99 END"
+        },
+        {
+            "id": "109",
+            "jawaban": "I > 0",
+            "soal": "Agar program dapat membaca 10 buah data maka...di lengkapi dengan :\n\n10  LET I = 0\n15  LET I = I - 1\n20  READ J\n25  IF...THEN 15\n99  END"
+        },
+        {
+            "id": "110",
+            "jawaban": "I < 10",
+            "soal": "Agar program dapat membaca 10 buah data maka...di lengkapi dengan :\n\n10  LET I = 0\n15  LET I = I + 1 \n20  READ J\n25  IF...THEN 15\n99  END"
+        },
+        {
+            "id": "111",
+            "jawaban": "I < 9",
+            "soal": "Agar program dapat membaca 10 buah data maka...di lengkapi dengan :\n\n10  LET I = 0\n15  READ J\n20  IF....THEN 30\n25  GO TO 99\n30  LET I = I + 1\n35  GO TO 15\n99 END"
+        },
+        {
+            "id": "112",
+            "jawaban": "I = 9",
+            "soal": "Agar program dapat membaca 10 buah data maka...di lengkapi dengan :\n10  LET I = 0\n15  READ J\n20  IF....THEN 99\n25  LET I = I + 1\n30  GO TO 15\n99  END"
+        },
+        {
+            "id": "113",
+            "jawaban": "Semua jawaban benar",
+            "soal": "Algoritma adalah uraian metode penyelesaian masalah yang lengkap. Metode penyelesian masalah terdiri dari:"
+        },
+        {
+            "id": "114",
+            "jawaban": "Kita memanggil kompiler basica dengan memakai RAM sebanyak\n   6553 byte dan maksimum 3 berkas",
+            "soal": "Apa arti dari contoh pemakaian BASICA :"
+        },
+        {
+            "id": "115",
+            "jawaban": "--------\n    KOMPUTER\n    --------",
+            "soal": "Apa hasil dari program berikut:\n10 GOSUB 50\n30 ?\"KOMPUTER\"\n40 GOSUB 50 : END\n50 ?\"--------\"\n60 RETURN\n70 END"
+        },
+        {
+            "id": "116",
+            "jawaban": "SUBSCRIPT OUT OF RANGE IN 40",
+            "soal": "Apa hasil dari program berikut:\n10 OPTION BASE 1\n20 DIM X(20)\n30 FOR A=0 TO 12\n40 INPUT X(A)\n50 NEXT A\n55 END"
+        },
+        {
+            "id": "117",
+            "jawaban": "SUSUNAN",
+            "soal": "Apa hasil dari program berikut:\n10 PL$=\" SUBANAN\"\n20 MID$(PL$,3,2)=\"SUZUKI\"\n30 PRINT PL$\n40 END"
+        },
+        {
+            "id": "118",
+            "jawaban": "Untuk N=1 Dan K=4, B=576",
+            "soal": "Apa hasil program berikut:\n10 let N=1:A=5\n30 Let B=A+N\n40 ON N GOTO 50,80\n50 ?\"Untuk N=\";N;\"Dan K=4,B\";B^4\n60 N=N+1\n70 goto 30\n80 ?\"Untuk N=\";N;\"Dan K=2, B=\";B^2\n90 end"
+        },
+        {
+            "id": "119",
+            "jawaban": "3",
+            "soal": "Apa hasil program dibawah ini :\n10  N=0:J=0\n20  READ A\n30  DATA 1,3,5,999\n40  IF A=999 THEN R=J/N : GOTO 80\n50  N=N+1\n60  J=J+A\n70  GOTO 20\n80  ? R\n90  END"
+        },
+        {
+            "id": "120",
+            "jawaban": "125",
+            "soal": "Apa hasil program ini:\n10 ?5^3\n20 ?5/3\n30 ?5/3\n40 ?5 MOD 3\n50 END"
+        },
+        {
+            "id": "121",
+            "jawaban": "I=1",
+            "soal": "Apa output berikut\n10 FOR I=1 TO 2\n20 ON I GOSUB  60,80\n30 NEXT I\n40 ?\"END\"\n50 END\n60 ?\"I=\";I\n90 RETURN\n80 ?\"I=\";I\n90 RETURN\n100 END"
+        },
+        {
+            "id": "122",
+            "jawaban": "8  7  5  9  4  56  8",
+            "soal": "Apa output dari program \n10 FOR K=1 TO 5\n20 READ A(K)\n30 ?A(K);\n40 NEXT K\n50 LET C = A(A)+A(4)\n60 DATA 8,7,5,9,4\n70 ? C;\" \":(A)\n80 END"
+        },
+        {
+            "id": "123",
+            "jawaban": "G=6",
+            "soal": "Apa output dari program berikt:\n10 read D,E,F\n20 data 1,2,3\n30 let G+D+E+F\n40 ?\"G=\";G\n50 restore\n60 read H,I,J\n70 ?\"K=\";K\n80 end"
+        },
+        {
+            "id": "124",
+            "jawaban": "A,B benar",
+            "soal": "Apa output dari program berikut\n10 a=8 \n20 b=7\n30 ? SQR(a^2+b*5)\n40 end"
+        },
+        {
+            "id": "125",
+            "jawaban": "2 3 4\n    X=3\n    Y=4",
+            "soal": "Apa output dari program berikut:\n10 read A,B,C\n20 ? A,B,C \n30 Restore\n40 read X,Y\n50 ?\"X=\";X\n60 ?\"Y=\";Y\n70 data 2\n80 data 3,4\n90 end"
+        },
+        {
+            "id": "126",
+            "jawaban": "3 + 5 =",
+            "soal": "Apa output dari program di bawah ini :\n10 A=3:B=5\n20 ? A; \"+\" ; B; \"=\" \n30 ? A+B\n40 END"
+        },
+        {
+            "id": "127",
+            "jawaban": "G=6 K=6",
+            "soal": "Apa output dari program di bawah ini :\n10 READ D,E,F\n20 DATA 1,2,3\n30 LET G=D+E+F\n40 ? \"G=\" ; G;\n50 RESTORE\n60 READ H,I,J\n70 ? \"k=\";k\n80 END"
+        },
+        {
+            "id": "128",
+            "jawaban": "6 + 1 = 7",
+            "soal": "Apa output dari program dibawah ini :\n10 A=6:B=1\n20 ? A; \"+\" ; B; \"=\";\n30 ? A+B\n40 END"
+        },
+        {
+            "id": "129",
+            "jawaban": "0  0  0",
+            "soal": "Apa output dari program dibawah ini :\n10 DATA 3,7,4\n20 READ A(K)\n30 FOR K=1 TO 3\n40 ? A(K);\n50 NEXT K\n60 END"
+        },
+        {
+            "id": "130",
+            "jawaban": "G=6",
+            "soal": "Apa output dari program dibawah ini :\n10 READ D,E,F\n20 DATA 1,2,3\n30 LET G=D+E+F\n40 ? \"G=\" ; G\n50 RESTORE\n60 READ H,I,J\n70 ? \"k=\"; k\n80 END"
+        },
+        {
+            "id": "131",
+            "jawaban": "3",
+            "soal": "Apa output dari program dibawah ini:\n10 FOR I=1 TO 3\n20 READ X%\n30 NEXT I\n50 DATA 2.85,5,6.15\n60 END"
+        },
+        {
+            "id": "132",
+            "jawaban": "8 7 5 9 4 56 8",
+            "soal": "Apa output dari program dibawah ini:\n10 FOR K=1 TO 5\n20 READ A(K)\n30 ? A(K)\n40 NEXT K\n50 LET C=A(5)+A(4)\n60 DATA 8,7,5,9,4\n70 ? C;\" \" : A(1)\n80 END"
+        },
+        {
+            "id": "133",
+            "jawaban": "G=6",
+            "soal": "Apa output dari program dibawah ini:\n10 READ D,E,F\n20 DATA 1,2,3\n30 LET G+D+E+F\n40 ? \"G=\"; G\n50 RESTORE\n60 READ H,I,J\n70 ? \"K=\";K\n80 END"
+        },
+        {
+            "id": "134",
+            "jawaban": "X/Z=5",
+            "soal": "Apa output di bawah ini :\n10 LET X=10\n20 LET Z=2\n30 ? \"X/Z=\" ;\n40 IF Z=2 THEN ? X/Z ELSE ? \"TAK BERHINGGA\"\n50 END"
+        },
+        {
+            "id": "135",
+            "jawaban": "X/Z=5",
+            "soal": "Apa output dibawah ini \n    10 LET X=10\n    20 LET Z=2\n    30 ?\"X/Z=\";\n    40 IF Z THEN ? X/Z ELSE ?\"TAK BERHINGGA\"\n    50 END"
+        },
+        {
+            "id": "136",
+            "jawaban": "SATU DUA TIGA",
+            "soal": "Apa output dibawah ini :\n    10 ?\"SATU\";\n    20 GOSUB 70\n    30 ?\"TIGA\";\n    40 ?\"EMPAT\";\n    50 ?\"LIMA\";\n    60 END\n    70 ?\"DUA\";\n    80 RETURN 50\n    90 END"
+        },
+        {
+            "id": "137",
+            "jawaban": "SATU    TIGA    EMPAT    LIMA",
+            "soal": "Apa output dibawah ini :\n10 ?\"SATU\";\n20 GOSUB 80\n30 ?\"TIGA\";\n40 ?\"EMPAT\";\n50 ?\"LIMA\";\n60 END\n70 ?\"DUA\";\n80 RETURN\n90 END"
+        },
+        {
+            "id": "138",
+            "jawaban": "A dan B salah",
+            "soal": "Apa output program di bawah ini :\n10 A=3\n20 B=4\n30 ? SQR(A^2+B*5)\n40 END"
+        },
+        {
+            "id": "139",
+            "jawaban": "22",
+            "soal": "Apa output program di bawah ini :\n10 C=5\n20 D=6.7\n30 ? INT(D*3+C/2)\n40 END"
+        },
+        {
+            "id": "140",
+            "jawaban": "23",
+            "soal": "Apa output program di bawah ini :\n10 C=7\n20 D=6.6\n30 ?INT(D*3+C/2)\n40 END"
+        },
+        {
+            "id": "141",
+            "jawaban": "2 3 4 \n    X=3\n    Y=4",
+            "soal": "Apa output program di bawah ini :\n10 READ A,B,C\n20 ? A,B,C\n30 RESTORE 80\n40 READ X,Y\n50 ? \"X=\" ; X\n60 ? \"Y=\" ; Y\n70 DATA 2\n80 DATA 3,4\n90 END"
+        },
+        {
+            "id": "142",
+            "jawaban": "5 6 7\n    X=5\n    Y=6",
+            "soal": "Apa output program di bawah ini :\n10 READ A,B,C\n20 ? A,B,C\n30 RESTORE 80\n40 READ X,Y\n50 ? \"X=\" ; X\n60 ? \"Y=\" ; Y\n70 DATA 5\n80 DATA 6,7\n90 END"
+        },
+        {
+            "id": "143",
+            "jawaban": "A dan B salah",
+            "soal": "Apa output program dibawah ini :  \n10 A=8\n20 B=7\n30 ? SQR(A^2+B*5)\n40 END"
+        },
+        {
+            "id": "144",
+            "jawaban": "A & B benar",
+            "soal": "Apa output program dibawah ini :\n10 A=8 \n20 B=7\n30 ? SQR(A^2+B*5)\n40 END"
+        },
+        {
+            "id": "145",
+            "jawaban": "22",
+            "soal": "Apa output program dibawah ini\n10 I=5\n20 D=6.7\n30 ?INT(D*3+C/2)\n40 end"
+        },
+        {
+            "id": "146",
+            "jawaban": "35",
+            "soal": "Apa output program dibawah ini:\n10 FOR I=1 TO 5\n20      FOR J=1 TO I\n30          T=T+J\n40      NEXT J\n50      TOT = TOT + T\n60      T=0\n70 NEXT I : PRINT TOT"
+        },
+        {
+            "id": "147",
+            "jawaban": "22",
+            "soal": "Apa output program dibawah ini:\n10 I=5                     \n20 D=6.7\n30 INT(D*3+C/2)\n40 END"
+        },
+        {
+            "id": "148",
+            "jawaban": "2 3 4\n    Syntax error in 50,50                    X=3\n                                             Y=4",
+            "soal": "Apa output program dibawah ini:\n10 READ A,B,C \n20 ? A,B,C\n30 RESTORE 80\n40 READ X,Y\n50 ? \"X=\";X\n60 ? \"Y=\";Y\n70 DATA 2\n80 DATA 3,4\n90 END"
+        },
+        {
+            "id": "149",
+            "jawaban": "SATU DUA TIGA",
+            "soal": "Apa output program ini:\n10 ?\"SATU\";\n20 GOSUB 70\n30 ?\"TIGA\";\n40 ?\"EMPAT\";\n50 ?\"LIMA\";\n60 END\n70 ?\"DUA\";\n80 RETURN 50\n90 END"
+        },
+        {
+            "id": "150",
+            "jawaban": "3    +   5   =   8",
+            "soal": "Apa yang dihasilkan dalam program dibawah ini :\n            10  A=3 : B=5\n            20  PRINT A \" + \" B \"=\" A+B"
+        },
+        {
+            "id": "151",
+            "jawaban": "Untuk menampilkan isi disket",
+            "soal": "Apa yang dimaksud dengan perintah NEW :"
+        },
+        {
+            "id": "152",
+            "jawaban": "Suatu digram alur yang direpresentasikan dengan lambang tertentu\n   yang bersifat standar",
+            "soal": "Apa yang disebut flowchart :"
+        },
+        {
+            "id": "153",
+            "jawaban": "425",
+            "soal": "Apabila H = 500, maka output dari program dibawah ini adalah:\n10 INPUT H\n20 IF H > 600 THEN I = H - 25\n30 IF H > 500 THEN I = H - 50\n40 IF H > 400 THEN I = H - 75\n50 ? I"
+        },
+        {
+            "id": "154",
+            "jawaban": "0",
+            "soal": "Apakah hasil dari program berikut :\n10  IF X=Y 1HEN 40\n20  X=10 : Y=Y+1\n30  GOTO 10 \n40  ? X\n50  END"
+        },
+        {
+            "id": "155",
+            "jawaban": "INI      ITU                \n     ITU      INI",
+            "soal": "Apakah hasil dari program berikut ini adalah :\n10  LET A$=\"INI\" : \"ITU\"\n20  PRINT A$,B$\n30  SWAP A$,B$\n40  PRINT A$,B$"
+        },
+        {
+            "id": "156",
+            "jawaban": "ALI                            \n    INDRA SANJAYA                        \n    DODDI WIJOYO",
+            "soal": "Apakah hasil dari program ini:\n10 FOR A=1 TO 3\n20 READ NAMA$\n30 PRINT USING \"\\          \\\":NAMA$\n40 NEXT A\n50 DATA ALI, INDRA SANJAYA\n60 DATA DODDI WIJOYO, DONO WIDODO"
+        },
+        {
+            "id": "157",
+            "jawaban": "0  0  0",
+            "soal": "Apakah output dari program berikut\n10 DATA 3,7,4\n20 READ A(K)\n30 FOR K=1 TO 3\n40 ? A(K);\n50 NEXT K\n60 END"
+        },
+        {
+            "id": "158",
+            "jawaban": "MID 10",
+            "soal": "Apakah output dari program berikut...\n10 READ A$,B\n20 A$=\"MID'\n30 ?A$,5+B\n40 DATA\"FINAL\", 5\n50 END"
+        },
+        {
+            "id": "159",
+            "jawaban": "BASICA       200",
+            "soal": "Apakah output dari program berikut?\n10 READ M$,M\n20 M$ = \"BASICA\"\n30 ?M$,M*2\n40 DATA STMIK,100\n50 END\n\nA.BASICA        100"
+        },
+        {
+            "id": "160",
+            "jawaban": "0\n     -1                  -1                 -1                  -1\n     -1                    0                   0                  -1",
+            "soal": "Apakah output dari program dibawah ini :\n        10  PRINT 5<3 AND 18>15\n        20  PRINT 5<3 OR  18>15\n        30  PRINT NOT (5<3)"
+        },
+        {
+            "id": "161",
+            "jawaban": "7",
+            "soal": "Apakah output program berikut:\n10 read a,b\n20 let c=a+b\n30 ?30\n40 restore\n50 read x,y,z\n60 let k=x+y+z\n70 ?k\n80 data 3,4\n90 end"
+        },
+        {
+            "id": "162",
+            "jawaban": "pada operasi kalang dalam kalang urutan pengerjaannya boleh\n   dimulai dari kalang yang paling mudah",
+            "soal": "Aturan penggunaan statement kalang yang benar adalah, kecuali :"
+        },
+        {
+            "id": "163",
+            "jawaban": "4",
+            "soal": "Bagaimana hasil program berikut :\n10 Data 3,7\n20 Read A,B\n30 Let A=A+1\n40 Print A\n50 Let A=A+1\n60 Print A\n70 Let A=A+B\n80 Print A\n90 End"
+        },
+        {
+            "id": "164",
+            "jawaban": "4   7                      \n   9",
+            "soal": "Bagaimana output dari program dibawah ini :\n10 X=4:Y=7:Z=9\n20 ? X;\n30 ? Y\n40 ? Z\n50 END"
+        },
+        {
+            "id": "165",
+            "jawaban": "4",
+            "soal": "Bagaimana output dari program dibawah ini:\n10 X=4 : Y=7 : Z=9\n20 ? X\n30 ? Y;\n40 ? Z\n50 END"
+        },
+        {
+            "id": "166",
+            "jawaban": "�                  \n        V                      \n    +--------+                 \n    �  N=12  �\n    +--------+\n        �\n        V",
+            "soal": "Bagaimana penulisan variabel X diberi harga 12 dengan cara kotak penugasan :"
+        },
+        {
+            "id": "167",
+            "jawaban": "4\n     7  9",
+            "soal": "Bagaimanakah output dari program berikut:\n10 X=4:Y=7:Z=9\n20 ?X;\n30 ?Y\n40 ?Z\n50 END"
+        },
+        {
+            "id": "168",
+            "jawaban": "32 kali",
+            "soal": "Berapa kali instruksi PRINT di laksanakan pada program berikut ini:\n\n10  FOR I = 2 TO 8 STEP 2\n20  FOR J = 1 TO 4\n30  FOR K = 1 TO 4 STEP 2\n40  PRINT\n50  NEXT K\n60  NEXT J\n70  NEXT I"
+        },
+        {
+            "id": "169",
+            "jawaban": "1 kali",
+            "soal": "Berapa kali instruksi PRINT di laksanakan pada program berikut ini:\n\n10  FOR I = 40 TO 60\n30  FOR K = 1 TO 3\n35  A = 1\n40  NEXT K\n50  NEXT J\n60  PRINT J"
+        },
+        {
+            "id": "170",
+            "jawaban": "40 kali",
+            "soal": "Berapa kali statement X = 1 di laksanakan pada program berikut ini:\n\n10  FOR I = 1 TO 3\n20  FOR J = 1 TO 4\n30  FOR K = 1 TO 10\n35  H = 2\n40  NEXT K\n50  NEXT J \n60  LET X = 1\n70  NEXT I"
+        },
+        {
+            "id": "171",
+            "jawaban": "11 kali",
+            "soal": "Berapa kali statement X = 1 di laksanakan pada program berikut ini:\n\n10  FOR I = 10 TO 20\n20  FOR J = 3 TO 17 STEP 5\n30  LET K = 1\n40  NEXT J\n45  LET X = 1\n50  NEXT I"
+        },
+        {
+            "id": "172",
+            "jawaban": "33 kali",
+            "soal": "Berapa kali statement X = 1 di laksankan pada program berikut ini:\n\n10  FOR I = 10 TO 20\n20  FOR J = 3 TO 17 STEP 5\n30  LET X = 1\n40  NEXT J\n50  NEXT I"
+        },
+        {
+            "id": "173",
+            "jawaban": "50",
+            "soal": "Berapakah hasil keluaran dari program BASIC di bawah ini :\n10 READ A,B\n20 LET C=A*B:PRINT C\n30 END\n40 DATA 5,10\n\nHasil dari program di atas adalah :"
+        },
+        {
+            "id": "174",
+            "jawaban": "15    25",
+            "soal": "Berapakah hasil keluaran dari program BASIC di bawah ini :\n10 READ X,Y\n20 LET X=X+Y:LET Y=Y+X\n30 PRINT X,Y\n40 END\n50 DATA 5,10\n\nHasil dari program di atas adalah"
+        },
+        {
+            "id": "175",
+            "jawaban": "0",
+            "soal": "Berapakah hasil keluaran dari program BASIC dibawah ini :\n10 READ A,B\n20 LET C=AB:PRINT C\n30 END\n40 DATA 5,10\n\nHasil dari program di atas adalah :"
+        },
+        {
+            "id": "176",
+            "jawaban": "86",
+            "soal": "Berdasarkan program berikut :\n10 Data 53,28,36,42,4\n20 Let S=0\n30 Read X\n40 Let S=5+X\n50 If 5<100 then 30\n60 Print X\n70 End\n\nHasil keluarannya adalah :"
+        },
+        {
+            "id": "177",
+            "jawaban": "Pada akhir nama variabel numerikanya terdapat tanda !",
+            "soal": "Berikut ini adalah ciri dari variabel numerik kecepatan ganda, kecuali:"
+        },
+        {
+            "id": "178",
+            "jawaban": "jika jawaban 1, 2 dan 3 yang benar",
+            "soal": "Berikut ini yang merupakan variabel bersubscript adalah :"
+        },
+        {
+            "id": "179",
+            "jawaban": "UNIGUNA",
+            "soal": "Bila A$ = \"UNIVERSITAS\" dan B$ = \"GUNADARMA\", maka bila dilakukan LEFT$(A$,3) + LEFT$(B$,4), hasil yang didapatkan adalah :"
+        },
+        {
+            "id": "180",
+            "jawaban": "TASDARMA",
+            "soal": "Bila A$ = \"UNIVERSITAS\" dan B$ = \"GUNADARMA\", maka bila dilakukan RIGHT$(A$,3) + RIGHT$(B$,5), hasil yang didapatkan adalah :"
+        },
+        {
+            "id": "181",
+            "jawaban": "GUNA",
+            "soal": "Bila A$=\"GUNADARMA\", maka LEFT(A$,4)="
+        },
+        {
+            "id": "182",
+            "jawaban": "9",
+            "soal": "Bila A$=\"GUNADARMA\", maka LEN(A$)="
+        },
+        {
+            "id": "183",
+            "jawaban": "ADA",
+            "soal": "Bila A$=\"GUNADARMA\", maka MID$(A$,4,3)="
+        },
+        {
+            "id": "184",
+            "jawaban": "ADA",
+            "soal": "Bila A$=\"GUNADARMA\", maka RIGHT(A$,5)="
+        },
+        {
+            "id": "185",
+            "jawaban": "7",
+            "soal": "Bila A$=\"UNIVERSITAS\" DAN B$ = \"GUNADARMA\", maka bila dilakukan LEN(LEFT$(A$,3) + LEFT$(B$,4)), hasil yang didapatkan adalah :"
+        },
+        {
+            "id": "186",
+            "jawaban": "TIKUS",
+            "soal": "Bila B$ =\"KRITIKUS\", maka RIGHT$(B$,5) ="
+        },
+        {
+            "id": "187",
+            "jawaban": "KRITIK",
+            "soal": "Bila B$=\"KRITIKUS\", maka LEFT$(B$,6)="
+        },
+        {
+            "id": "188",
+            "jawaban": "TIKUS",
+            "soal": "Bila B$=\"KRITIKUS\", maka MID$(B$,4)="
+        },
+        {
+            "id": "189",
+            "jawaban": "5",
+            "soal": "Bila baris 70 dihapus dan DATA 5,10 maka hasil tampilan adalah :\n10  CLS\n20  LET a=1\n30  READ X\n40  IF a=3  THEN 80\n50  PRINT X\n60  a=a+1\n70  GOTO 30\n80  END"
+        },
+        {
+            "id": "190",
+            "jawaban": "jika jawaban 2 dan 4 yang benar",
+            "soal": "Bila diketahui A = -3 dan B = 4, instruksi berikut ini menghasilkan nilai -1, kecuali :"
+        },
+        {
+            "id": "191",
+            "jawaban": "jika jawaban 1 dan 3 yang benar",
+            "soal": "Bila diketahui A = -3 dan B = 4, instruksi berikut ini menghasilkan nilai 2, kecuali :"
+        },
+        {
+            "id": "192",
+            "jawaban": "3  9\n   3                      7",
+            "soal": "Bila diketahui data O = 7, P=3, Q=9 \n20 PRINT P\n30 PRINT O ;\n40 PRINT Q\nHasilnya adalah :"
+        },
+        {
+            "id": "193",
+            "jawaban": "2 buah kotak keputusan",
+            "soal": "Bila diketahui harga sebuah buku Rp. 8000,00 dan bila membeli buku dalam jumlah banyak akan diberikan potongan harga dengan ketentuan sebagai berikut :\n- Pembelian < 10 buku tidak diberikan potongan harga \n- Pembelian 10 buku sampai dengan 29 buku diberi"
+        },
+        {
+            "id": "194",
+            "jawaban": "MEMAKAI BAJU PUTIH",
+            "soal": "Bila diketahui program sbb:\n10 DATA .........: READ A\n20 IF 25 <= a AND A <= 30 THEN 40\n30 PRINT \" MEMAKAI BAJU MERAH \": GO TO 50 \n40 PRINT \" MEMAKAI BAJU PUTIH \" : \n50 END\nBila data 27, hasilnya :"
+        },
+        {
+            "id": "195",
+            "jawaban": "DEF FNH (A,B) = SQR (A^2 + B^2)",
+            "soal": "Bila fungsi FNH untuk menghitung Hipotenusa dari suatu segitiga dengan sisi A dan B, maka :"
+        },
+        {
+            "id": "196",
+            "jawaban": "jika jawaban 2 dan 4 yang benar",
+            "soal": "Bila X = 3, Y = 2 dan Z = -1, instruksi berikut ini adalah salah kecuali :"
+        },
+        {
+            "id": "197",
+            "jawaban": "jika hanya jawaban 4 yang benar",
+            "soal": "Bila X = 3, Y = 2, Z = -1, instruksi berikut ini adalah benar, kecuali :"
+        },
+        {
+            "id": "198",
+            "jawaban": "10 A=5                          \n   20 PRINT A,                         \n   30 IF A=1 THEN END                  \n   40 IF INT(A/2)=A/2 THEN 70          \n   50 A=3*A+1                          \n   60 GOTO 20 \n   70 A=A/2\n   80 GOTO 20",
+            "soal": "Bilangan Ulam: 5   16   8   4   2   1"
+        },
+        {
+            "id": "199",
+            "jawaban": "Menggunakan tanda koma didalam string format",
+            "soal": "Cara untuk menampilkan suatu bilangan dengan pemisah ribuan adalah :"
+        },
+        {
+            "id": "200",
+            "jawaban": "DO UNTIL A>=10",
+            "soal": "CLS\nA=1\nDO WHILE A<10\n   ? A;\n   A = A + 1\nLOOP\nEND\nJika bentuk DO WHILE tersebut akan diubah menjadi DO UNTIL, maka perintahnya menjadi:"
+        },
+        {
+            "id": "201",
+            "jawaban": "DO & LOOP",
+            "soal": "CLS\nDO WHILE A<10\n   ? A;\n   A=A+1\nLOOP\nEND\nJika pengecekan dilakukan pada akhir looping, maka perintah yang harus diubah adalah:"
+        },
+        {
+            "id": "202",
+            "jawaban": "Indirect Mode",
+            "soal": "Dalam menjalankan program BASIC diman program disusun terlebih dahulu dalam bentuk instruksi yang disimpan didalam memory, kemudian program tersebut akan di proses setelah diberi instruksi RUN adalah merupakan:"
+        },
+        {
+            "id": "203",
+            "jawaban": "5 8",
+            "soal": "Dalam program BASICA :\n10 FOR 1 = 1 TO 3\n20 A = A+1 : B=A+1\n30 NEXT 1\n40 FOR J = 1 TO 2\n50 A = A + J : B = A + J\n60 PRINT B;\n70 NEXT J\nOutputnya adalah :"
+        },
+        {
+            "id": "204",
+            "jawaban": "KELUARAN = 0",
+            "soal": "Dalam program BASICA :\n10 FOR N = 1 TO 5 STEP 2\n20 M = M*N\n30 NEXT N\n40 PRINT \"KELUARAN =\" ; M\nHasilnya adalah :"
+        },
+        {
+            "id": "205",
+            "jawaban": "5 5 12 7 21 9 9",
+            "soal": "Dalam program Basica :\n10 For T=5 to 10 step 2\n20 X=X+T : Print X;T;\n30 Next T\n40 Print T\nRun\n\nHasilnya adalah :"
+        },
+        {
+            "id": "206",
+            "jawaban": "7500",
+            "soal": "Dalam program Basica sebagai berikut :\n100 INPUT JP\n110 IF JP<100000 THEN DISC=0\n120 IF JP<500000 THEN DISC=0.1*JP\n130 IF JP<10000000 THEN DISC=0.15*JP\n140 IF JP>10000000 THEN DISC=0.2*JP\n150 PRINT DISC\nJika variabel JP=50000 maka output dari variabel DIS"
+        },
+        {
+            "id": "207",
+            "jawaban": "HASIL = 0",
+            "soal": "Dalam program dituliskan :\n10  FOR A=1 TO 5 STEP 2\n20  X=X*A\n30  NEXT A\n40  PRINT \"HASIL = \";X\nOutputnya adalah :"
+        },
+        {
+            "id": "208",
+            "jawaban": "40,20,10,5,16,8,4,2,1",
+            "soal": "Dalam suatu barisan ulam diketahui bahwa apabila kita mengambil sembarang bilangan bulat positif, kalau bilangan tersebut genap, kita bagi dua, sedangkan apabila bilangan tersebut ganjil, kita kalikan dengan 3 lalu ditambah 1. Bila operasi tersebut dilaku"
+        },
+        {
+            "id": "209",
+            "jawaban": "0",
+            "soal": "Dari nilai T dari program di bawah ini :\n10 FOR I = 1 TO 8\n20 T = T * I\n30 NEXT I\n40 PRINT T\nRUN\nBerapakah nilai T :"
+        },
+        {
+            "id": "210",
+            "jawaban": "1  1  2  2",
+            "soal": "Dari program basic :\n10  FOR A=1 TO 2\n20  FOR B=1 TO 2\n30  PRINT A;\n40  NEXT B\n50  NEXT A\n\nOutputnya adalah :"
+        },
+        {
+            "id": "211",
+            "jawaban": "120",
+            "soal": "Dari program basic :\n10  FOR I=1 TO 5\n20  T=T*I\n30  NEXT I\n40  PRINT T\n\nOutputnya adalah :"
+        },
+        {
+            "id": "212",
+            "jawaban": "1 1 2 2",
+            "soal": "Dari program basica :\n10 for A = 1 to 2\n20 for B = 1 to 2\n30 Print A;\n40 Next B\n50 Next A\n\nYang tercetak adalah :"
+        },
+        {
+            "id": "213",
+            "jawaban": "10 N=-1\n   20 N=N+2\n   30 PRINT N;\" \";\n   40 IF N=9 THEN END\n   50 GOTO 20",
+            "soal": "Dari program dibawah ini manakah yang menghasilkan output deret \n1 3 5 7 9"
+        },
+        {
+            "id": "214",
+            "jawaban": "10  20  30              \n   40  50  60",
+            "soal": "Dari program dibawah ini, maka matriks yang terbentuk adalah :\n10 DIM A(2,3)\n20 FOR I = 1 TO 2\n30 FOR J = 1 TO 3\n40 READ A(I,J)\n50 PRINT A(I,J)\n60 NEXT J\n70 NEXT I\n80 DATA 10,20,30,40,50,60\n90 END"
+        },
+        {
+            "id": "215",
+            "jawaban": "GOTO 30",
+            "soal": "Dari program dibawah ini, nomor baris 60 harusnya berisi perintah :\n10 CLS\n20 DATA 3,5,7,9,99\n30 READ x\n40 IF x = 90 THEN....\n50 PRINT x ;\n60.....\n70 END"
+        },
+        {
+            "id": "216",
+            "jawaban": "3   7",
+            "soal": "DATA 1,2,3,4,5,6,7,8\nDIM A(2,2),B(2,2),C(3,3)\nFOR I = 1 TO N\n    FOR J = 1 TO M\n        READ A(I,J)\n        REDA B(I,J)\n    NEXT J\nNEXT I\nFOR I=1 TO N\n    FOR J=1 TO M\n        C(I,J)=A(I,J)+B(I,J)\n    NEXT J\nNEXT I\nEND\nIsis matrik C adalah:"
+        },
+        {
+            "id": "217",
+            "jawaban": "tetap sama",
+            "soal": "DATA 1,2,3,4,5,6,7,8\nDIM A(2,2),B(2,2),C(3,3)\nFOR I=1 TO N\n    FOR J=1 TO M\n        READ A(I,J)\n        READ B(I,J)\n    NEXT J\nNEXT I\nFOR I=1 TO N\n    FOR J=1 TO M\n         C(I,J)=A(I,J)+B(I,J)\n    NEXT J\nNEXT I\nEND\nJika data yang terdapat adalah 1,2,3,4,"
+        },
+        {
+            "id": "218",
+            "jawaban": "1 3",
+            "soal": "DATA 1,2,3,4,5,6,7,8\nDIM A(2,2),B(2,2),C(3,3)\nFOR I=1 TO N\n    FOR J=1 TO M\n        READ A(I,J)\n        READ B(I,J)\n    NEXT J\nNEXT I\nFOR I=1 TO N\n    FOR J=1 TO M\n        C(I,J)=A(I,J)+B(I,J)\n    NEXT J\nNEXT I\nEND\nIsi matrik A adalah:"
+        },
+        {
+            "id": "219",
+            "jawaban": "2 4",
+            "soal": "DATA 1,2,3,4,5,6,7,8\nDIM A(2,2),B(2,2),C(3,3)\nFOR I=1 TO N\n    FOR J=1 TO M\n        READ A(I,J)\n        READ B(I,J)\n    NEXT J\nNEXT I\nFOR I=1 TO N\n    FOR J=1 TO M\n        C(I,J)=A(I,J)+B(I,J)\n    NEXT J\nNEXT I\nEND\nIsi matrik B adalah:"
+        },
+        {
+            "id": "220",
+            "jawaban": "Penjumlahan matrik",
+            "soal": "DATA 1,2,3,4,5,6,7,8\nDIM A(2,2),B(2,2),C(3,3)\nFOR I=1 TO N\n    FOR J=1 TO M\n       READ A(I,J)\n       READ B(I,J)\n    NEXT J\nNEXT I\nFOR I=1 TO N\n    FOR J=1 TO M\n        C(I,J)=A(I,J)+B(I,J)\n    NEXT J\nNEXT I\nEND\nProgram diatas adalah untuk:"
+        },
+        {
+            "id": "221",
+            "jawaban": "Penulisan algoritma dengan menggunakan bagan-bagan / simbol-simbol\n   tertentu",
+            "soal": "Diagram alur (flowchart) adalah:"
+        },
+        {
+            "id": "222",
+            "jawaban": "10 A=53\n   20 B$=\"38\"\n   30 C$=A+B$\n   40 PRINT C$",
+            "soal": "Diantara program BASIC di bawah ini manakah yang salah :"
+        },
+        {
+            "id": "223",
+            "jawaban": "2,4,8,...",
+            "soal": "Dibawah ini adalah susunan sebuah algoritma:"
+        },
+        {
+            "id": "224",
+            "jawaban": "1 2 3 4",
+            "soal": "Dibawah ini sebuah susunan langkah-langkah algoritma :"
+        },
+        {
+            "id": "225",
+            "jawaban": "Read hanya membaca data yang ada dipemrograman sedangkan input\n   datanya bisa dirubah-ubah oleh programer",
+            "soal": "Dibawah ini yang merupakan perbedaan antara penggunaan statement read dan input adalah :"
+        },
+        {
+            "id": "226",
+            "jawaban": "%,&,!,#,$",
+            "soal": "Dibawah ini yang termasuk tanda khusus untuk penentuan jenis variabel dalam Qbasic adalah :"
+        },
+        {
+            "id": "227",
+            "jawaban": "17",
+            "soal": "Diberikan penggalan program berikut :\n    10 DEF FNB(X)=X^2+2*X+2\n    20 PRINT FNB(3)\n    30 END\nHasil program adalah :"
+        },
+        {
+            "id": "228",
+            "jawaban": "0",
+            "soal": "Diberikan penggalan program berikut :\n10  CLS\n20  A=A+1\n30  A=B+C\n40  PRINT A\n50  END\nJika program di atas dijalankan, maka hasilnya :"
+        },
+        {
+            "id": "229",
+            "jawaban": "c=A+B",
+            "soal": "Diberikan program berikut :\n10  A=5\n20  B=15\n30  C=A+B\n40  PRINT \"C=A+B\"\n50  END\n\nOutputnya adalah :"
+        },
+        {
+            "id": "230",
+            "jawaban": "33.5",
+            "soal": "Diberikan program berikut :\n10  JUD$=\"BASICA.DASAR\"\n20  TB=(79-LEN(JUD$))/2\n30  PRINT TB\n40  END\n\nOutputnya adalah :"
+        },
+        {
+            "id": "231",
+            "jawaban": "RATA",
+            "soal": "Diberikan program dibawah ini:\n100 NILAI1 = 50\n200 NILAI2 = 75\n300 RATA=(NILAI1=NILAI2)/2\n400 PRINT\"RATA\"\n500 END\nOutputnya ...."
+        },
+        {
+            "id": "232",
+            "jawaban": "5 5 12 7 21 9 11",
+            "soal": "Diberikan program sebagai berikut, maka outputnya adalah ....\n10 for t = 5 to 10 step 2\n20 x = x + t\n30 print x;t;\n40 next t\n50 print t\n60 end\nHasil output dari program tersebut di atas adalah :"
+        },
+        {
+            "id": "233",
+            "jawaban": "P",
+            "soal": "Diberikan program sederhana berikut :\nCLS\nLET judul1$=\"Pemrograman\"\nPRINT USING\"!\";judul1$\nEND\nHasil program diatas adalah :"
+        },
+        {
+            "id": "234",
+            "jawaban": "Variabel b berjenis integer",
+            "soal": "Diberikan suatu pernyataan berikut:\nDEF FNpangkat (a AS SINGLE, b AS SINGLE) = a^b\nMaka pernyataan berikut yang benar adalah:"
+        },
+        {
+            "id": "235",
+            "jawaban": "LEFT$(MID$(A$,5,15)+MID$(B$,12,10),6)",
+            "soal": "Diketahui : A$=\"Temaramnya Sinar Rembulan\"\n            B$=\"Mengusir kabut kelabu dihati\"\nMaka, perintah : MID$(MID$(A$,5,15)+MID$(B$,12,10),1,6) hasilnya akan sama dengan :"
+        },
+        {
+            "id": "236",
+            "jawaban": "5\n   3               5               5               1",
+            "soal": "Diketahui program :\n10 Data 3,5,7\n20 Read X,A,B\n30 Print A\n40 Print A+B\n50 End\n\nHasilnya adalah :"
+        },
+        {
+            "id": "237",
+            "jawaban": "444",
+            "soal": "Diketahui program sebagai berikut :\n    10  A = 15 : B# = 25000\n    20  X% = CINT(B#) + CINT(A)\n    30  PRINT X%\n\nJika program dijalankan maka hasilnya adalah :"
+        },
+        {
+            "id": "238",
+            "jawaban": "B",
+            "soal": "Diketahui program sebagai berikut :\n10 Data 2,6\n20 Read A,B\n30 Print \"B\"\n40 Print \"ASRI\"\n50 Print A\n60 End\n\nHasilnya adalah :"
+        },
+        {
+            "id": "239",
+            "jawaban": "10 A$=\"No one can buy my principle\" : A=LEN(A$)\n    20 FOR I=1 TO A\n    30 IF MID$(A$,I,1)=\" \" THEN X=X+1\n    40 NEXT I : PRINT X",
+            "soal": "Diketahui suatu string \"No one can buy my principle\". Program untuk menghitung banyaknya balnk pada kalimat itu adalah :"
+        },
+        {
+            "id": "240",
+            "jawaban": "Nomor mempunyai 6 elemen dimana masing-masing elemen berjenis\n   integer",
+            "soal": "DIM nomor(5) AS INTEGER dalam qbasic berarti :"
+        },
+        {
+            "id": "241",
+            "jawaban": "LOCATE",
+            "soal": "Fungsi yang digunakan utnuk menggerakan posisi kursor ke suatu posisi tertentu disebut:"
+        },
+        {
+            "id": "242",
+            "jawaban": "Untuk memperoleh nilai numeris dari string",
+            "soal": "Guna dari perintah VAL(X$) adalah :"
+        },
+        {
+            "id": "243",
+            "jawaban": "30 IF N<5 THEN 60\n   60 LET B = 600 * N              60 LET B = 700 * N",
+            "soal": "Harga 1 Kg jeruk untuk pembelian 5 Kg atau lebih adalah Rp 600 dan kurang dari 5 KG adalah Rp 700. Jika hendak membuat program untuk menentukan besarnya pembayaran, lengkapilah baris 30 dan 60 :\n10 Data ....\n20 READ N\n30 ..........\n40 LET B = 600 * N\n50 G"
+        },
+        {
+            "id": "244",
+            "jawaban": "Program berulang tanpa henti",
+            "soal": "Hasil dari penggalan program berikut adalah :\nFor I=0 to 5 step 0\n    Print I\nNext I"
+        },
+        {
+            "id": "245",
+            "jawaban": "lapis legit",
+            "soal": "Hasil dari pengolahan program berikut adalah :\nPrint \"lapis\"\nPrint \"legit\""
+        },
+        {
+            "id": "246",
+            "jawaban": "2",
+            "soal": "Hasil dari perintah : print 30 mod 7 adalah :"
+        },
+        {
+            "id": "247",
+            "jawaban": "AL",
+            "soal": "Hasil dari program adalah :\n10  LET A$=\"SALIMAN\"\n20  LET B$=MID$(A$,2,2)\n30  PRINT B$\n40  END"
+        },
+        {
+            "id": "248",
+            "jawaban": "Input sebuah bilangan ?-5      \n   Kuadratnya adalah  : -5",
+            "soal": "Hasil dari program berikut adalah ....\n10  PRINT \"Input sebuah bilangan\"\n20  INPUT N\n30  PRINT \"Kuadratnya adalah : \";N\n40  END"
+        },
+        {
+            "id": "249",
+            "jawaban": "BILANGAN     KUADRATNYA         \n    2            4\n    3            9\n    4            16",
+            "soal": "Hasil dari program berikut adalah :\n10  \"BILANGAN\",\"KUADRATNYA\"\n20  FOR P=2 TO 4\n30  PRINT P,P*P\n40  NEXT P\n50  END"
+        },
+        {
+            "id": "250",
+            "jawaban": "A = 1                   \n   B = 6                        \n   A * B = 6",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 1,6\n20  READ A,B\n30  PRINT \"A = \"; A\n40  PRINT \"B = \"; B\n45  LET C = A * B\n50  PRINT \"A * B =\"; C\n60  END\nRUN"
+        },
+        {
+            "id": "251",
+            "jawaban": "10 Celcius = 8 Reamur",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 10\n20  READ C\n25  LET R = 0.8 * C\n30  PRINT C;\" Celcius = \";R;\" Reamur\"\n40  END"
+        },
+        {
+            "id": "252",
+            "jawaban": "6 \n     0",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 16,4\n20  READ A,B\n30  LET C=(B-B)/2\n40  PRINT C\n45  PRINT B\n50  END\nRUN"
+        },
+        {
+            "id": "253",
+            "jawaban": "2SAMA DENGAN 2",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 2,5\n20  READ A,B\n25  PRINT A;\n30  LET C=A+1\n35  LET B=B-C\n40  PRINT \"SAMA DENGAN\"; B\n50  END\nRUN"
+        },
+        {
+            "id": "254",
+            "jawaban": "3kuadrat= 9",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 3\n20  READ A\n30  LET B = A * A\n40  PRINT A;\"kuadrat= \";B\n50  END"
+        },
+        {
+            "id": "255",
+            "jawaban": "3000 Meter = 3 Kilometer",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 3\n20  READ K\n30  LET M = K*1000\n40  PRINT M;\" Meter = \";K;\" Kilometer\"\n50  END"
+        },
+        {
+            "id": "256",
+            "jawaban": "9",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 4,7,9\n20  FOR K=1 TO 3\n30  READ A(K)\n40  NEXT K\n50  PRINT A(K)\n60  END\nRUN"
+        },
+        {
+            "id": "257",
+            "jawaban": "479",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 4,7,9\n20  FOR K=1 TO 3\n30  READ A(K)\n40  PRINT A(K)\n50  NEXT K\n60  END\nRUN"
+        },
+        {
+            "id": "258",
+            "jawaban": "41 Farenheit sama dengan 5 Celcius",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 41\n20  READ F\n25  LET C = (F-32) * 5/9\n30  PRINT F;\" Farenheit sama dengan \";C;\" Celcius\"\n40  END"
+        },
+        {
+            "id": "259",
+            "jawaban": "15",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 5,4,3,2,1 \n20  LET S=0\n30  FOR U=1 TO 5\n40  READ T\n50  LET S=S+T\n60  NEXT U\n70  PRINT S\n80  END"
+        },
+        {
+            "id": "260",
+            "jawaban": "Salah semua",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 5,8\n20  READ A,B\n30  LET A=A/1\n40  LET C=A*B\n45  PRINT A\n50  PRINT B\n55  PRINT C\n60  END\nRUN"
+        },
+        {
+            "id": "261",
+            "jawaban": "Salah semua",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 5,9\n20  READ A,B\n30  LET A=A+1\n40  PRINT A\n45  LET A=A+1\n50  LET A=A+B\n55  PRINT A\n60  END\nRUN"
+        },
+        {
+            "id": "262",
+            "jawaban": "5                     \n    TIDAK SAMA 9",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 5,9\n20  READ A,B\n30  PRINT A\n35  PRINT \"TIDAK SAMA \";B\n40  END\nRUN"
+        },
+        {
+            "id": "263",
+            "jawaban": "8                \t\t   \n   8                             \n   8",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 8,6\n20  READ A,B\n25  PRINT A\n30  LET B=A\n35  PRINT A\n40  PRINT B\n50  END\nRUN"
+        },
+        {
+            "id": "264",
+            "jawaban": "NILAI 65 LULUS",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 80,50\n20  READ N1,N2\n30  LET A = (N1 + N2)/2\n40  IF A>55 THEN 70\n50  PRINT \"NILAI \";A;\" GAGAL\"\n60  GOTO 80\n70  PRINT \"NILAI \";A;\" LULUS\"\n80  END"
+        },
+        {
+            "id": "265",
+            "jawaban": "9lebih besar dari4",
+            "soal": "Hasil dari program berikut adalah :\n10  DATA 9,4\n20  READ A,B\n30  IF A>B THEN 60\n40  PRINT B;\"lebih besar dari\";A\n50  GOTO 70\n60  PRINT A;\"lebih besar dari\";B\n70  END"
+        },
+        {
+            "id": "266",
+            "jawaban": "1\n          2\n         3\n        4\n       5",
+            "soal": "Hasil dari program berikut adalah :\n10  FOR I = 1 TO 5\n20  X$ = SPACE$(6-I)\n30  PRINT X$,I\n40  NEXT I\n50  END"
+        },
+        {
+            "id": "267",
+            "jawaban": "1                          \n     2                              \n      3                           \n       4                        \n        5",
+            "soal": "Hasil dari program berikut adalah :\n10  FOR I=1 TO 5\n20  X$=SPACE$(I)\n30  PRINT X$,I\n40  NEXT I\n50  END"
+        },
+        {
+            "id": "268",
+            "jawaban": "1 KUADRAT SAMA DENGAN 1        \n   2 KUADRAT SAMA DENGAN 4          \n   3 KUADRAT SAMA DENGAN 9",
+            "soal": "Hasil dari program berikut adalah :\n10  FOR K=1 TO 3\n20  PRINT K;\" KUADRAT SAMA DENGAN \";K*K\n30  NEXT K\n40  END"
+        },
+        {
+            "id": "269",
+            "jawaban": "125249381",
+            "soal": "Hasil dari program berikut adalah :\n10  FOR K=1 TO 3\n20  READ X\n30  GOSUB 60\n40  NEXT K\n50  STOP\n60  PRINT K;X*X;\n70  RETURN\n80  DATA 5,7,9\n90  END"
+        },
+        {
+            "id": "270",
+            "jawaban": "SETYO                 \n   SUPARJO                   \n   SYAHLAN",
+            "soal": "Hasil dari program berikut adalah :\n10  FOR K=1 TO 8\n20  READ N$\n30  IF LEFT$(N$,1) <> \"S\" THEN 50\n40  PRINT N$\n50  NEXT K\n60  DATA SETYO,BEJO,SUPARJO,SYAHLAN,TRIMAN\n70  END"
+        },
+        {
+            "id": "271",
+            "jawaban": "SETYO\n    BEJO\n    SUPARJO",
+            "soal": "Hasil dari program berikut adalah :\n10  FOR K=1 TO 8\n20  READ N$\n30  IF RIGHT (N$,1) <> \"O\" THEN 50\n40  PRINT N$\n50  NEXT T\n60  DATA SETYO,BEJO,SUPARJO,SYAHLAN,TRIMAN\n70  END"
+        },
+        {
+            "id": "272",
+            "jawaban": "1 KUADRAT SAMA DENGAN 1   \n    2 KUADRAT SAMA DENGAN 4         \n    3 KUADRAT SAMA DENGAN 9\n    4 KUADRAT SAMA DENGAN 16\n    5 KUADART SAMA DENGAN 25\n    6 KUADRAT SAMA DENGAN 36\n    7 KUADRAT SAMA DENGAN 49\n    8 KUADRAT SAMA DENGAN 64\n    9 KUADRAT SA",
+            "soal": "Hasil dari program berikut adalah :\n10  FOR K=1 TO 9\n20  PRINT K; \"KUADRAT SAMA DENGAN \";K*K\n30  NEXT K\n40  END"
+        },
+        {
+            "id": "273",
+            "jawaban": "9\n    16\n    25\n    36",
+            "soal": "Hasil dari program berikut adalah :\n10  FOR N=3 TO 6\n20  PRINT N*N\n30  NEXT N\n40  END"
+        },
+        {
+            "id": "274",
+            "jawaban": "*     *                         \n     *   *                               \n      * *                                 \n       *                                   \n      * *                                   \n     *   *",
+            "soal": "Hasil dari program berikut adalah :\n10  FOR X = 1 TO 7\n20  IF X = 4 THEN 50\n30  PRINT TAB(X); \"*\"; TAB(8-X);  \"*\"\n40  GO TO 60\n50  PRINT TAB(4); \"*\"\n60  NEXT X\n70 END"
+        },
+        {
+            "id": "275",
+            "jawaban": "1 X 1 = 1\n   2 X 1 = 1\n   3 X 1 = 3\n   4 X 1 = 4\n   5 X 1 = 5",
+            "soal": "Hasil dari program berikut adalah :\n10  FOR X=1 TO 5\n20  PRINT X; \"X 1= \";X * 1 \n30  NEXT X\n40  END"
+        },
+        {
+            "id": "276",
+            "jawaban": "*          *                   \n     *       *           \n       *   *        \n         *               \n       *   *         \n     *       *            \n   *           *",
+            "soal": "Hasil dari program berikut adalah :\n10  FOR X=1 TO 7\n20  IF X=4 THEN 50\n30  PRINT TAB(X); \"*\"; TAB (8-X); \"*\"\n40  GOTO 60\n50  PRINT TAB(4);\"*\"\n60  NEXT X\n70  END"
+        },
+        {
+            "id": "277",
+            "jawaban": "3579",
+            "soal": "Hasil dari program berikut adalah :\n10  FOR X=3 TO 9  STEP 2\n20  PRINT X;\n30  NEXT X\n40  END\nRUN"
+        },
+        {
+            "id": "278",
+            "jawaban": "11.522.5",
+            "soal": "Hasil dari program berikut adalah :\n10  FOR Y=1 TO 3 STEP .5\n20  PRINT Y;\n30  NEXT Y\n40  END\nRUN"
+        },
+        {
+            "id": "279",
+            "jawaban": "1712.5\n   29.5",
+            "soal": "Hasil dari program berikut adalah :\n10  LET A$=\"12.5\"\n20  LET B$=\"17\"\n30  LET C$=B$+A$\n40  PRINT C$\n50  LET D=VAL(B$)+VAL(A$)\n60  PRINT D\n70  END"
+        },
+        {
+            "id": "280",
+            "jawaban": "1513.5 \n   25.5",
+            "soal": "Hasil dari program berikut adalah :\n10  LET A$=\"13.5\"\n20  LET B$=\"15\"\n30  LET C$=B$+A$\n40  PRINT C$\n50  LET D=VAL(B$)+VAL(A$)\n60  PRINT D\n70  END"
+        },
+        {
+            "id": "281",
+            "jawaban": "AGUS",
+            "soal": "Hasil dari program berikut adalah :\n10  LET A$=\"AGUSTUS\"\n20  LET B$=LEFT$(A$,4)\n30  PRINT B$\n40  END"
+        },
+        {
+            "id": "282",
+            "jawaban": "ST",
+            "soal": "Hasil dari program berikut adalah :\n10  LET A$=\"AGUSTUS\"\n20  LET B$=RIGHT$(LEFT$(A$,5),2)\n30  PRINT B$\n40  END"
+        },
+        {
+            "id": "283",
+            "jawaban": "A",
+            "soal": "Hasil dari program berikut adalah :\n10  LET A$=\"DASAMUKA\"\n20  LET B$=SUBSTR(A$,4,1)\n30  PRINT B$\n40  END"
+        },
+        {
+            "id": "284",
+            "jawaban": "AMUK",
+            "soal": "Hasil dari program berikut adalah :\n10  LET A$=\"DASAMUKA\"\n20  LET B$=SUBSTR(A$,4,4)\n30  PRINT B$\n40  END"
+        },
+        {
+            "id": "285",
+            "jawaban": "EMBER",
+            "soal": "Hasil dari program berikut adalah :\n10  LET A$=\"DESEMBER\"\n20  LET B$=RIGHT(A$,5)\n30  PRINT B$\n40  END"
+        },
+        {
+            "id": "286",
+            "jawaban": "ENBERDESEMBER",
+            "soal": "Hasil dari program berikut adalah :\n10  LET A$=\"DESEMBER\"\n20  LET B$=RIGHT(A$,5)\n30  PRINT B$+A$\n40  END"
+        },
+        {
+            "id": "287",
+            "jawaban": "14",
+            "soal": "Hasil dari program berikut adalah :\n10  LET A$=\"KOMPUTER BASIC\"\n20  LET B=LEN(A$)\n30  PRINT B\n40  END"
+        },
+        {
+            "id": "288",
+            "jawaban": "3",
+            "soal": "Hasil dari program berikut adalah :\n10  LET A$=\"KOMPUTER BASIC\"\n20  LET B=LEN(LEFT$(A$,3))\n30  PRINT B\n40  END"
+        },
+        {
+            "id": "289",
+            "jawaban": "RATNA              \n    RATNA MUTU\n    RATNA MUTU MANIKAM",
+            "soal": "Hasil dari program berikut adalah :\n10  LET A$=\"RATNA\"\n20  LET B$=\"MUTU\"\n30  LET C$=\"MANIKAM\"\n40  PRINT A$\n50  LET D$=A$+B$\n60  PRINT D$\n70  LET E$=D$+C$\n80  PRINT E$\n90  END"
+        },
+        {
+            "id": "290",
+            "jawaban": "ALIM",
+            "soal": "Hasil dari program berikut adalah :\n10  LET A$=\"SALIMAN\"\n20  LET B$= MID$(A$,2,4)\n30  PRINT B$\n40  END"
+        },
+        {
+            "id": "291",
+            "jawaban": "4 HURUF A PADA KATA UNIVERSITAS GUNADARMA",
+            "soal": "Hasil dari program berikut adalah :\n10  LET A$=\"UNIVERSITAS GUNADARMA\"\n20  LET C=0\n30  FOR K=1 TO LEN (A$)\n40  IF MID$(A$,K,1) <> \"A\" THEN 60\n50  LET C=C+1\n60  NEXT K\n70  PRINT C;\"HURUF A PADA KATA\";A$\n80  END"
+        },
+        {
+            "id": "292",
+            "jawaban": "2 HURUF A PADA KATA UNIVERSITAS GUNADARMA",
+            "soal": "Hasil dari program berikut adalah :\n10  LET A$=\"UNIVERSITAS GUNADARMA\"\n20  LET C=O\n30  FOR K=1 TO LEN(A$)\n40  IF MID$(A$,K,1) <> \"I\" THEN 60\n50  LET C=C+1\n60  NEXT K\n70  PRINT C;\" HURUF I PADA KATA \"; A$\n80  END"
+        },
+        {
+            "id": "293",
+            "jawaban": "12345",
+            "soal": "Hasil dari program berikut adalah :\n10  LET S = 0\n20  LET S = S + 1       Hasilnya :  1\n30  PRINT S ;                       2\n40  IF S < 5 THEN 20                3 \n50  END                             4\nRUN                                 5"
+        },
+        {
+            "id": "294",
+            "jawaban": "5054",
+            "soal": "Hasil dari program berikut adalah :\n10  LET S=4\n20  FOR T=1 TO 100\n30  LET S=S+T\n40  NEXT T\n50  PRINT S\n60  END"
+        },
+        {
+            "id": "295",
+            "jawaban": "BASIC \n       HABIS",
+            "soal": "Hasil dari program berikut adalah :\n10  LET X = 0\n20  LET X = X + 2\n30  PRINT \" BASIC\"\n40  IF X < 4 THEN 20\n50  PRINT \"HABIS\"\n60  END"
+        },
+        {
+            "id": "296",
+            "jawaban": "2.98",
+            "soal": "Hasil dari program berikut adalah :\n10  LET X=2.98\n20  LET A=INT(X)    Hasilnya : 4.71\n30  PRINT X                    4\n40  PRINT A\n50  END"
+        },
+        {
+            "id": "297",
+            "jawaban": "4.71\n   4",
+            "soal": "Hasil dari program berikut adalah :\n10  LET X=4.71\n20  LET A=INT(X) Hasilnya : 4.71\n30  PRINT X\n40  PRINT A\n50  END"
+        },
+        {
+            "id": "298",
+            "jawaban": "Input sebuah bilangan ?-5       \n   Kuadratnya adalah : 25",
+            "soal": "Hasil dari program berikut adalah :\n10  PRINT \"Input sebuah bilangan\"\n20  INPUT N\n30  PRINT \"Kuadratnya adalah : \";N*N\n40  END"
+        },
+        {
+            "id": "299",
+            "jawaban": "JARAKNYA        SEPULUH        \n    JARAKNYA    LIMA",
+            "soal": "Hasil dari program berikut adalah :\n10  PRINT \"JARAKNYA\"SPC(10)\"SEPULUH\"\n20  PRINT \"JARAKNYA\"SPC(5)\"LIMA\"\n30  END"
+        },
+        {
+            "id": "300",
+            "jawaban": "JARAKNYA   DELAPAN    \n    JARAKNYA   TIGA",
+            "soal": "Hasil dari program berikut adalah :\n10  PRINT \"JARAKNYA\"SPC(8)\"DELAPAN\"\n20  PRINT \"JARAKNYA\"SPC(3)\"TIGA\"\n30  END"
+        },
+        {
+            "id": "301",
+            "jawaban": "MAHASISWA DENGAN NILAI A       \n    SASTRO                             \n    GEORGE                            \n    BAGUS",
+            "soal": "Hasil dari program berikut adalah :\n10  PRINT \"MAHASISWA DENGAN NILAI A\"\n30  READ M$,N$\n40  IF M$=\"TUYUL\" THEN 120\n50  IF N$=\"A\" THEN 70\n60  GOTO 30\n70  PRINT M$\n80  GOTO 30\n90  DATA SASTRO,A,BEJO,C,PARTO,D\n100 DATA JOKO,B,GEORGE,A,BAGUS,A\n110 DATA ANDRY,"
+        },
+        {
+            "id": "302",
+            "jawaban": "NAMA DOSEN      MATERI          \n    HADI            COBOL\n    PARTO           PASCAL\n    TEJO            FORTRAN",
+            "soal": "Hasil dari program berikut adalah :\n10  PRINT \"NAMA DOSEN\",\"MATERI\"\n20  READ N$,M$\n30  IF N$=\"XX\" THEN 90\n40  PRINT N$,M$\n50  GOTO 20\n60  DATA \"HADI\",\"COBOL\",\"PARTO\",\"PASCAL\"\n70  DATA \"YUDI\",\"BASIC\",\"TEJO\",\"FORTRAN\"\n80  DATA \"XX\",\"ZZ\"\n90  END"
+        },
+        {
+            "id": "303",
+            "jawaban": "11                     \n          222222                      \n       333333333333",
+            "soal": "Hasil dari program berikut adalah :\n10  PRINT TAB(4); \"11\"\n20  PRINT TAB(2); \"222222\"\n30  PRINT \"333333333333\"\n40  END"
+        },
+        {
+            "id": "304",
+            "jawaban": "NO                        \n      PARKING             \n    AT ANY TIME",
+            "soal": "Hasil dari program berikut adalah :\n10  PRINT TAB(4);\"NO\"\n20  PRINT TAB(2);\"PARKING\"\n30  PRINT \"AT ANY TIME\"\n40  END"
+        },
+        {
+            "id": "305",
+            "jawaban": "PEGAWAI NOMOR 1 UPAH 24000 RUPIAH\n    PEGAWAI NOMOR 2 UPAH 18000 RUPIAH\n    PEGAWAI NOMOR 3 UPAH 36400 RUPIAH",
+            "soal": "Hasil dari program berikut adalah :\n10  READ N,H,R\n20  IF N = 9999 THEN 80\n30  LET W = H * R\n40  PRINT \"PEGAWAI NOMER \"; N;\" UPAH \"; W;\" RUPIAH\"\n50  GO TO 20\n60  DATA 1,40,600,2,36,500\n70  DATA 3,52,700,9999,0,0\n80  END"
+        },
+        {
+            "id": "306",
+            "jawaban": "4    4\n     5    5\n          6",
+            "soal": "Hasil dari program berikut adalah :\n10  READ X,Y\n20  PRINT X;Y\n25  RESTORE\n30  READ A,B,C\n40  PRINT A;B;C\n50  DATA 4,5,6,7\n60  END"
+        },
+        {
+            "id": "307",
+            "jawaban": "4",
+            "soal": "Hasil dari program berikut adalah :\n10 LET X=16\n20  LET A=SQR(X)\n30  PRINT A\n40  END"
+        },
+        {
+            "id": "308",
+            "jawaban": "ARMAN DONNY RIC",
+            "soal": "Hasil dari program berikut adalah :\nDIM Nama AS STRING * 15\nCLS\nNama = \"ARMAN DONNY RICARDO\"\nPRINT Nama\nEND"
+        },
+        {
+            "id": "309",
+            "jawaban": "5kuadrat= 25",
+            "soal": "Hasil dari program berikut adalah\n10 DATA 5\n20 READ A\n30 LET B = A*A\n40 PRINT A;\"kuadrat=  \"; B\n50 END"
+        },
+        {
+            "id": "310",
+            "jawaban": "6              4",
+            "soal": "Hasil dari program berikut adalah:"
+        },
+        {
+            "id": "311",
+            "jawaban": "117",
+            "soal": "Hasil dari program berikut adalah:\n10 DATA 13,18,23,16,47\n20 LET S = 0\n30 FOR U = 1 TO 5\n40 READ T\n50 LET S = S + T\n60 NEXT U\n70 PRINT S\n80 END"
+        },
+        {
+            "id": "312",
+            "jawaban": "15000 Meter = 15 Kilometer",
+            "soal": "Hasil dari program berikut adalah:\n10 DATA 15\n20 READ K\n30 LET M = K * 1000\n40 PRINT M;\"  Meter = \"; K; \"    Kilometer\"\n50 END"
+        },
+        {
+            "id": "313",
+            "jawaban": "2                          \n   SAMA DENGAN 2",
+            "soal": "Hasil dari program berikut adalah:\n10 DATA 2, 5\n20 READ A,B\n25 PRINT A\n30 LET C = A+1\n35 LET B = B-C\n40 PRINT \"SAMA DENGAN\"; B\n50 END\nRUN"
+        },
+        {
+            "id": "314",
+            "jawaban": "A = 4                \n     B = 5                      \n     A * B = 20",
+            "soal": "Hasil dari program berikut adalah:\n10 DATA 4,5\n20 READ A,B\n30 PRINT \"A = \"; A\n40 PRINT \"B = \";B\n45 LET C = A * B\n50 PRINT \"A *  B = \"; C\n60 END\nRUN"
+        },
+        {
+            "id": "315",
+            "jawaban": "4                               \n   TIDAK SAMA 7",
+            "soal": "Hasil dari program berikut adalah:\n10 DATA 4,7\n20 READ A,B\n30 PRINT A\n35 PRINT\"TIDAK SAMA\"; B\n40 END\nRUN"
+        },
+        {
+            "id": "316",
+            "jawaban": "4",
+            "soal": "Hasil dari program berikut adalah:\n10 DATA 4,7,9\n20 FOR K = 1 TO 3\n30 READ A(K)\n40 PRINT A(K)\n50 NEXT K\n60 END\nRUN"
+        },
+        {
+            "id": "317",
+            "jawaban": "Salah semua",
+            "soal": "Hasil dari program berikut adalah:\n10 DATA 4,9\n20 READ A,B\n30 LET A = A+1\n40 PRINT A\n45 LET A = A+1\n50 LET A = A+B\n60 END\nRUN"
+        },
+        {
+            "id": "318",
+            "jawaban": "5 Celcius = 4 Reamur",
+            "soal": "Hasil dari program berikut adalah:\n10 DATA 5\n20 READ C\n25 LET R = 0.8 * C\n30 PRINT C; \"Celcius = \"; R; \"  Reamur\" \n40 END"
+        },
+        {
+            "id": "319",
+            "jawaban": "4                          \n   8\n   32",
+            "soal": "Hasil dari program berikut adalah:\n10 DATA 5,8\n20 READ A,B\n30 LET A = A-1\n40 LET C = A*B\n45 PRINT A\n50 PRINT B\n55 PRINT C\n60 END\nRUN"
+        },
+        {
+            "id": "320",
+            "jawaban": "9lebih besar dari 5",
+            "soal": "Hasil dari program berikut adalah:\n10 DATA 5,9\n20 READ A,B\n30 IF A > B THEN 60\n40 PRINT B; \"lebih besar dari\";A\n50 GO TO 70\n60 PRINT A; \"lebih besar dari\";B\n70 END"
+        },
+        {
+            "id": "321",
+            "jawaban": "59 Faranheit sama dengan 15 Celcius",
+            "soal": "Hasil dari program berikut adalah:\n10 DATA 59\n20 READ F\n25 LET C = (F - 32) * 5/9\n30 PRINT F; \" Farenheit sama dengan \"; C;\"   Celcius\"\n40 END"
+        },
+        {
+            "id": "322",
+            "jawaban": "8\n     6\n     6",
+            "soal": "Hasil dari program berikut adalah:\n10 DATA 8,6\n20 READ A,B\n25 PRINT A\n30 LET A = B\n35 PRINT A\n40 PRINT B\n50 END\nRUN"
+        },
+        {
+            "id": "323",
+            "jawaban": "1                     \n   4\n   9\n   16 \n   25",
+            "soal": "Hasil dari program berikut adalah:\n10 FOR N = 1 TO 5\n20 PRINT N*N\n30 NEXT N\n40 END"
+        },
+        {
+            "id": "324",
+            "jawaban": "13579",
+            "soal": "Hasil dari program berikut adalah:\n10 FOR X = 1 TO 9 STEP 2\n20 PRINT X;\n30 NEXT X\n40 END\nRUN"
+        },
+        {
+            "id": "325",
+            "jawaban": "1\n    1.5\n    2\n    2.5\n    3",
+            "soal": "Hasil dari program berikut adalah:\n10 FOR Y = 1 TO 3 STEP .5\n20 PRINT Y\n30 NEXT Y\n40 END\nRUN"
+        },
+        {
+            "id": "326",
+            "jawaban": "5050",
+            "soal": "Hasil dari program berikut adalah:\n10 LET S = 0\n20 FOR T = 1 TO 100\n30 LET S = S + T\n40 NEXT T\n50 PRINT S\n60 END"
+        },
+        {
+            "id": "327",
+            "jawaban": "1                           \n    2                                   \n    3                                   \n    4                                      \n    5",
+            "soal": "Hasil dari program berikut adalah:\n10 LET S = 0\n20 LET S = S + 1\n30 PRINT S\n40 IF S < 5 THEN 20\n50 END\nRUN"
+        },
+        {
+            "id": "328",
+            "jawaban": "BASIC       B. BASIC       C. BASIC       D. BASIC \n   BASIC           BASIC           BASIC           BASIC\n   BASIC           BASIC           BASIC           BASIC\n   BASIC           BASIC           HABIS           HABIS\n   HABIS           BASIC",
+            "soal": "Hasil dari program berikut adalah:\n10 LET X = 0\n20 LET X = X + 1\n30 PRINT \"BASIC\"\n40 IF X < 4 THEN 20\n50 PRINT \"HABIS\"\n60 END"
+        },
+        {
+            "id": "329",
+            "jawaban": "BILANGAN     KUADRATNYA    \n   1            1\n   2            4\n   3            9\n   4            16",
+            "soal": "Hasil dari program berikut adalah:\n10 PRINT \"BILANGAN\",\"KUADRATNYA\"\n20 FOR P = 1 TO 4\n30 PRINT P,P*P\n40 NEXT P\n50 END"
+        },
+        {
+            "id": "330",
+            "jawaban": "Input sebuah bilangan       \n   ?5                              \n   Kuadratnya adalah :  5",
+            "soal": "Hasil dari program berikut adalah:\n10 PRINT \"INPUT SEBUAH BILANGAN\"\n20 INPUT N\n30 PRINT \"Kuadratnya adalah : \"; N\n40 END"
+        },
+        {
+            "id": "331",
+            "jawaban": "Input sebuah bilangan\n   ?10\n   Kuadratnya adalah  100",
+            "soal": "Hasil dari program berikut adalah:\n10 PRINT \"Input sebuah bilangan\"\n20 INPUT N\n30 PRINT \"Kuadratnya adalah : \"; N*N\n40 END"
+        },
+        {
+            "id": "332",
+            "jawaban": "MAHASISWA DENGAN NILAI A        \n   SASTRO                            \n   GEORGE             \n   BAGUS",
+            "soal": "Hasil dari program berikut adalah:\n10 PRINT \"MAHASISWA DENGAN NILAI A\"\n20 PRINT\n30 READ M$,N$\n40 IF M$ = \"TUYUL\" THEN 120\n50 IF N$ = \"A\" THEN\n60 GO TO 30\n70 PRINT M$\n80 GO TO 30\n90 DATA SASTRO,A,BEJO,C,PARTO,D\n100 DATA JOKO,B,GEORGE,A,BAGUS,A\n110 DATA AND"
+        },
+        {
+            "id": "333",
+            "jawaban": "NAMA DOSEN   MATERI        \n   HADI         COBOL        \n   PARTO        PASCAL              \n   YUDI         BASIC      \n   TEJO         FORTRAN",
+            "soal": "Hasil dari program berikut adalah:\n10 PRINT \"NAMA DOSEN\"'\"MATERI\"\n15 PRINT \n20 READ N$,M$\n30 IF N$ = \"XX\" THEN 90\n40 PRINT N$,M$\n50 GO TO 20\n60 DATA \"HADI\",\"COBOL\",\"PARTO\",\"PASCAL\"\n70 DATA\"YUDI\",\"BASIC\",\"TEJO\",\"FORTRAN\"\n80 DATA \"XX\",\"ZZ\"\n90 END"
+        },
+        {
+            "id": "334",
+            "jawaban": "PEGAWAI NOMER 1207 UPAH 24000 RUPIAH\n   PEGAWAI NOMER 1421 UPAH 18000 RUPIAH\n   PEGAWAI NOMER 2222 UPAH 36400 RUPIAH",
+            "soal": "Hasil dari program berikut adalah:\n10 READ N,H,R\n20 IF N = 9999 THEN 80\n30 LET W = H * R\n40 PRINT \"PEGAWAI NOMER \"; N;\" UPAH \"; W; \"  RUPIAH\" \n50 GO TO 20\n60 DATA 1207,40,600,1421,36,500\n70 DATA 2222,52,700,9999,0,0\n80 END"
+        },
+        {
+            "id": "335",
+            "jawaban": "Salah semua",
+            "soal": "Hasil dari program berikut ini :\n10  LET A$=\"RATNA\"\n20  LET B$=\"MUTU\"\n30  LET C$=\"MANIKAM\"\n40  PRINT A$;\n50  LET D$=A$+B$\n60  PRINT D$;\n70  LET E$=D$+C$\n80  PRINT E$;\n90  END"
+        },
+        {
+            "id": "336",
+            "jawaban": "3               5       6       7",
+            "soal": "Hasil dari program berikut ini adalah :\n            10  FOR A=1 TO 4\n            20  READ X % ;\n            30  PRINT X %\n            40  NEXT A\n            50  DATA 2.85,5,6,7.5,10,12.2"
+        },
+        {
+            "id": "337",
+            "jawaban": "5 + 5",
+            "soal": "Hasil dari program berikut ini adalah :\n10  C=5\n20  C=D : D=E : E=F\n30  ? C;\"+\";F\n40  END"
+        },
+        {
+            "id": "338",
+            "jawaban": "12pqrst890",
+            "soal": "Hasil dari program berikut ini adalah:\n10 A$=\"1234567890\"B$\"pqrstuvw\"\n20 MID$(A$,3,5)=B$\n30 PRINT A$"
+        },
+        {
+            "id": "339",
+            "jawaban": "END                \n     1 KE NOMOR BARIS 50               \n     2 KE NOMOR BARIS 60  \n     3 KE NOMOR BARIS 70",
+            "soal": "Hasil dari program berikut ini adalah:\n10 FOR J=1 TO 3\n20 ON J GUSOB 50,60,70\n30 NEXT J\n40 PRINT \"END\"\n50 PRINT J;\"KE NOMER BARIS 50\"\n55 RETURN \"END\"\n60 PRINT J:\"KE NOMOR BARIS 70\"\n65 RETURN\n70 PRINT J;\"KE NOMOR BARIS 70\"\n75 RETURN\n80 END"
+        },
+        {
+            "id": "340",
+            "jawaban": "1   1                  \n    2   2\n        3",
+            "soal": "Hasil dari program berikut ini:\n10 READ X,Y\n20 PRINT X;Y\n25 RESTORE\n30 READ A,B,C\n40 PRINT A;B;C\n50 DATA 1,2,3,4\n60 END"
+        },
+        {
+            "id": "341",
+            "jawaban": "ADE \n    IDA     3",
+            "soal": "Hasil dari program dibawah ini adalah :\n10  A=1 : B=1 : BOBBY=3 : IDA =1\n20  IF A<3 OR B>1 THEN ?\"ADE\" ELSE ? BOBBY\n30  ? \"IDA\", BOBBY\n40  END"
+        },
+        {
+            "id": "342",
+            "jawaban": "1513.5                     \n    28.5",
+            "soal": "Hasil dari program dibawah ini adalah :\n10  LET A$=\"13.5\"\n20  LET B$=\"15\"\n30  LET C$=B$+A$\n40  ?C$\n50  LET D=VA1(B$)+VAL(A$)\n60  ?D\n70  END"
+        },
+        {
+            "id": "343",
+            "jawaban": "10   DINI\n     10   LINA\n     $%",
+            "soal": "Hasil dari program dibawah ini adalah :\n10  READ A,B$\n20  PRINT A,B$\n30  RESTORE\n40  READ X,Y$\n50  PRINT X,Y$\n60  DATA 10,DINI\n70 DATA 20,LINA"
+        },
+        {
+            "id": "344",
+            "jawaban": "123     145     132",
+            "soal": "Hasil dari program dibawah ini adalah :\n10 N = S\n20 IF N = 0 THEN END\n30      READ BIL\n40      IF BIL >= THEN PRINT BIL;\n50      N = N - 1\n60 GOTO 20\n70 DATA 115,123,119,145,132"
+        },
+        {
+            "id": "345",
+            "jawaban": "NILAI 65 LULUS",
+            "soal": "Hasil program  berikut ini:\n10 DATA 75,55\n20 READ N1,N2\n30 LET A = (N1 + N2) /2\n40 IF A > 55 THEN 70\n50 PRINT \"NILAI  \";A;\" GAGAL\"\n60 GO TO 80\n70 PRINT \"NILAI   \";A;\" LULUS\"\n80 END"
+        },
+        {
+            "id": "346",
+            "jawaban": "Tidak ada jawaban",
+            "soal": "Hasil program dibawah ini adalah : \n10  A=4 : B=1 : BOBBY=3 : IDA=1\n20  IF A<3 OR B>1 THEN ? \"ADE\" ELSE ? BOBBY\n30  ? \"IDA\", BOBBY \n40  END"
+        },
+        {
+            "id": "347",
+            "jawaban": "BOBBY\n    IDA     3",
+            "soal": "Hasil program dibawah ini adalah :\n10  A=1 : B=1 : BOBBY=3 : IDA=1\n20  IF A<3 OR B>1 THEN ? \"ADE\" ELSE ? \"BOBBY\"\n30  ? \"IDA\", BOBBY\n40  END"
+        },
+        {
+            "id": "348",
+            "jawaban": "BOBBY \n    IDA     3",
+            "soal": "Hasil program dibawah ini adalah :\n10  A=1 : B=1 : BOBBY=3 : IDA=1\n20  IF A>3 OR B>1 THEN ? \"ADE\" ELSE ? \"BOBBY\"\n30  ? \"IDA\",BOBBY\n40  END"
+        },
+        {
+            "id": "349",
+            "jawaban": "ADE                        \n    IDA     3",
+            "soal": "Hasil program dibawah ini adalah :\n10  A=1 : B=2 : BOBBY=3 : IDA=1\n20  IF A<3 AND B>1 THEN ? \"ADE\" ELSE ? \"BOBBY\"\n30  ? \"IDA\", BOBBY\n40  END"
+        },
+        {
+            "id": "350",
+            "jawaban": "BOBBY\n    IDA     3",
+            "soal": "Hasil program dibawah ini adalah :\n10  A=1 : B=2 : BOBBY=3 : IDA=1\n20  IF A<3 AND B>1 THEN ? \"ADE\" ELSE ?\"BOBBY\n30  ? \"IDA\", BOBBY\n40  END"
+        },
+        {
+            "id": "351",
+            "jawaban": "Tidak ada jawaban \n    2                           1",
+            "soal": "Hasil program dibawah ini adalah :\n10  A=3 : B=2\n20  IF A=3 THEN 60\n30  A=A+1\n40  ? B\n45  B=A+B\n50  ? A\n60  END"
+        },
+        {
+            "id": "352",
+            "jawaban": "Tidak ada jawaban",
+            "soal": "Hasil program dibawah ini adalah :\n10  A=4 : B=1 : BOBBY=3 : IDA=1\n20  IF A<3 OR B>3 THEN ? \"ADE\" ELSE 40\n30  ? \"IDA\" ,BOBBY \n40  END"
+        },
+        {
+            "id": "353",
+            "jawaban": "SALAH SEMUA\n               ADE             8\n                               ADE",
+            "soal": "Hasil program dibawah ini adalah :\n10  A=5 : B=10\n20  ? A,\n30  GO TO 50\n40  ? B\n50  ? \"ADE\"\n60  END"
+        },
+        {
+            "id": "354",
+            "jawaban": "1513.5",
+            "soal": "Hasil program dibawah ini adalah:\n10 LET A$=\"13.5\"\n20 LET B$=\"15\"\n30 LET C$=B$+A$\n40 ? C$\n50 LET D=VAL(B$)+VAL(A$)\n60 ? D\n70 END"
+        },
+        {
+            "id": "355",
+            "jawaban": "8",
+            "soal": "Hasilnya dari program berikut adalah :\n10  LET X=64\n20  LET A=SQR(X)\n30  PRINT A\n40  END"
+        },
+        {
+            "id": "356",
+            "jawaban": "READ A, B, C+D",
+            "soal": "Instruksi berikut ini adalah :"
+        },
+        {
+            "id": "357",
+            "jawaban": "Direct and indirect mode",
+            "soal": "Instruksi pelaksanaan BASIC ada dua macam, yaitu:"
+        },
+        {
+            "id": "358",
+            "jawaban": "Save \"NamaFile\",P",
+            "soal": "Instruksi untuk melindungi prograam supaya tidak dapat dibaca listingnya dalam basica adalah :"
+        },
+        {
+            "id": "359",
+            "jawaban": "Save \"NamaFile\",A",
+            "soal": "Instruksi untuk mengubah program Basica menjadi bentuk ASCII adalah:"
+        },
+        {
+            "id": "360",
+            "jawaban": "Let A = 5",
+            "soal": "Jika A dengan harga 10 dan B dengan harga 20 dan C dengan harga 30. Untuk mengubah A menjadi 5 bagaimana perintah program alunya ....."
+        },
+        {
+            "id": "361",
+            "jawaban": "B$=Left$(A$,1)",
+            "soal": "Jika A$=\"P-123, maka agar B$=\"P\" digunakan :"
+        },
+        {
+            "id": "362",
+            "jawaban": "Program tetap jalan saat eksekusi",
+            "soal": "Jika dalam suatu program, tidak digunakan perintah END maka :"
+        },
+        {
+            "id": "363",
+            "jawaban": "11",
+            "soal": "Jika di RUN, hasil dari program berikut adalah :\n10  LET A=8\n20  LET B=3\n30  LET C=A+B\n34  LET D=A*B\n40  PRINT C\n45  PRINT D\n50  END"
+        },
+        {
+            "id": "364",
+            "jawaban": "11",
+            "soal": "Jika di RUN, hasil dari program berikut adalah...\n10 LET A = 8\n20 LET B = 3\n30 LET C = A + B\n34 LET D = A - B\n40 PRINT C\n45 PRINT D\n50 END"
+        },
+        {
+            "id": "365",
+            "jawaban": "?1,2,3",
+            "soal": "Jika diberikan A=1,B=2,C=3 maka output program dibawah ini\n10 INPUT A,B,C\n20 ? A,B,C\n30 END"
+        },
+        {
+            "id": "366",
+            "jawaban": "AB",
+            "soal": "Jika diberikan penggalan program berikut :\n10  DATA 5,7\n20  READ A,B\n30  PRINT \"AB\"\n40  PRINT A\n50  END\nMaka jika program diatas dieksekusi, hasil pada nomor baris 30 adalah :"
+        },
+        {
+            "id": "367",
+            "jawaban": "Program salah",
+            "soal": "Jika diberikan penggalan program berikut :\n10  LET A$=\"KOMPUTER TRS 80\"\n20  LET B = LEN(A$)\n30  PRINT B\n40  END\nHasilnya adalah :"
+        },
+        {
+            "id": "368",
+            "jawaban": "Akan menh=ghasilkan nilai dari karakter yang berada pada baris%\n   dan kolom%",
+            "soal": "Jika diberikan perintah berikut:\n    SCREEN(Baris%,Kolom%,0)\nMaka pernyataan-pernyataan dibawah ini benar, kecuali:"
+        },
+        {
+            "id": "369",
+            "jawaban": "perintah locate untuk mengatur posisi kursor",
+            "soal": "Jika diberikan perintah dibawah ini :\n    LOCATE 2,50\nMaka pernyataan yang benar adalah:"
+        },
+        {
+            "id": "370",
+            "jawaban": "Baris 30",
+            "soal": "Jika diberikan program berikut :\n10  DATA 15,3\n20  READ A,B\n30  LET C=AB\n40  PRINT C\n50  END\nMaka letak kesalahan dari program diatas terletak pada :"
+        },
+        {
+            "id": "371",
+            "jawaban": "INDONESIA\n    RAYA\n    $%",
+            "soal": "Jika diberikan program berikut :\n20  PRINT\"RAYA\" \n10  PRINT\"INDONESIA\"\n30  END\nMaka hasil program diatas adalah :"
+        },
+        {
+            "id": "372",
+            "jawaban": "2    2.5     3",
+            "soal": "Jika diberikan program sederhana berikut :\n10  FOR N=2 TO 3 STEP .5\n20  PRINT N;\n30  NEXT N\n40  END\nMaka hasil program diatas adalah :"
+        },
+        {
+            "id": "373",
+            "jawaban": "Fungsi baris tunggal",
+            "soal": "Jika diberikan suatu penggalan program berikut:\nDEF FNpangkat(a,b)\n    FNpangkat = a^b\nEND DEF\nMaka pernyataan diatas disebut:"
+        },
+        {
+            "id": "374",
+            "jawaban": "MUK",
+            "soal": "Jika diberikan suatu program berikut :\n10  LET A$=\"DASAMUKA\"\n20  LET B$=MID$(A$,4,4)\n30  LET C$=MID$(B$,2)\n40  PRINT C$\n50  END\nHasil program diatas adalah :"
+        },
+        {
+            "id": "375",
+            "jawaban": "Def Fnpangkat (x,y) = x^y",
+            "soal": "Jika diberikan suatu program pada Qbasic berikut:\nCLS\nDEF FNpangkat(a,b) = a^b\nPRINT \" 2pangkat 3=\";FNpangkat(2,3)\nEND\nMaka hasil program diatas dan yang termasuk fungsi adalah:"
+        },
+        {
+            "id": "376",
+            "jawaban": "hasil AMRADANUG",
+            "soal": "Jika diberikan suatu prosedur subrutin berikut:\nDECLARE SUB Contoh(St$)\nCLS\nKata$ = \"GUNADARMA\"\nPrint Kata$\nCALL Contoh(Kata$)\nPrint Kata$\nEND\nSUB Contoh(St$)\n        Tmp$=\" \"\n        For I%=LEN (St$) TO 1 STEP -1\n            Tmp$ = Tmp$ + MID$(St$,I%,1)"
+        },
+        {
+            "id": "377",
+            "jawaban": "12",
+            "soal": "Jika diketahui :\nA$=\"ALGOL\"\nB$=\"RITMA\"\nC$=\"PROGRAM\"\nOutput dari LEN(A$+MID$(B$,2,3)+RIGHT$(C$,4) adalah :"
+        },
+        {
+            "id": "378",
+            "jawaban": "3.142857",
+            "soal": "Jika diketahui:\n10 a=22/7\n20 ? A\n30 END\noutput..."
+        },
+        {
+            "id": "379",
+            "jawaban": "18",
+            "soal": "Jika program dibawah ini dieksekusi, maka hasilnya :\n10  DATA 17,15,3,10,6\n20  FOR K=1 TO 5\n30  READ A(K)\n40  NEXT K\n50  PRINT A(1)+1\n60  PRINT A(2+1)\n70  END"
+        },
+        {
+            "id": "380",
+            "jawaban": "salah dalam penulisan program",
+            "soal": "Jika terdapat suatu pesan kesalahan subscript out of range, maka kemungkinan penyebabnya :"
+        },
+        {
+            "id": "381",
+            "jawaban": "45.5",
+            "soal": "Jika variabel A diberi nilai 45.7 maka output dari variabel X yang diberikan oleh program berikut adalah:\n10 INPUT A\n20 IF A<INT(A) THEN X=A : GOTO 100\n30 P=A-INT(A)\n40 IF P<0.25 THEN X=INT(A) : GOTO 100\n50 IF P<0.75 THEN X=INT(A)+0.5 : GOTO 100\n60 X=INT("
+        },
+        {
+            "id": "382",
+            "jawaban": "Tergantung pada jumlah FILES pada CONFIG.SYS",
+            "soal": "Jumlah file yang dapat dibuka oleh BASIC adalah:"
+        },
+        {
+            "id": "383",
+            "jawaban": "FOR K=1 TO 11",
+            "soal": "Lengkapilah nomor baris pada program dibawah ini:\n10 A=0\n20 ......\n30 A=A+K\n40 NEXT K\n50 PRINT K\n60 END\nRUN\n11"
+        },
+        {
+            "id": "384",
+            "jawaban": "Menghapus semua file yang berextention *.bak",
+            "soal": "Maksud dari pernyataan berikut adalah :\n            KILL \"*.BAK\""
+        },
+        {
+            "id": "385",
+            "jawaban": "FOR I",
+            "soal": "Manakah  penggunaan FOR NEXT yang benar dibawah ini, kecuali:"
+        },
+        {
+            "id": "386",
+            "jawaban": "10 FOR K= 1 TO 1",
+            "soal": "Manakah dari program berikut yang salah :"
+        },
+        {
+            "id": "387",
+            "jawaban": "pada statemen ON K GOTO jumlah nomor garis yang dituju harus\n   sesuai dengan harga ekspresinya",
+            "soal": "Manakah pernyataan yang benar"
+        },
+        {
+            "id": "388",
+            "jawaban": "10 A=0:B=1\n   20 PRINT A,B\n   30 FOR I=3 TO 10\n   40 C=A+B\n   50 PRINT \" \";C\n   60 A=B:B=C\n   70 NEXT I",
+            "soal": "Manakah program di bawah ini yang menghasilkan deret Fibonacci:\n    0  1  1  2  3  5  8  13  21  34"
+        },
+        {
+            "id": "389",
+            "jawaban": "N$",
+            "soal": "Nilai \"123\" dapat dimasukkan dalam variabel :"
+        },
+        {
+            "id": "390",
+            "jawaban": "REMAJA",
+            "soal": "Output dari program berikut adalah :\n10  DATA 18 : READ A\n20  IF A>=15 AND A<=20 THEN 40\n30  ? \"BUKAN REMAJA\" : GOTO 50\n40  ? \"REMAJA\"\n50  END"
+        },
+        {
+            "id": "391",
+            "jawaban": "9  17",
+            "soal": "Output dari program berikut adalah:\n5 READ E$, F, G\n10 H=F+G\n15 IF E$ = \"7\" THEN ? G,H: END\n20 GOTO 5\n25 DATA \"4\",5,6,\"7\",8,9"
+        },
+        {
+            "id": "392",
+            "jawaban": "7  13",
+            "soal": "Output dari program berikut adalah:...\n10 READ A$,B,C\n20 D=B+C\n30 IF A$ =\"5\" THEN PRINT C,D : END\n40 GOTO 10\n50 DATA \"2\",3,4,\"5\",6,7,\"8\",9,10"
+        },
+        {
+            "id": "393",
+            "jawaban": "0        0       0       0",
+            "soal": "Output dari program berikut ini adalah :\n10  FOR Y=1 TO 4\n20  READ X\n30  PRINT X % ;\n40  NEXT Y\n50  DATA 5.8,7,8,10.2,10,13.3"
+        },
+        {
+            "id": "394",
+            "jawaban": "2    4",
+            "soal": "Output dari program berikut:\n10 MAK = MAK+2\n20 IF MAK > 3 THEN END\n30 ? MAK; : GOTO 10"
+        },
+        {
+            "id": "395",
+            "jawaban": "5    10",
+            "soal": "Output dari program brikut adalah:\n10 A = A+5\n15 IF A > 10 THEN END\n20 ?A ;   : GOTO 10"
+        },
+        {
+            "id": "396",
+            "jawaban": "SUKADARMA",
+            "soal": "Output dari program dibawah ini adalah :\n10  A$=\"GUNADARMA\"  :  B$ = \"SUKA\"\n20  C$=MID$ (A$,1)=B$\n30  PRINT C$"
+        },
+        {
+            "id": "397",
+            "jawaban": "DAR",
+            "soal": "Output dari program dibawah ini adalah :\n10  LET A$=\"GUNADARMA\"\n20  LET B$=SUBSTR(A$,3,5)\n30  LET C$=SUBSTR(B$,3)\n40  PRINT C$\n50  END"
+        },
+        {
+            "id": "398",
+            "jawaban": "Nilai yang akan diakarkan = -4\n    akar 4 = 2\n    ERROR",
+            "soal": "Output dari program dibawah ini adalah:\n10 ON ERROR GOTO 60\n20 INPUT \"Nilai yang akan diakarkan: \"; x\n30 AKAR = SOR(X)\n40 PRINT \"AKAR\";X; \"=\"; AKAR\n50 END\n60 X = -X\n70 RESUME\nJika nilai x = -4, maka ="
+        },
+        {
+            "id": "399",
+            "jawaban": "RATA-RATA = 6.5",
+            "soal": "Output dari program ini adalah:\n10 FOR I = 1 TO 3\n20 READ NILAI (I)\n30 TOTAL = TOTAL+NILAI (I)\n40 NEXT I\n50 RATA=TOTAL/4\n60 PRINT \"RATA-RATA +\"; RATA\n70 DATA 6,8,9,3,9"
+        },
+        {
+            "id": "400",
+            "jawaban": "1   2",
+            "soal": "Output daru [rogram berikut adalah:\n10 FOR I = 1 TO 2\n20 FOR J = 1 TO 2\n30 ?I;\n40 NEXT J\n50 NEXT I"
+        },
+        {
+            "id": "401",
+            "jawaban": "5+0",
+            "soal": "Output program berikut adalah :\n10  C=5\n20  C=D : D=E : E=F\n30  ?C ; \"+\" ; F : END"
+        },
+        {
+            "id": "402",
+            "jawaban": "Program salah",
+            "soal": "Output program berikut adalah :\n10  IF X=Y THEN 40\n20  X=10 : Y=Y+1\n30  GOTO 10\n40  ? X\n50  END"
+        },
+        {
+            "id": "403",
+            "jawaban": "1 1 2 2",
+            "soal": "Output yang dihasilkan dari program di bawah ini adalah :\n10 FOR A = 1 TO 2\n20 FOR B = 1 TO 2\n30 PRINT A;\n40 NEXT B\n50 NEXT A"
+        },
+        {
+            "id": "404",
+            "jawaban": "untuk proses switching",
+            "soal": "Panji / flag dapat digunakan, kecuali :"
+        },
+        {
+            "id": "405",
+            "jawaban": "18         \n   12         \n   A+B",
+            "soal": "Pehatikan program berikut ini :\n10 DATA 3,6,7\n20 READ A,B,C\n30 PRINT A*B\n40 A=A+B\n50 PRINT A\n60 PRINT \"A+B\"\n70 END\n\nHasil dari program di atas adalah :"
+        },
+        {
+            "id": "406",
+            "jawaban": "10 LET A=100\n   20 IF A>=100 THEN 30 ELSE 40    \n   30 LET B=A*225 : GOTO 50             \n   40 LET B=A*245\n   50 PRINT B",
+            "soal": "Pembelian buku 100 buah atau lebih dikenakan harga Rp. 225,-/buah. Pembelian kurang dari itu dikenakan harga Rp. 245,-/buah.\nBagaimana program yang benar:"
+        },
+        {
+            "id": "407",
+            "jawaban": "untuk counter",
+            "soal": "Penggunaan  panji (Flag) adalah :"
+        },
+        {
+            "id": "408",
+            "jawaban": "parameter secara referensi tidak dapat diubah dari dalam prosedur",
+            "soal": "Pengiriman suatu parameter dapat dilakukan secara nilai dan referensi, beda antara keduanya adalah:"
+        },
+        {
+            "id": "409",
+            "jawaban": "Y <--- A*B/C*D",
+            "soal": "Penulisan notasi matematika yang benar untuk Y = AB/CD adalah :"
+        },
+        {
+            "id": "410",
+            "jawaban": "Y <--- A*B/C*D",
+            "soal": "Penulisan notasi matematika yang benar untuk Y = AB/CD adalah :"
+        },
+        {
+            "id": "411",
+            "jawaban": "DIM A(31), DIM B(32)",
+            "soal": "Penulisan statement DIM berikut ini yang salah adalah :"
+        },
+        {
+            "id": "412",
+            "jawaban": "Jika hanya jawaban 4 yang benar",
+            "soal": "Perhatikan instruksi berikut ini adalah benar :"
+        },
+        {
+            "id": "413",
+            "jawaban": "5 HURUF PADA KATA JAKARTA RAYA",
+            "soal": "Perhatikan penggalan program berikut :\n10  CLS\n20  LET A$=\"JAKARTA RAYA\"\n30  LET C=0\n40  FOR K=1 TO LEN(A$)\n50  IF MID$(A$,K,1) <> \"A\" THEN 70\n60  LET C=C+1\n70  NEXT K\n80  PRINT C;\"HURUF A PADA KATA\";A$\n90  END\nMaka hasil program diatas adalah :"
+        },
+        {
+            "id": "414",
+            "jawaban": "Nilai a dan b pada PRINT FNpangkat(a,b) = a^b adalah parameter\n   aktual",
+            "soal": "Perhatikan penggalan program berikut:\nDEF FNpangkat (a,b) = a^b\nPRINT \" 2 pangkat 3 = \"; FNpangkat (2,3)\nEND\nYang termasuk parameter formal dan parameter aktual adalah:"
+        },
+        {
+            "id": "415",
+            "jawaban": "jika hanya jawaban 4 yang benar",
+            "soal": "Perhatikan pernyataan-pernyataan berikut ini :"
+        },
+        {
+            "id": "416",
+            "jawaban": "jika hanya jawaban 4 yang benar",
+            "soal": "Perhatikan pernyataan-pernyataan berikut ini :"
+        },
+        {
+            "id": "417",
+            "jawaban": "T = 9, X = 10, Y = 9",
+            "soal": "Perhatikan potongan program berikut ini :\n10  X = 9\n15  Y = 10\n20  T = X\n25  X = Y\n30  Y = T\nMaka :"
+        },
+        {
+            "id": "418",
+            "jawaban": "UNIVERSITASGUNADARMA  DEPOK",
+            "soal": "Perhatikan program  berikut:\n10 X$=\"UNIVERSITAS\"\n20 Y$=\"GUNADARMA\"\n30 Z$=\"DEPOK\"\n40 W$=X$+Y$+\" \"+Z$\n50 ?W$\n60 END\nOutput nya:..."
+        },
+        {
+            "id": "419",
+            "jawaban": "15000",
+            "soal": "Perhatikan program barikut :\n100 INPUT JP \n110 IF JP<100000 THEN DISC= 0\n120 IF JP<500000 THEN DISC= 0.1*JP\n130 IF JP<1000000 THEN DISC= 0.15*JP\n140 IF JP<1000000 THEN DISC= 0.2*JP\n150 PRINT DISC\nRUN\n\nJika variabel JP diisi dengan 100000 maka output varia"
+        },
+        {
+            "id": "420",
+            "jawaban": "400000",
+            "soal": "Perhatikan program BASIC berikut :\n100 FOR I= 1 TO 5\n110 READ NM$,JP,J$\n120 IF JP$=\"T\" THEN TT= TT+JP ELSE TK=TK+1\n130 NEXT I\n140 PRINT TT,TK\n150 DATA ALI,100000,T,AGUS,200000,K,AMIR,1500000,K\n160 DATA BUDI,250000,K,DIDI,300000,T\nRUN\n\nOutput dari variabel"
+        },
+        {
+            "id": "421",
+            "jawaban": "3",
+            "soal": "Perhatikan program BASIC berikut :\n100 FOR I= 1 TO 5\n110 READ NM$,JP,JP$\n120 IF JP$=\"T\" THEN TT= TT+JP ELSE TK=TK+1\n130 NEXT I\n140 PRINT TT,TK\n150 DATA ALI,100000,T,AGUS,200000,K,AMIR,1500000,K\n160 DATA BUDI,250000,K,DIDI,300000,T\nRUN\n\nHasil output dari v"
+        },
+        {
+            "id": "422",
+            "jawaban": "7500",
+            "soal": "Perhatikan program BASIC berikut :\n100 INPUT JP\n110 IF JP<100000 THEN DISC= 0\n120 IF JP<500000 THEN DISC= 0.1*JP\n130 IF JP<1000000 THEN DISC= 0.15*JP\n140 IF JP>1000000 THEN DISC= 0.2*JP\n150 PRINT DISC\nRUN\n\nJika variabel JP diisi dengan 50000 maka output d"
+        },
+        {
+            "id": "423",
+            "jawaban": "M    S   BASIC",
+            "soal": "Perhatikan program BASIC di bawah ini :\n10 FORM$ = \"!   !   &\"\n20 JD$ = \"Selamat Ujian\"\n30 JD1$ = \"BASIC\"\n40 PRINT USING FORM$;\"Midtest\";jd$;jd1$\n50 END\nMaka output yang akan ditampilkan adalah :"
+        },
+        {
+            "id": "424",
+            "jawaban": "0",
+            "soal": "Perhatikan program berikut \n10 FOR KK = 1 TO 3\n20 LL = LL * KK\n30 NEXT KK\n40 ? LL\nOUTPUTNYA...."
+        },
+        {
+            "id": "425",
+            "jawaban": "55",
+            "soal": "Perhatikan program berikut :\n10  A$=\"14\"\n30  LET A=Val(A$)+41\n40  ?A\n50  END\n\nOutput yang dihasilkan :"
+        },
+        {
+            "id": "426",
+            "jawaban": "1290",
+            "soal": "Perhatikan program berikut :\n10  A=1234\n20  B%=56\n30  ? A+B%\n40  ? STR$(A)+STR$(B%)\n50  END\nOutput yang dihasilkan :"
+        },
+        {
+            "id": "427",
+            "jawaban": "1  2",
+            "soal": "Perhatikan program berikut :\n10  C=C+1\n20  IF C>=3 THEN END\n30  ?C; : GOTO 100\n\nOutputnya adalah :"
+        },
+        {
+            "id": "428",
+            "jawaban": "1 2 4 3",
+            "soal": "Perhatikan program berikut :\n10  DATA 1,2,3,4\n20  READ X,Y,Z,W\n30  ?X;\n40  ?Y;\n50  ?W;Z\n60  END\n\nOutput program diatas :"
+        },
+        {
+            "id": "429",
+            "jawaban": "4",
+            "soal": "Perhatikan program berikut :\n10  DATA 2,5,7,13,999\n20  LET C=0\n30  READ X\n40  IF X=999 THEN 70    \n50  LET C=C+1\n60  GOTO 30\n70  ? C\n80  END\nOutput program diatas:"
+        },
+        {
+            "id": "430",
+            "jawaban": "4",
+            "soal": "Perhatikan program berikut :\n10  DATA 2,5,7,13,999\n20  LET C=0\n30  READ X\n40  IF X=999 THEN 70\n50  LET C=C+1\n60  GOTO 30\n70  ?C\n80  END\n\nOutput  program diatas adalah :"
+        },
+        {
+            "id": "431",
+            "jawaban": "3 5 8 9 10 1 0",
+            "soal": "Perhatikan program berikut :\n10  DATA 3,5,12,8,9,11,10,15,1,0,3,7,2,15 \n20  READ A\n30  IF A>10 THEN GOTO 20\n40  ?A;\n50  IF A=0 THEN GOTO 70\n60  GOTO 20\n70  END\nOutput yang dihasilkan :"
+        },
+        {
+            "id": "432",
+            "jawaban": "28",
+            "soal": "Perhatikan program berikut :\n10  DATA 53,28,36,41,43\n20  LET S=0\n30  READ X\n40  LET S=S+X\n50  IF S<100 THEN 30\n60  GOTO 30\n70  END\n\nOutput program diatas :"
+        },
+        {
+            "id": "433",
+            "jawaban": "81",
+            "soal": "Perhatikan program berikut :\n10  DATA 53,28,36,41,43\n20  LET S=0\n30  READ X\n40  LET S=S+X\n50  IF S>100 THEN 30\n60  GOTO 30\n70  END\n\nOutput program diatas :"
+        },
+        {
+            "id": "434",
+            "jawaban": "81",
+            "soal": "Perhatikan program berikut :\n10  DATA 53,28,36,41,43\n20  LET S=0\n30  READ X\n40  LET S=S+X\n50  IF S>100 THEN 30\n60  GOTO 30\n70  END\nOutput program diatas :"
+        },
+        {
+            "id": "435",
+            "jawaban": "7\n                  8                              2\n                  2                              2\n                                                 Out of data",
+            "soal": "Perhatikan program berikut :\n10  DATA 7,8,2\n20  REM LOOP\n30  READ X\n40  ? X\n50  GOTO 30\n60  END\n\nOutputnya adalah :"
+        },
+        {
+            "id": "436",
+            "jawaban": "7 dan 1",
+            "soal": "Perhatikan program berikut :\n10  DIM A(2,3)\n20  FOR B=1 TO 2\n30  FOR C=1 TO 3\n40  READ A(B,C)\n50  NEXT C\n60  NEXT B\n70  ? A(2,2)\n80  ? A(1,2)\n90  DATA 6,1,5,8,7,9\n100 END\nOutput yang dihasilkan :"
+        },
+        {
+            "id": "437",
+            "jawaban": "11   22",
+            "soal": "Perhatikan program berikut :\n10  DIM A(3,2)\n20  FOR B=1 TO 3\n30  FOR C=1 TO 2\n40  READ A(B,C)\n50  NEXT C\n60  NEXT B\n70  ? A(3,1)+1;\n80  ? A(3,1)+A(3,2)\n90  DATA 2,4,6,8,10,12\n100 END\nHasil program tersebut adalah:"
+        },
+        {
+            "id": "438",
+            "jawaban": "13",
+            "soal": "Perhatikan program berikut :\n10  FOR H=1 TO 10 STEP 3\n20  NEXT H\n30  ?H;\" \";\n40  END\nOutput yang dihasilkan :"
+        },
+        {
+            "id": "439",
+            "jawaban": "0  0  0",
+            "soal": "Perhatikan program berikut :\n10  FOR I=1 TO 3\n30  READ X\n40  ?X%;\n50  NEXT I\n60  DATA 2.85,6.15,5\n70  END\n\nOutput yang dihasilkan :"
+        },
+        {
+            "id": "440",
+            "jawaban": "9",
+            "soal": "Perhatikan program berikut :\n10  FOR I=1 TO 4 : READ A,B,C\n20  IF A=7 THEN PRINT C\n30  NEXT I\n40  DATA 2,7,4,3,4,7,7\n50  DATA 6,9,12,7,1,6\n60  END\n\nOutput yang dihasilkan :"
+        },
+        {
+            "id": "441",
+            "jawaban": "3 5 2 7",
+            "soal": "Perhatikan program berikut :\n10  FOR I=1 TO 4\n20  READ A\n30  NEXT I\n40  FOR I=1 TO 4\n50  ? A;\n60  NEXT I\n70  DATA 3,5,2,7\n80  END\nHasil program tersebut adalah :"
+        },
+        {
+            "id": "442",
+            "jawaban": "3 4 5 6 7 28 3",
+            "soal": "Perhatikan program berikut :\n10  FOR K = 1 TO 5\n20  READ A (K)\n30  ? A(K)\n40  NEXT K\n50  LET C = A(5) * A(2)\n60  DATA 3,4,5,6,7\n70  ?C;\" \"; A(1)\n80  END\n\nOutput yang dihasilkan dari program diatas adalah :"
+        },
+        {
+            "id": "443",
+            "jawaban": "MERDEKA1MERDEKA2MERDEKA3MERDEKA5",
+            "soal": "Perhatikan program berikut :\n10  FOR K=1 TO 5 \n20  IF K=4 THEN 40\n30  ? \"MERDEKA\";K\n40  NEXT K\n50  END\n\nOutput program diatas :"
+        },
+        {
+            "id": "444",
+            "jawaban": "1  1   \n    1  2\n    2  1\n    2  2",
+            "soal": "Perhatikan program berikut :\n10  FOR N=1 TO 2\n20  FOR K=1 TO N\n30  ?N;K\n40  NEXT K\n50  NEXT N\n60  END\n\nOutput program diatas :"
+        },
+        {
+            "id": "445",
+            "jawaban": "2 4",
+            "soal": "Perhatikan program berikut :\n10  FOR N=2 TO 4\n20  FOR K=N TO 3\n30  ?N;N*K\n40  NEXT K\n50  NEXT N\n60  END\n\nOutput program diatas :"
+        },
+        {
+            "id": "446",
+            "jawaban": "10",
+            "soal": "Perhatikan program berikut :\n10  INPUT X\n20  IF X>0 THEN X=X*2\n30  IF X<10 THEN X=X*3\n40  PRINT X\n50  END\n\nJika X=5, Outputnya adalah :"
+        },
+        {
+            "id": "447",
+            "jawaban": "3",
+            "soal": "Perhatikan program berikut :\n10  J=3:N=4\n20  IF J<=4 THEN ?J: GOTO 60\n30  ?J+N;\n40  J=J+1\n50  GOTO 20\n60  END\n\nOutput dari program tersebut :"
+        },
+        {
+            "id": "448",
+            "jawaban": "3                          \n    9                               \n    27                              \n    81",
+            "soal": "Perhatikan program berikut :\n10  LET A=1\n20  LET A+A*3\n30  ?A\n40  IF A=81 THEN 60\n50  GOTO 20\n60  END\n\nOutput dari program tersebut :"
+        },
+        {
+            "id": "449",
+            "jawaban": "1 3 6 10",
+            "soal": "Perhatikan program berikut :\n10  LET S=0\n20  FOR K=1 TO 4\n30  LET S=S+K\n40  ?S;\n50  NEXT K\n60  END\n\nOutput program diatas :"
+        },
+        {
+            "id": "450",
+            "jawaban": "6 8 11 15",
+            "soal": "Perhatikan program berikut :\n10  LET S=5\n20  FOR K=1 TO 4\n30  LET S=S+K\n40  ?S;\n50  NEXT K\n60  END\n\nOutput program diatas :"
+        },
+        {
+            "id": "451",
+            "jawaban": "11",
+            "soal": "Perhatikan program berikut :\n10  READ A\n20  IF A>0 THEN A=A+5\n30  IF A<9 THEN A=A+10\n40  PRINT A\n50  END\nApabila variabel A diisi data 4, outputnya :"
+        },
+        {
+            "id": "452",
+            "jawaban": "BULAN : -AU",
+            "soal": "Perhatikan program berikut :\n10  TG$=\"01-AUG90\"\n20  BL$=MID$(TG$,3,3)\n30  PRINT \"BULAN : \";BL$\n\nOutputnya adalah :"
+        },
+        {
+            "id": "453",
+            "jawaban": "5 5 5",
+            "soal": "Perhatikan program berikut :\n10 a= 5 : read b,c\n20 b= a\n30 c=b\n40 data 10,15\n50 ? a,b,c  : end\noutputnya adalah:"
+        },
+        {
+            "id": "454",
+            "jawaban": "7",
+            "soal": "Perhatikan program berikut :\n10 DATA 3,7\n20 READ L\n30 READ B\n40 IF L>=B THEN 60\n50 LET L=B\n60 ? L\n70 END"
+        },
+        {
+            "id": "455",
+            "jawaban": "Syntax error in 20",
+            "soal": "Perhatikan program berikut :\n10 INPUT A\n20 LET Y=2(X^2)+3(X-5)\n30 ? Y,A\n40 END\nJika diketahui A=100, maka outputnya adalah :\nA.0   100"
+        },
+        {
+            "id": "456",
+            "jawaban": "Salah semua",
+            "soal": "Perhatikan program berikut :\n10 INPUT A\n20 LET Y=2*(X^2)+3*(X-5) \n30 ? Y,A\n40 END\nJika diketahui A=100, maka outputnya adalah :"
+        },
+        {
+            "id": "457",
+            "jawaban": "1  3   6  10",
+            "soal": "Perhatikan program berikut :\n10 LET S=0\n20 FOR K=1 TO 4\n30 LET S=S+K\n40 ?S;\n50 NEXT K\n60 END\nOoutput program diatas:"
+        },
+        {
+            "id": "458",
+            "jawaban": "syntax error",
+            "soal": "perhatikan program berikut :\n10 READ a,b\n20 C = A/B\n30 PRINT C\n40 END\n50 DATA 2,5,2,9\nHasil pemrograman di atas :"
+        },
+        {
+            "id": "459",
+            "jawaban": "Syntax error",
+            "soal": "Perhatikan program berikut :\n10 READ A,B\n20 C = A/B\n30 PRINT C\n40 END\n50 DATA 22.5,2.9\n\nHasil pemrograman diatas :"
+        },
+        {
+            "id": "460",
+            "jawaban": "30000",
+            "soal": "Perhatikan program berikut :\n100 INPUT JP \n110 IF JP<100000 THEN DISC= 0\n120 IF JP<500000 THEN DISC= 0.1*JP\n130 IF JP<1000000 THEN DISC= 0.15*JP\n140 IF JP>1000000 THEN DISC= 0.2*JP\n150 PRINT DISC \nRUN\n\nJika variabel JP diisi dengan 200000 maka output dari"
+        },
+        {
+            "id": "461",
+            "jawaban": "0",
+            "soal": "Perhatikan program berikut :\n100 INPUT JP\n110 IF JP<100000 THEN DISC= 0\n120 IF JP<500000 THEN DISC= 0.1*JP\n130 IF JP<1000000 THEN DISC= 0.15*JP\n140 IF JP<1000000 THEN DISC= 0.2*JP\n150 PRINT DISC\nRUN\n\nJika variabel JP diisi dengan 1000000 maka output dari"
+        },
+        {
+            "id": "462",
+            "jawaban": "444",
+            "soal": "Perhatikan program berikut ;\n10  A=\"123\"\n20  N=321\n30  ? VAL(A$)+N\n40  END\nOutput yang dihasilkan :"
+        },
+        {
+            "id": "463",
+            "jawaban": "0  0",
+            "soal": "Perhatikan program berikut dan outputnya...\n10 For KAL = 5 TO 1 STEP 3\n20 LAM = LAM * KAL\n30 NEXT KAL\n40 ? KAL;"
+        },
+        {
+            "id": "464",
+            "jawaban": "30 A = A 23",
+            "soal": "Perhatikan program berikut ini \n10  FOR I =1 TO 300 STEP 23\n20  PRINT I,\n30  NEXT I\n\nLengkapilah program berikut ini sehingga hasil keluarnya sama dengan program diatas \n\n10  A = 1\n20  PRINT A,\n30  .........\n40  IF A > 300 THEN END \n50  GOTO 20"
+        },
+        {
+            "id": "465",
+            "jawaban": "1 4 7 10",
+            "soal": "Perhatikan program berikut ini :\n    10 FOR 1 = 1 TO 10 STEP 3\n    20 PRINT 1;\" \";\n    30 NEXT 1\nHasil program di atas adalah :"
+        },
+        {
+            "id": "466",
+            "jawaban": "0",
+            "soal": "Perhatikan program berikut ini :\n\n10  DATA -3., 2.3, 0., -2., 6., 10.\n20  FOR A = 1 TO 7\n30  READ X(A)\n40  NEXT A\n50  I = 3\n60  J = 2\n70  C = X(X(4))\n80  ? C\n90  END\n\nMaka nilai C yang tercetak adalah :"
+        },
+        {
+            "id": "467",
+            "jawaban": "-3",
+            "soal": "Perhatikan program berikut ini :\n\n10  DATA -3., 2.3, 0., 3., -2., 6., 10.\n20  FOR A = 1 TO 7\n30  READ X(A)\n40  NEXT A\n50  I = 3 : J = 2\n60  C = X(I-J)\n70  ? C\n80  END\n\nMaka nilai C yang tercetak adalah :"
+        },
+        {
+            "id": "468",
+            "jawaban": "-2.3",
+            "soal": "Perhatikan program berikut ini :\n\n10  DATA -3., 2.3, 0., 3., -2., 6., 10.\n20  FOR A = 1 TO 7\n30  READ X(A)\n40  NEXT A\n50  I = 3\n60  J = 2\n70  C = X(I) - X(J)\n80  ? C\n90  END\n\nMaka nilai C yang tercetak adalah :"
+        },
+        {
+            "id": "469",
+            "jawaban": "2",
+            "soal": "Perhatikan program berikut ini :\n10  DATA 1, 2, 3, 4, 5, 6\n20  FOR I = 1 TO 6\n30  READ A(I)\n40  NEXT I\n50  FOR J = 1 TO 5 \n60  SWAP A(J), A(J+1)\n70  NEXT J\n80  PRINT A(1)\n90  END\n\nMaka output yang tercetak adalah :"
+        },
+        {
+            "id": "470",
+            "jawaban": "1",
+            "soal": "Perhatikan program berikut ini :\n10  DATA 1, 2, 3, 4, 5, 6\n20  FOR I = 1 TO 6\n30  READ A(I)\n40  NEXT I\n50  FOR J = 1 TO 5\n60  SWAP A(J), A(J+1)\n70  NEXT J\n80  PRINT A(6)\n90  END\n\nMaka output yang tercetak adalah :"
+        },
+        {
+            "id": "471",
+            "jawaban": "6",
+            "soal": "Perhatikan program berikut ini :\n10  DATA 1, 2, 3, 4, 5, 6\n20  FOR I = 1 TO 6\n30  READ A(I)\n40  NEXT I\n50  FOR J = 6 TO 2 STEP -1\n60  SWAP A(J), A(J-1)\n70  NEXT J\n80  PRINT A(1)\n90  END\n\nMaka output yang tercetak adalah :"
+        },
+        {
+            "id": "472",
+            "jawaban": "5",
+            "soal": "Perhatikan program berikut ini :\n10  DATA 1, 2, 3, 4, 5, 6\n20  FOR I = 1 TO 6\n30  READ A(I)\n40  NEXT I\n50  FOR J = 6 TO 2 STEP -1\n60  SWAP A(J), A(J-1)\n70  NEXT J\n80  PRINT A(6)\n90  END\n\nMaka output yang tercetak adalah :"
+        },
+        {
+            "id": "473",
+            "jawaban": "4",
+            "soal": "Perhatikan program berikut ini :\n10  DATA 4,7\n20  READ A,B\n30  PRINT A\n40  LET A=B\n50  PRINT A\n60  PRINT B\n70  END\n\nOutputnya adalah :"
+        },
+        {
+            "id": "474",
+            "jawaban": "31",
+            "soal": "Perhatikan program berikut ini :\n10  DATA 5, 4, 3, 2, 1, 2\n20  DATA 1, 2, 3, 4, 5, 6\n30  FOR I = 1 TO 6\n40  READ A(I), B(I)\n50  C = C + A(I)\n60  D(I) = D(I) + C\n70  NEXT I\n80  PRINT D (4)\n90  END\n\nHasil yang tercetak adalah :"
+        },
+        {
+            "id": "475",
+            "jawaban": "20",
+            "soal": "Perhatikan program berikut ini :\n10  DATA 5, 4, 3, 2, 1, 2\n20  DATA 1, 2, 3, 4, 5, 6\n30  FOR I = 1 TO 6\n40  READ A(I), B(I)\n50  C = C + B(I)\n60  D(I) = D(I) + A(I)\n70  NEXT I\n80  PRINT C\n90  END\n\nHasil yang tercetak adalah :"
+        },
+        {
+            "id": "476",
+            "jawaban": "9",
+            "soal": "Perhatikan program berikut ini :\n10  DATA 5, 4, 3, 2, 1, 2\n20  DATA 1, 2, 3, 4, 5, 6\n30  FOR I = 1 TO 6\n40  READ A(I), B(I)\n50  C = C + B(I)\n60  D(I) = D(I) + A(I)\n70  NEXT I\n80  PRINT D(3)\n90  END\n\nHasil yang tercetak adalah :"
+        },
+        {
+            "id": "477",
+            "jawaban": "28",
+            "soal": "Perhatikan program berikut ini :\n10  DATA 5, 4, 3, 2, 1, 2\n20  DATA 1, 2, 3, 4, 5, 6\n30  FOR I = 1 TO 6\n40  READ A(I), B(I)\n50  C = C + B(I)\n60  D(I) = D(I) + C\n70  NEXT I\n80  PRINT D(4)\n90  END\n\nHasil yang tercetak adalah :"
+        },
+        {
+            "id": "478",
+            "jawaban": "2",
+            "soal": "Perhatikan program berikut ini :\n10  DIM X(3,4)\n20  DATA 5, 4, 3, 2, 1, 2 \n30  DATA 1, 2, 3, 4, 5, 6\n40  FOR I = 1 TO 6\n50  FOR J = 1 TO 2\n60  READ X(I,J)\n70  NEXT I\n80  PRINT X(2,2)\n90  END\n  \nHasil yang tercetak adalah :"
+        },
+        {
+            "id": "479",
+            "jawaban": "2, 13, 55",
+            "soal": "Perhatikan program berikut ini :\n10  DIM Y(10)\n20  LET Y(1) = 1\n30  LET Y(2) = 1\n40  FOR I = 3 TO 10\n50  LET Y(I) = Y (I-1) + Y(I-2)\n60  NEXT I\n\nMaka nilai Y(3), Y(7), dan Y(10) berturut-turut adalah :"
+        },
+        {
+            "id": "480",
+            "jawaban": "1,4,7,10",
+            "soal": "Perhatikan program berikut ini :\n10  For I=1 to 10 step 3\n20  Next I\n30  Print I \" \"\n40 Hasil program diatas adalah :"
+        },
+        {
+            "id": "481",
+            "jawaban": "1  4  7  10  13",
+            "soal": "Perhatikan program berikut ini :\n10  FOR I=1 TO 10 STEP 3\n20 PRINT I;\" \";\n30 NEXT I\n\nHasil dari program di atas adalah :"
+        },
+        {
+            "id": "482",
+            "jawaban": "Kesalahan pada baris 50",
+            "soal": "Perhatikan program berikut ini :\n10  FOR P = 1 TO 5\n20  FOR Q = 1 TO 5\n30  INPUT Z(P,Q)\n40  PRINT Z(P,Q)\n50  NEXT P\n60  NEXT Q\n\nDari program diatas :"
+        },
+        {
+            "id": "483",
+            "jawaban": "1313.5",
+            "soal": "Perhatikan program berikut ini :\n10  LET A$ = \"13.5\"\n20  LET B$ = \"15\"\n30  LET C$ = B$ + a$\n40  PRINT C$\n50  END\nHasilnya adalah :"
+        },
+        {
+            "id": "484",
+            "jawaban": "28.5",
+            "soal": "Perhatikan program berikut ini :\n10  LET A$ = \"13.5\"\n20  LET B$ = \"15\"\n30  LET D = VAL(B$) + VAL(A$)\n40  PRINT C$\n50  END\nHasilnya adalah :"
+        },
+        {
+            "id": "485",
+            "jawaban": "22",
+            "soal": "Perhatikan program berikut ini :\n10  LET A$ = \"FAKULTAS ILMU KOMPUTER\"\n20  LET B = LEN(A$)\n30  PRINT B\n40  END\nHasil dari program tersebut adalah :"
+        },
+        {
+            "id": "486",
+            "jawaban": "TASTER",
+            "soal": "Perhatikan program berikut ini :\n10  LET A$ = \"FAKULTAS\"\n20  LET B$ = \"ILMU\"\n30  LET C$ = \"KOMPPUTER\"\n40  LET D$ = MID$(A$,6) + RIGHT$(C$,3)\n50  PRINT D$ : END\nHasilnya adalah :"
+        },
+        {
+            "id": "487",
+            "jawaban": "FAKULTASKOMPUTER",
+            "soal": "Perhatikan program berikut ini :\n10  LET A$ = \"FAKULTAS\"\n20  LET B$ = \"ILMU\"\n30  LET C$ = \"KOMPUTER\"\n40  LET B$ = A$ + C$\n50  PRINT B$\n60  END\nHasilnya adalah :"
+        },
+        {
+            "id": "488",
+            "jawaban": "FAKTERIL",
+            "soal": "Perhatikan program berikut ini :\n10  LET A$ = \"FAKULTAS\"\n20  LET B$ = \"ILMU\"\n30  LET C$ = \"KOMPUTER\"\n40  LET D$ = MID$(A$,1,3) + RIGHT$(C$,3) + LEFT$(B$,2)\n50  PRINT D$ : END\nHasilnya adalah :"
+        },
+        {
+            "id": "489",
+            "jawaban": "TASMUKOM",
+            "soal": "Perhatikan program berikut ini :\n10  LET A$ = \"FAKULTAS\"\n20  LET B$ = \"ILMU\"\n30  LET C$ = \"KOMPUTER\"\n40  LET D$ = MID$(A$,6) + RIGHT$(B$,2) + LEFT$(C$,3)\n50  PRINT D$ : END\nHasilnya adalah :"
+        },
+        {
+            "id": "490",
+            "jawaban": "16   11",
+            "soal": "Perhatikan program berikut ini :\n10  READ A,B\n20 IF A>B THEN A=B ELSE B=A\n30 A=A+10:B=B+5\n40 ?A,B\n50 DATA 6,8\n60 END\n\nOutput dari program berikut ini :"
+        },
+        {
+            "id": "491",
+            "jawaban": "A$ = 1010",
+            "soal": "Perhatikan program berikut ini :\n10  V$ = \"10 JANUARI 1998\"\n20  K$ = LEFT(V$,2)\n30  A$ = K$ + K$\n40  PRINT \"A$ =\";A$\n50  KA = VAL (K$)\n60  BA = KA + KA\n70  PRINT \"BA =\";BA\n80  L$ = MID(V$,3,4)\n90  M$ = RIGHT (V$,5)\n100 PRINT\n110 PRINT K$+L$+M$"
+        },
+        {
+            "id": "492",
+            "jawaban": "NAMANYADARMA",
+            "soal": "Perhatikan program berikut ini :\n10 A$=\"GUNADARMA\"\n20 ?\"NAMANYA\" +RIGHT$(A$,5)\n30 END"
+        },
+        {
+            "id": "493",
+            "jawaban": "1   2",
+            "soal": "Perhatikan program berikut ini :\n10 C=C+1\n20 IF C>=3 THEN END\n30 PRINT C:GOTO 10\n\nHasil dari program di atas adalah"
+        },
+        {
+            "id": "494",
+            "jawaban": "Mahasiswa Tidak Lulus",
+            "soal": "Perhatikan program berikut ini :\n10 Data 52,66\n20 Read Nilai 1, Nilai 2\n30 Let X = (Nilai 1 + Nilai 2) / 2\n40 If X > 64 then 70\n50 Print \"Mahasiswa Tidak Lulus\"\n60 Go to 80\n70 Print \"Mahasiswa Lulus\"\n80 END\n\nHasil keluaran dari program tersebut adalah :"
+        },
+        {
+            "id": "495",
+            "jawaban": "1 1 1 2 2 2 1 2 2",
+            "soal": "Perhatikan program berikut ini :\n10 FOR A=1 TO 2\n20 FOR B=1 TO 2\n30 PRINT A;B;\n40 NEXT B\n50 NEXT A\n\nYang tercetak adalah :"
+        },
+        {
+            "id": "496",
+            "jawaban": "1 1 1 2 2 2",
+            "soal": "Perhatikan program berikut ini :\n10 FOR A=1 TO 2\n20 FOR B=1 TO 3\n30 PRINT A;\n40 NEXT B\n50 NEXT A\n\nYang tercetak adalah :"
+        },
+        {
+            "id": "497",
+            "jawaban": "1  2  3  1  2  3",
+            "soal": "Perhatikan program berikut ini :\n10 FOR A=1 TO 2\n20 FOR B=1 TO 3\n30 PRINT B;\n40 NEXT B\n50 NEXT A\n\nYang tercetak adalah :"
+        },
+        {
+            "id": "498",
+            "jawaban": "1 1 2 2 3 3",
+            "soal": "Perhatikan program berikut ini :\n10 FOR A=1 TO 3\n20 FOR B=1 TO 2\n30 PRINT A;\n40 NEXT B\n50 NEXT A\n\nYang tercetak adalah :"
+        },
+        {
+            "id": "499",
+            "jawaban": "1 2 3 1 2 3 1 2 3",
+            "soal": "Perhatikan program berikut ini :\n10 FOR A=1 TO 3\n20 FOR B=1 TO 3\n30 PRINT B;\n40 NEXT B\n50 NEXT A\n\nYang tercetak adalah :"
+        },
+        {
+            "id": "500",
+            "jawaban": "0",
+            "soal": "Perhatikan program berikut ini :\n10 FOR I=1 TO 5\n20 J=J*I\n30 NEXT I\n40 PRINT J;\n\nYang tercetak adalah"
+        },
+        {
+            "id": "501",
+            "jawaban": "13",
+            "soal": "Perhatikan program berikut ini :\n10 FOR I=1 TO STEP 3\n20 NEXT I\n30 PRINT I;\" \";\n\nHasil dari program di atas adalah :"
+        },
+        {
+            "id": "502",
+            "jawaban": "-2",
+            "soal": "Perhatikan program berikut ini :\n10 FOR J=10 TO 1 STEP -4\n20 NEXT J\n30 PRINT J"
+        },
+        {
+            "id": "503",
+            "jawaban": "5 5 8 13",
+            "soal": "Perhatikan program berikut ini :\n10 FOR T=5 TO 10 STEP 3\n20 X=X+T\n30 PRINT T;X;\n40 NEXT T\n\nYang tercetak adalah :"
+        },
+        {
+            "id": "504",
+            "jawaban": "5  0  8  0",
+            "soal": "Perhatikan program berikut ini :\n10 FOR T=5 TO STEP 3\n20 X=X*T\n30 PRINT T;X;\n40 NEXT T\n\nYang tercetak adalah :"
+        },
+        {
+            "id": "505",
+            "jawaban": "1 2 3 3",
+            "soal": "Perhatikan program berikut ini :\n10 IF X>=3 THEN PRINT X:END\n20 X=X+1\n30 PRINT X;\n40 GOTO 10\n\nYang tercetak program berikut ini :"
+        },
+        {
+            "id": "506",
+            "jawaban": "2 3 4 5",
+            "soal": "Perhatikan program berikut ini :\n10 LET X=1\n20 IF X=5 THEN 60\n30 LET X=X+1\n40 PRINT X;\n50 GOTO 20\n60 END\n\nHasil dari program tersebut adalah :"
+        },
+        {
+            "id": "507",
+            "jawaban": "2 3 4 5 5",
+            "soal": "Perhatikan program berikut ini :\n10 LET X=1\n20 IF X=5 THEN 60\n30 LET X=X+1\n40 PRINT X;\n50 GOTO 20\n60 PRINT X;\n70 END\n\nHasil dari program berikut adalah :"
+        },
+        {
+            "id": "508",
+            "jawaban": "1 2 3 4 5",
+            "soal": "Perhatikan program berikut ini :\n10 LET X=1\n20 PRINT X;\n30 IF X=5 THEN 60\n40 LET X=X+1\n50 GOTO 20\n60 END\n\nHasil dari program tersebut adalah :"
+        },
+        {
+            "id": "509",
+            "jawaban": "2 4 6 8 10",
+            "soal": "Perhatikan program berikut ini :\n10 LET X=2\n20 PRINT X;\n30 LET X=X+2\n40 IF X>10 THEN 60\n50 GOTO 20\n60 END\n\nHasil dari program di atas adalah :"
+        },
+        {
+            "id": "510",
+            "jawaban": "1 2 2 4 3 6 4 8",
+            "soal": "Perhatikan program berikut ini :\n10 LET X=2\n20 PRINT X;\n30 PRINT X+X;\n40 IF X=4 THEN 70\n50 LET X=X+1\n60 GOTO 20\n70 END\n\nHasil dari program tersebut adalah :"
+        },
+        {
+            "id": "511",
+            "jawaban": "120",
+            "soal": "Perhatikan program berikut ini :\n10 LET=1\n20 FOR I= 1 TO 5\n30 T=T*I\n40 NEXT I\n50 PRINT T;\n\nYang tercetak adalah"
+        },
+        {
+            "id": "512",
+            "jawaban": "20     15",
+            "soal": "Perhatikan program berikut ini :\n10 READ A,B\n20 IF A>B THEN A= ELSE B=A\n30 A=A+10:B=B+5\n40 ?A,B\n50 DATA 15,10\n60 END\n\nHasil dari program di atas adalah :"
+        },
+        {
+            "id": "513",
+            "jawaban": "25   20",
+            "soal": "Perhatikan program berikut ini :\n10 READ A,B\n20 IF A>B THEN A=B ELSE B=A\n30 A=A+10:B=B+5\n40 ?A,B\n50 DATA 15,15\n60 END\n\nOutput dari program di atas :"
+        },
+        {
+            "id": "514",
+            "jawaban": "5  5  8  40",
+            "soal": "Perhatikan program berikut ini :\n10 X=1\n20 FOR T=5 TO 10 STEP 3\n30 PRINT T;X;\n40 NEXT T\n50 PRINT T;\n\nYang tercetak adalah :"
+        },
+        {
+            "id": "515",
+            "jawaban": "120000",
+            "soal": "Perhatikan program berikut ini :\n100 INPUT JP \n110 IF JP<100000 THEN DISC= 0\n120 IF JP<500000 THEN DISC= 0.1*JP\n130 IF JP<1000000 THEN DISC= 0.15*JP\n140 IF JP>1000000 THEN DISC= 0.2*JP\n150 PRINT DISC\nRUN\n\nJika variabel JP diisi dengan 800000 maka output d"
+        },
+        {
+            "id": "516",
+            "jawaban": "0",
+            "soal": "Perhatikan program berikut ini :\n20  FOR P = 1 TO 3\n40  READ D$(P)\n60  FOR G = 1 TO 2\n80  READ D (P,G)\n100 NEXT G\n120 NEXT P\n130 DATA \"AAA\", 3, 2, \"BBB\", 5, 4, \"CCC\", 6, 8\n\nNilai D(2, 3) adalah :"
+        },
+        {
+            "id": "517",
+            "jawaban": "5",
+            "soal": "Perhatikan program berikut ini :\n20  FOR P = 1 TO 3\n40  READ D$(P)\n60  FOR G = 1 TO 2\n80  READ D(P,G)\n100 NEXT G\n120 NEXT P\n130 DATA \"AAA\", 3, 2, \"BBB\", 5, 4, \"CCC\", 6, 8\n\nNilai D(2,1) adalah :"
+        },
+        {
+            "id": "518",
+            "jawaban": "X(1), X(2), X(3), X(4), X(5), X(6)",
+            "soal": "Perhatikan program berikut ini :\n30  I = 2 TO 6 STEP 2\n35  X (I - 1) = I\n40  X (I) = -I\n45  NEXT I\n\nNilai yang dimasukkan ke dalam :"
+        },
+        {
+            "id": "519",
+            "jawaban": "4 dan -4",
+            "soal": "Perhatikan program berikut ini :\n30  I = 2 TO 6 STEP 2\n35  X (I-1) = I\n40  X (I) = -I\n45  NEXT I\n\nNilai dalam X(3) dan X(4) berturut-turut adalah :"
+        },
+        {
+            "id": "520",
+            "jawaban": "2",
+            "soal": "Perhatikan program berikut ini :\n5   DIM X(3,4)\n10  DATA 5, 4, 3, 2, 1, 2 \n20  DATA 1, 2, 3, 4, 5, 6 \n30  FOR I = 1 TO 3\n35  FOR J = 1 TO 4\n40  READ X(I,J)\n70  NEXT I\n80  PRINT X(2,2)\n90  END\n\nHasil yang tercetak adalah :"
+        },
+        {
+            "id": "521",
+            "jawaban": "1",
+            "soal": "Perhatikan program berikut ini :\n5   DIM X(3,4)\n10  DATA 5, 4, 3, 2, 1, 2\n20  DATA 1, 2, 3, 4, 5, 6\n30  FOR  I = 1 TO 4\n35  FOR  J = 1 TO 3 \n40  READ X(I,J)\n70  NEXT I\n80  PRINT X(2,2)\n90  END\n\nHasil yang tercetak adalah :"
+        },
+        {
+            "id": "522",
+            "jawaban": "40   25",
+            "soal": "Perhatikan program berikut ini\n10 READ X,Y\n20 LET X=X+Y:LET Y=Y+X:LET X=X+Y\n30 PRINT X,Y\n40 END\n50 DATA 5,10\n\nHasil dari program di atas adalah :"
+        },
+        {
+            "id": "523",
+            "jawaban": "B$=GHIJKL",
+            "soal": "Perhatikan program berikut ini\n10 Y$=\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\n20 A$=LEFT$(Y$,6)\n30 B$=MID$(Y$,6)\n40 C$=RIGHT$(Y$,15)\n50 D$=RIGHT$(C$,3)\n60 E$=MID$(B$,2)\n70 ?\"A$=\";A$\n80 ?\"B$=\";B$\n90 ?\"C$=\";C$\n100 ?\"D$=\";D$\n110 ?\"E$=\";E$\n120 END\nApa yang keluar pada ba"
+        },
+        {
+            "id": "524",
+            "jawaban": "Dua baris dennngan 3 buah asterisk setiap barisnya",
+            "soal": "Perhatikan program berikut ini:\n20 FOR L = 1 TO 2\n40 FOR K = 1 TO 3\n60 PRINT \"*\";\n80 NEXT Q\n100 PRINT H\n120 DATA 23, 87, 35, 49"
+        },
+        {
+            "id": "525",
+            "jawaban": "NAMANYADARMA",
+            "soal": "Perhatikan program berikut\n10 A$=\"GUNADARMA\"\n20 ?\"NAMANYA\" +RIGHT$(A$,5)\n30 END\nOUTPUTNYA..."
+        },
+        {
+            "id": "526",
+            "jawaban": "0 0 0",
+            "soal": "Perhatikan program berikut\n10 FOR KALI = 2 TO 4\n20 A=A*KALI\n30 NEXT\n40 PRINT A;\nOutput adalah..."
+        },
+        {
+            "id": "527",
+            "jawaban": "0",
+            "soal": "Perhatikan program berikut, apabila PRICE = 2750\n10 INPUT PRICE\n20 IF PRICE > 5000 THEN POT = 0.1 * PRICE\n30 IF PRICE < 3000 THEN POT = 0\n40 PRINT POT\n50 END\nOUTPUTNYA..."
+        },
+        {
+            "id": "528",
+            "jawaban": "Contoh 1",
+            "soal": "Perhatikan program berikut:\n10 ? \"Contoh 1\"\n20 Gosub 70\n30 ? \"Contoh 2\"\n40 Gosub 70\n50 ? \"Selesai\"\n60 End\n70 ?\"Subroutin\"\"\n80 Return\nHasil dari program diatas:"
+        },
+        {
+            "id": "529",
+            "jawaban": "444",
+            "soal": "Perhatikan program berikut:\n10 A=\"123\"\n20 N=321\n30 ? VAL(A$)+N\n40 END\nOutput yang dihasilkan:"
+        },
+        {
+            "id": "530",
+            "jawaban": "1290                         \n   1234 56",
+            "soal": "Perhatikan program berikut:\n10 A=1234\n20 B%=56\n30 ? A+B%\n40 ?STR$(A)+STR$(B%)\n50 END\nOutput yang dihasilkan :"
+        },
+        {
+            "id": "531",
+            "jawaban": "3 5 8 9 10 1 0",
+            "soal": "Perhatikan program berikut:\n10 DATA 3,5,12,8,9,11,10,15,1,0,3,7,2,15\n20 READ A\n30 IF A>10 THEN GOTO 20\n40 ? A;\n50 IF A=0 THEN GOTO 70\n60 GOTO 20\n70 END\nOutput yang dihasilkan :"
+        },
+        {
+            "id": "532",
+            "jawaban": "7",
+            "soal": "Perhatikan program berikut:\n10 DATA 3,7\n20 READ L\n30 READ B\n40 IF L>=B THEN 60\n50 LET L=B\n60 ?L\n70 END\nOutput..."
+        },
+        {
+            "id": "533",
+            "jawaban": "7 dan 1",
+            "soal": "Perhatikan program berikut:\n10 DIM A(2,3)\n20 FOR B=1 TO 2\n30 FOR C=1 TO 3\n40 READ A(B,C)\n50 NEXT C\n60 NEXT B\n70 ? A(2,2)\n80 ? A(1,2)\n90 DATA 6,1,5,8,7,9\n100 END\nOutput yang dihasilkan:"
+        },
+        {
+            "id": "534",
+            "jawaban": "11 22",
+            "soal": "Perhatikan program berikut:\n10 DIM A(3,2)\n20 FOR B=1 TO 3\n30 FOR C=1 TO 2\n40 READ A(B,C)\n50 NEXT C\n60 NEXT B\n70 DATA 2,4,6,8,10,12\n80 END\nHasil program tersebut adalah:"
+        },
+        {
+            "id": "535",
+            "jawaban": "13",
+            "soal": "Perhatikan program berikut:\n10 FOR H=1 TO 10 STEP 3\n20 NEXT H\n30 ?H;\" \";\n40 END\nOutput yang dihasilkan :"
+        },
+        {
+            "id": "536",
+            "jawaban": "0  0  0",
+            "soal": "Perhatikan program berikut:\n10 FOR HITUNG = 4 TO 6\n20 HASIL = HASIL * HITUNG\n30 NEXT HITUNG\n40 ? HASIL;\nOutputnya ...."
+        },
+        {
+            "id": "537",
+            "jawaban": "0 0 0",
+            "soal": "Perhatikan program berikut:\n10 FOR I=1 TO 3\n30 READ X\n40 ? X%;\n50 NEXT I\n60 DATA 2.85,6.15,5\nOutput yang dihasilkan:"
+        },
+        {
+            "id": "538",
+            "jawaban": "7 7 7 7",
+            "soal": "Perhatikan program berikut:\n10 FOR I=1 TO 4\n20 READ A\n30 NEXT I\n40 FOR I=1 TO 4\n50 ? A;\n60 NEXT I\n70 DATA 3,5,2,7\n80 END\nHasil program tersebut adalah:"
+        },
+        {
+            "id": "539",
+            "jawaban": "3 5 2 7",
+            "soal": "Perhatikan program berikut:\n10 FOR I=1 TO 4\n20 READ A(I)\n30 NEXT I\n40 FOR I=1 TO 4\n50 ? A(I);\n60 NEXT I\n70 DATA 3,5,2,7\n80 END\nHasil program tersebut adalah:"
+        },
+        {
+            "id": "540",
+            "jawaban": "0  0",
+            "soal": "PERHATIKAN PROGRAM BERIKUT:\n10 FOR JUM = 6 TO 3 STEP -3\n20 MUJ = MUJ * JUM\n30 NEXT\n40 ?JUM;\noutput:..."
+        },
+        {
+            "id": "541",
+            "jawaban": "1 1",
+            "soal": "Perhatikan program berikut:\n10 FOR N=1 TO 2\n20 FOR K=1 TO N\n30 ? N;K\n40 NEXT K\n50 NEXT N\n60 END\nOutput program diatas:"
+        },
+        {
+            "id": "542",
+            "jawaban": "2 4",
+            "soal": "Perhatikan program berikut:\n10 FOR N=2 TO 4\n20 FOR K=N TO 3\n30 ? N;N*K\n40 NEXT K\n50 NEXT N\n60 END\nOutput program diatas:"
+        },
+        {
+            "id": "543",
+            "jawaban": "AMUK",
+            "soal": "Perhatikan program berikut:\n10 LET A$=\"DASAMUKA\"\n20 LET B$=\"SUBSTR(A$,4,4)\n30 LET C$=\"SUBSTR(B$,2)\n40 ? B$\n50 ?C$\n60 END\nOUTPUT..."
+        },
+        {
+            "id": "544",
+            "jawaban": "6 8 11 15",
+            "soal": "Perhatikan program berikut:\n10 LET S=5\n20 FOR K=1 TO 4\n30 LET S=S+K\n40 ?S;\n50 NEXT K\n60 END\nOutput program diatas:"
+        },
+        {
+            "id": "545",
+            "jawaban": "A$=ABCDEF",
+            "soal": "Perhatikan program berikut:\n10 Y$=\"ABCDEFGHIJKLMNOPQRSTUVWXYZ'\n20 A$=LEFT$(Y$,6)\n30 B$=MID$(Y$,7,6)\n40 C$=RIGHT$(Y$,15)\n50 D$=RIGHT$(C$,3)\nE$=MID$(B$,2)\n70 ?\"A$=\";A$\n80 ?\"B$=\";B$ \n90 ?\"C$=\";C$\n100 ?\"D$=\";D$\n110 ?\"E$=\";E$\n120 END\nApa yang keluar dari baris"
+        },
+        {
+            "id": "546",
+            "jawaban": "D$=XYZ",
+            "soal": "Perhatikan program berikut:\n10 Y$=\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\n20 A$=LEFT$(Y$,6)\n30 B$=MID$(Y$,7,6)\n40 C$=RIGHT$(Y$,15)\n50 D$=RIGHT$(C$,3)\n60 E$=MID$(B$,2)\n70 ?\"A$=\";A$\n80 ?\"B$=\";B$\n90 ?\"C$=\";C$\n100 ?\"D$=\";D$\n110 ?\"E$=\";E$\n120 END\n\nApa yang keluar pada ba"
+        },
+        {
+            "id": "547",
+            "jawaban": "35   30",
+            "soal": "Perhatikan program di bawah ini :\n10 C=10:D=25:E=15\n20 C=C+D\n30 D=30\n40 PRINT C,D\n50 END\n\nHasil keluaran dari program di atas adalah :"
+        },
+        {
+            "id": "548",
+            "jawaban": "60   30",
+            "soal": "Perhatikan program di bawah ini :\n10 C=10:D=25:E=15\n20 C=C+D:C=C+D\n30 D=30\n40 PRINT C,D\n50 END\n\nHasil keluaran dari program di atas adalah :"
+        },
+        {
+            "id": "549",
+            "jawaban": "1 1 1 2 2 2 3 3 3",
+            "soal": "Perhatikan program di bawah ini :\n10 FOR A=1 TO 3\n20 FOR B=1 TO 3\n30 PRINT A;\n40 NEXT B\n50 NEXT A\n\nYang tercetak adalah :"
+        },
+        {
+            "id": "550",
+            "jawaban": "0",
+            "soal": "Perhatikan program di bawah ini :\n10 IF X=Y THEN 40\n20 X=15:Y=Y+10\n30 GOTO 10\n40 ?X\n50 END\n\nHasil dari program tersebut :"
+        },
+        {
+            "id": "551",
+            "jawaban": "2    2.5",
+            "soal": "Perhatikan program di bawah ini :\n10 X=10:Y=4\n20 Z%=X/Y\n30 A=X/Y\n40 ?Z%,A\n50 END\n\nOutpot program tersebut :"
+        },
+        {
+            "id": "552",
+            "jawaban": "2    2",
+            "soal": "Perhatikan program di bawah ini :\n10 X=10:Y=4\n20 Z%=X/Y\n30 A=X/Y\n40 ?Z%,A\n50 END\n\nOutput program tersebut ;"
+        },
+        {
+            "id": "553",
+            "jawaban": "AKAR = 1",
+            "soal": "Perhatikan program dibawah ini :\n10  DEF FNG(X) = 2 * x ^2 + 3 * x - 5\n20  FOR K = 0 TO 5\n30  F = FNG (K)\n40  IF F = 0 THEN PRINT \"AKAR = \"; K\n50  NEXT K\n60  END"
+        },
+        {
+            "id": "554",
+            "jawaban": "3",
+            "soal": "Perhatikan program dibawah ini :\n10  DIM Q(3,3)\n20  FOR R=1 TO 3\n30  FOR C=1 TO 3\n40  READ Q(R,C)\n50  NEXT C\n60  NEXT R\n70  PRINT Q(2,1)\n80  DATA 1,4,2,3,6,4,9,9,5\n90  END\nMaka hasil program diatas adalah :"
+        },
+        {
+            "id": "555",
+            "jawaban": "2  3  2  3  4  2  3  4  5",
+            "soal": "Perhatikan program dibawah ini :\n10  FOR N=3 TO 5\n20  FOR K=2 TO N\n30  ?K;\n40  NEXT K\n50  NEXT N\n60  END\n\nOutput dari program tersebut :"
+        },
+        {
+            "id": "556",
+            "jawaban": "6,10,3,20\n                                   10\n                                   3\n                                   20",
+            "soal": "Perhatikan program dibawah ini :\n10  Read A,B,C\n20  D=(A*B)/C\n30  Print A,B,C,D\n40  Data 6,10,3\n50  End \n\nHasil keluaran program diatas adalah :"
+        },
+        {
+            "id": "557",
+            "jawaban": "10 FOR A=3 TO 60 STEP 3\n   20 PRINT A\n   30 NEXT A",
+            "soal": "Perhatikan program dibawah ini :\n10 A = 3\n20 PRINT A\n30 IF A>60 THEN END\n40 A=A+3 : GOTO 20\nHasil dari program tersebut sama dengan hasil program :"
+        },
+        {
+            "id": "558",
+            "jawaban": "60 30",
+            "soal": "Perhatikan program dibawah ini :\n10 C=10:D=25:E=15\n20 C=C+D:C=C+D\n30 D=30\n40 PRINT C,D\n50 END\n\nHasil keluaran program tersebut diatas adalah :"
+        },
+        {
+            "id": "559",
+            "jawaban": "A+B=12",
+            "soal": "Perhatikan program dibawah ini :\n10 Data 4,8,12\n20 Read X,A,B\n30 Print \"A+B\":A+B\n40 Print X\n50 END\n\nHasil dari program tersebut adalah :"
+        },
+        {
+            "id": "560",
+            "jawaban": "6 10 3 20",
+            "soal": "Perhatikan program dibawah ini :\n10 READ A,B,C\n20 D = (A*B)/C\n30 PRINT A,B,C,D \n40 DATA 6,10,3\n50 END\n\nHasil keluaran program diatas adalah :"
+        },
+        {
+            "id": "561",
+            "jawaban": "C$=LMNOPQRSTUVWXYZ",
+            "soal": "Perhatikan program dibawah ini\"\n10 Y$=\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\n20 A$=LEFT$(Y$,6)\n30 B$=MID$(Y$,7,6)\n40 C$=RIGHT(Y$,15)\n50 D$=RIGHT$(C$,3)\n60 E$=MID$(B$,2)\n70 ?\"A$=\";A$\n80 ?\"B$=\";B$\n90 ?\"C$=\";C$\n100 ?\"D$=\";D$\n110 ?\"E$=\";E$\n120 END\n\nApa yang keluar pada"
+        },
+        {
+            "id": "562",
+            "jawaban": "0",
+            "soal": "Perhatikan program dibawah ini, apabila harga = 2000\n10 INPUT HARGA \n20 IF HARGA < 10000 THEN DISC = 0.25 * HARGA \n30 IF HARGA < 5000 THEN DISC = 0\n40 ? DISC : END\nOUTPUT..."
+        },
+        {
+            "id": "563",
+            "jawaban": "5000",
+            "soal": "Perhatikan tabel berikt ini:\nNama barang         Ukuran      Warna       Harga\n    A                  S        Putih       2500\n    A                  M        Hijau       3000\n    A                  L        Hijau       4000\n    B                  S"
+        },
+        {
+            "id": "564",
+            "jawaban": "4000",
+            "soal": "Perhatikan tabel berikut:\nNama barag      Ukuran      Warna       Harga\n    A             S         Putih       2500\n    A             M         Hijau       3000\n    A             L         Hijau       4000\n    B             S         Putih       3000"
+        },
+        {
+            "id": "565",
+            "jawaban": "-",
+            "soal": "Perhatikan tabel dibawah ini :\n    NAMA BARANG         UKURAN          WARNA           HARGA\n        A                 S             PUTIH           2500\n        A                 M             HIJAU           3000\n        A                 L"
+        },
+        {
+            "id": "566",
+            "jawaban": "4000",
+            "soal": "Perhatikan tabel dibawah ini :\n    NAMA BARANG         UKURAN          WARNA           HARGA\n        A                 S             PUTIH           2500\n        A                 M             HIJAU           3000\n        A                 L"
+        },
+        {
+            "id": "567",
+            "jawaban": "-",
+            "soal": "Perhatikan tabel dibawah ini :\n    NAMA BARANG         UKURAN      WARNA       HARGA\n        A                 S         PUTIH       2500\n        A                 M         HIJAU       3000\n        A                 L         HIJAU       4000\n        B"
+        },
+        {
+            "id": "568",
+            "jawaban": "5000",
+            "soal": "Perhatikan tabel dibawah ini :\n    NAMA BARANG         UKURAN      WARNA       HARGA\n        A                 S         PUTIH       2500\n        A                 M         HIJAU       3000\n        A                 L         HIJAU       4000\n        B"
+        },
+        {
+            "id": "569",
+            "jawaban": "3000",
+            "soal": "Perhatikan tabel dibawah ini :\n    NAMA BARANG     UKURAN      WARNA       HARGA\n        A             S         putih       2500\n        A             M         hijau       3000\n        A             L         hijau       4000\n        B             S"
+        },
+        {
+            "id": "570",
+            "jawaban": "4000",
+            "soal": "Perhatikan tabel dibawah ini :\nNama barang         Ukuran      Warna       Harga\n    A.                S         Putih       2500\n    A                 M         Hijau       3000\n    A                 L         Hijau       4000\n    B                 S"
+        },
+        {
+            "id": "571",
+            "jawaban": "3000",
+            "soal": "Perhatikan tabel dibawah ini:\nNama barang     Ukuran      warna       harga\n    A             S         Putih        2500\n    A             M         Hijau        3000\n    A             L         Hijau        4000\n    B             S         Putih"
+        },
+        {
+            "id": "572",
+            "jawaban": "3000",
+            "soal": "Perhatikan tabel dibawah ini:\nNama Barang     Ukuran      Warna       harga\n    A             S         Putih       2500\n    A             M         Hijau       3000\n    A             L         Hijau       4000\n    B             S         Putih       3000"
+        },
+        {
+            "id": "573",
+            "jawaban": "8",
+            "soal": "Perhtikan program berikut:\n10 for ZZ= 1 to 3 : read x,y,z\n20 if x > 5 then ?Z: end\n30 next ZZ\n40 data 2,4,6,6,7,8,8,9,10\n50 end\nOutputnya adalah:"
+        },
+        {
+            "id": "574",
+            "jawaban": "PRINT X Y Z",
+            "soal": "Perintah cetak yang salah adalah :"
+        },
+        {
+            "id": "575",
+            "jawaban": "Dapat beberapa file sekaligus",
+            "soal": "Perintah CLOSE dapat menutup:"
+        },
+        {
+            "id": "576",
+            "jawaban": "RESTORE",
+            "soal": "Perintah yang digunakan untuk membaca data kembali bila data yang dibaca telah habis yakni :"
+        },
+        {
+            "id": "577",
+            "jawaban": "LEN(X$)",
+            "soal": "Perintah yang digunakan untuk memperoleh nilai ASCII dari suatu karakter dan sebaliknya adalah:"
+        },
+        {
+            "id": "578",
+            "jawaban": "GOSUB nama label",
+            "soal": "perintah-perintah yang termasuk dalam subprogram adalah:"
+        },
+        {
+            "id": "579",
+            "jawaban": "Untuk menjalankan suatu program dalam BASIC ketik LOAD \"Nama\n   program dan Enter",
+            "soal": "Pernyataan berikut ini :"
+        },
+        {
+            "id": "580",
+            "jawaban": "jika jawaban 2 dan 4 yang benar",
+            "soal": "Pernyataan berikut ini benar, kecuali :"
+        },
+        {
+            "id": "581",
+            "jawaban": "jika hanya jawaban 4 yang benar",
+            "soal": "Pernyataan berikut ini salah, kecuali :"
+        },
+        {
+            "id": "582",
+            "jawaban": "DEF merupakan statement non-executable",
+            "soal": "Pernyataan berikut ini yang benar adalah :"
+        },
+        {
+            "id": "583",
+            "jawaban": "Tanda % untuk menghilangkan pecahan",
+            "soal": "Pernyataan berikut yang benar kecuali :"
+        },
+        {
+            "id": "584",
+            "jawaban": "Tanda % untuk untuk menghilangkan pecahan",
+            "soal": "Pernyataan berikut yang benar, kecuali :"
+        },
+        {
+            "id": "585",
+            "jawaban": "Tanda % untuk menghilangkan pecahan",
+            "soal": "Pernyataan berikut yang benar, kecuali:"
+        },
+        {
+            "id": "586",
+            "jawaban": "LET X = P - -P + Q - R",
+            "soal": "Pernyataan LET berikut ini adalah benar :"
+        },
+        {
+            "id": "587",
+            "jawaban": "sebagai batasan untuk looping",
+            "soal": "Pernyataan pada baris 40 berguna untuk\n\n10 CLS\n20 DATA 3,5,7,9,99\n30 READ x\n40 IF x = 99 THEN ......\n50 PRINT x;\n60......\n70 END"
+        },
+        {
+            "id": "588",
+            "jawaban": "Bila DIM A(20), dan READ A akan memberikan nilai A(1)",
+            "soal": "Pernyataan yang benar adalah :"
+        },
+        {
+            "id": "589",
+            "jawaban": "DEF FNA (X) = FNA (X) + C",
+            "soal": "Pernyataan yang benar adalah :"
+        },
+        {
+            "id": "590",
+            "jawaban": "jika jawaban 1 dan 3 yang benar",
+            "soal": "Pernyataan yang benar adalah :"
+        },
+        {
+            "id": "591",
+            "jawaban": "Jika k=3 and l=3, maka G(k) = G(l)",
+            "soal": "Pernyataan yang benar adalah :"
+        },
+        {
+            "id": "592",
+            "jawaban": "Percabangan GO TO merupakan percabangan tanpa syarat apapun",
+            "soal": "Pernyataan-pernyataan berikut ini adalah benar :"
+        },
+        {
+            "id": "593",
+            "jawaban": "Redo from start",
+            "soal": "Pesan kesalahan yang muncul pada Qbasic jika data yang dimasukkan dari keyboard tidak cocok dengan tipe variabel penerima :"
+        },
+        {
+            "id": "594",
+            "jawaban": "10 I=10",
+            "soal": "PRogram :   10 FOR I = 10 TO 20 STEP 3\n            20 NEXT I\n            30 PRINT I\nHasilnya akan sama dengan program:"
+        },
+        {
+            "id": "595",
+            "jawaban": "12",
+            "soal": "Program BASIC :\n10 FOR X = 4 TO 1 STEP - 1 \n20 DATA 19,59\n30 READ N\n40 NEXT X\n50 PRINT N\n60 DATA 24,12\n70 END\nOutput program tersebut adalah :"
+        },
+        {
+            "id": "596",
+            "jawaban": "162",
+            "soal": "Program Basic :\n10 INPUT R,S\n20 IF R<=100 THEN X=R+(10/100*S)\n30 IF R<200 THEN X=R+(20/100*S)\n40 IF R<300 THEN X=R+(30/100*S)\n50 X=R+(4/100*S)\n60 PRINT X\nBerapa harga X bila R=150 dan S=30 ?"
+        },
+        {
+            "id": "597",
+            "jawaban": "10",
+            "soal": "Program BASIC :\n10 INPUT X\n20 IF X>0 THEN X=X*2\n30 IF X<10 THEN X=X*3\n40 PRINT X\n50 END\n\nJika X diisi dengan 5, outputnya adalah :"
+        },
+        {
+            "id": "598",
+            "jawaban": "8",
+            "soal": "Program BASIC :\n10 INPUT Z, Y, X\n20 IF Z = Y OR X = Z OR Y = Z THEN 60\n30 S = Z\n40 IF Y > S THEN S = Y\n50 IF X > S THEN S = X\n60 PRINT S\n70 END\nPada program diatas bila data input diisi dengan 8, 2, 6 akan menghasilkan output :"
+        },
+        {
+            "id": "599",
+            "jawaban": "55",
+            "soal": "Program BASIC :\n10 X=55.67\n20 PRINT INT(X)\n\nHasil yang tercetak adalah :"
+        },
+        {
+            "id": "600",
+            "jawaban": "44",
+            "soal": "Program BASIC:\n10 INPUT X\n20 IF X>0 THEN X=X*2\n30 IF X<10 THEN X=X*3\n40 PRINT X\n50 END\n\nJika X diisi dengan 22, outputnya adalah :"
+        },
+        {
+            "id": "601",
+            "jawaban": "55.67",
+            "soal": "Program BASIC:\n10 X=55.67\n20 PRINT X\n\nHasil yang tercetak adalah :"
+        },
+        {
+            "id": "602",
+            "jawaban": "8",
+            "soal": "Program BASICA :\n10 FOR X = 1 TO 5\n20 READ N \n30 IF SW = 0 THEN SW = 1 : T = N : GOTO 50\n40 IF N > T THEN T = N\n50 NEXT X\n60 PRINT T\n70 DATA 4,2,8,6,2\nJika baris 70 dari program di atas diubah menjadi : 70 DATA 4,2,8,6,8. Maka berapa nilai T :"
+        },
+        {
+            "id": "603",
+            "jawaban": "0",
+            "soal": "Program BASICA :\n10 INPUT G\n20 IF G < 100000 THEN B = 0.20*G\n30 IF G < 200000 THEN B = 0.30*G\n40 IF G < 300000 THEN B = 0.35*G\n50 IF G < 300000 THEN B = 0.40*G\n60 PRINT B\nJika G = 300000 maka nilai B adalah :"
+        },
+        {
+            "id": "604",
+            "jawaban": "20000",
+            "soal": "Program Basica :\n10 Input G\n20 If G<=100000 then B=0.20^G\n30 If G<=200000 then B=0.30^G\n40 If G<=200000 then B=0.40^G\n50 Print B\nRun\n\nJika G=100000, maka nilai B adalah :"
+        },
+        {
+            "id": "605",
+            "jawaban": "266",
+            "soal": "Program Basica :\n10 Input R,S\n20 If R<=100 then X=R+(10/100^s)\n30 If R<=200 then X=R+(20/100^s)\n40 If R<=300 then X=R+(30/100^s)\n50 X=R+(40/100^s)\n60 Print X\nRun\n\nBerapa harga X, bila R=250 dan S=40"
+        },
+        {
+            "id": "606",
+            "jawaban": "600000",
+            "soal": "Program Basica :\n100 For I = 1 to 2\n200 Read NM$,JP,JP$\n300 If JP$ = \"T\" then TT = TT+JP else TK = TK+1\n400 Next I\n500 Print TT,TK\n600 Data Ali,100000,T,Agus,200000,K,Amir,150000,K\n700 Data Budi,250000,K,Didi,300000,T\nRun\n\nDari data diatas, maka hasil out"
+        },
+        {
+            "id": "607",
+            "jawaban": "400000",
+            "soal": "Program basica :\n100 For I=1 to 2\n200 Read NM$,JP,JP$\n300 If JP$ = \"T\" then TT = TT+JP else TK = TK+1 \n400 Next I\n500 Print TT,TK\n600 Data Ali,100000,T,Agus,200000,K,Amir,150000,K\n700 Data Budi, 250000,K,Didi,300000,T\nRun\n\nDari data diatas, maka output da"
+        },
+        {
+            "id": "608",
+            "jawaban": "1   2    3",
+            "soal": "Program berikut :\n10  X = X + 1\n20  PRINT X,\n30  IF X > 3 THEN END\n40  GOTO 10\nOutput program tersebut :"
+        },
+        {
+            "id": "609",
+            "jawaban": "10   11  12  13  14  15",
+            "soal": "Program berikut :\n10 A = 10\n20 WHILE A<=15\n30 PRINT A,\n40 A = A + 1\n50 WEND\noutput program tersebut :"
+        },
+        {
+            "id": "610",
+            "jawaban": "TOTAL =10",
+            "soal": "Program berikut ini menghasilkan output:\n10 ON ERROR GOTO 50\n20 READ X\n30 TOTAL = TOTAL + X\n40 GOTO 20\n50 PRINT \"TOTAL =\"; TOTAL\n60 DATA 2,3,5\n70 END"
+        },
+        {
+            "id": "611",
+            "jawaban": "Baris 120, 140",
+            "soal": "Program berikut memiliki kesalahan, yaitu pada baris\n100 CLS\n110 DATA adi,dede,xxx\n120 READ nama\n130 IF nama$=\"xxx\" THEN GOTO 160\n140 PRINT nama;\n150 GOTO 120\n160 END"
+        },
+        {
+            "id": "612",
+            "jawaban": "R=SQR(A^2+B^2)",
+            "soal": "Rumus jari-jari lingkaran dapat ditulis ke dalam pernyataan BASICA sebagai berikut :"
+        },
+        {
+            "id": "613",
+            "jawaban": "Operator",
+            "soal": "Simbol atau kata yang digunakan dalam program untuk melakukan suatu operasi, seperti penjumlahan atau perkalian, memberikan nilai ke vaeiabel, membandingkan kesamaan dua buah nilai disebut :"
+        },
+        {
+            "id": "614",
+            "jawaban": "Nilai ungkapan numerik n harus berkisar dari 0 sampai dengan 225",
+            "soal": "STATEMEN ON  n  GOTO mempunyai karakteristik antara lain :"
+        },
+        {
+            "id": "615",
+            "jawaban": "IF THEN",
+            "soal": "Statemen yang hanya digunakan untuk numerik, kecuali :"
+        },
+        {
+            "id": "616",
+            "jawaban": "Flowchart",
+            "soal": "Suatu bagan dengan simbol-simbol yang menggambarkan urutan prosedur & proses dari awal sampai akhir disebut:"
+        },
+        {
+            "id": "617",
+            "jawaban": "File biner",
+            "soal": "Suatu file yang sebenarnya tidak berkaitan dengan bentuk file secara fisik, melainkan merupakan suatu metode untuk mengakses file, disebut :"
+        },
+        {
+            "id": "618",
+            "jawaban": "SCREEN",
+            "soal": "Suatu fungsi yang digunakan untuk mengatur atribut yang akan digunakan untuk sederetan perintah yang akan diberikan, yaitu :"
+        },
+        {
+            "id": "619",
+            "jawaban": "FILEATTR",
+            "soal": "Suatu perintah dalam Qbasic untuk mengetahui informasi file yang terbuka :"
+        },
+        {
+            "id": "620",
+            "jawaban": "RND",
+            "soal": "Suatu perintah dalam Qbasic yang digunakan untuk memperoleh bilangan acak adalah :"
+        },
+        {
+            "id": "621",
+            "jawaban": "Counter",
+            "soal": "Suatu proses perhitungan yang hasilnya selalu 'berubah' dimana perubahan   tersebut didapat dari jumlah/banyaknya data disebut:"
+        },
+        {
+            "id": "622",
+            "jawaban": "Akumulator",
+            "soal": "Suatu proses perhitungan yang hasilnya selalu 'berubah' dimana perubahan tersebut didapat dari nilai/harga pada masing-masing data tersebut disebut:"
+        },
+        {
+            "id": "623",
+            "jawaban": "Kalkulasi",
+            "soal": "Suatu proses perhitungan yang hasilnya selalu'tetap' disebut"
+        },
+        {
+            "id": "624",
+            "jawaban": "N=5 , K=16",
+            "soal": "Tabel berikut menjelaskan situasi yang terjadi dalam setiap putaran :\n        Putaran ke      N       K       Terletak\n        -----------------------------------------\n            1           1       1           1\n            2           2       4"
+        },
+        {
+            "id": "625",
+            "jawaban": "sebuah variabel yang dapat berisi nilai 0 atau 1",
+            "soal": "Teknik switching menggunakan :"
+        },
+        {
+            "id": "626",
+            "jawaban": "jika jawaban 1, 2 dan 3 yang benar",
+            "soal": "Teknk switching dalam flowchart :"
+        },
+        {
+            "id": "627",
+            "jawaban": "File random disimpan dalam bentuk ASCII dan file sekuensial dalam\n   format yang lebih kompak",
+            "soal": "Terdapat perbedaan antara file sekuensial dan file random, dua diantaranya adalah :"
+        },
+        {
+            "id": "628",
+            "jawaban": "A = 1",
+            "soal": "Untuk dapat mengerjakan baris 60, maka nilai A dari pernyataan berikut ini adalah :\n\nif (A - 1 > ^ 2 <= 0 then 60"
+        },
+        {
+            "id": "629",
+            "jawaban": "A > 3 dan A < 4",
+            "soal": "untuk dapat mengerjakan baris 60, maka nilai A dari pernyataan berikut ini adalah :\n\nif (A - 3) * (4 - A) > 0 then 60"
+        },
+        {
+            "id": "630",
+            "jawaban": "Bila semua kondisi terpenuhi atau semua kondisi tidak terpenuhi\n   maka dilakukan aksi",
+            "soal": "Untuk hubungan EQV dinyatakan bahwa .........."
+        },
+        {
+            "id": "631",
+            "jawaban": "Koma (,)",
+            "soal": "Untuk mempersingkat line number atau mempersingkat program yang panjang dipakai operator adalah :"
+        },
+        {
+            "id": "632",
+            "jawaban": "list",
+            "soal": "Untuk menampilkan keseluruhan baris program menggunaan :"
+        },
+        {
+            "id": "633",
+            "jawaban": "BSAVE",
+            "soal": "Untuk menyalin isi suatu memori (sejumlah byte) ke dalam file, maka digunakan suatu perintah berikut, yakni :"
+        },
+        {
+            "id": "634",
+            "jawaban": "variabel",
+            "soal": "Untuk menyatakan lokasi memory secara simbolik digunakan:"
+        },
+        {
+            "id": "635",
+            "jawaban": "jika jawaban 2 dan 4 yang benar",
+            "soal": "Variabel bersubscript adalah :"
+        },
+        {
+            "id": "636",
+            "jawaban": "Biru",
+            "soal": "Warna$ = \"Biru\" dicetak warna$ maka komputer akan mencetak output :"
+        },
+        {
+            "id": "637",
+            "jawaban": "20 FOR I = .1 TO 1.8 STEP .1\n   40 C = C + 1\n   60 X(C) = I\n   80 NEXT I",
+            "soal": "Yang benar adalah:"
+        },
+        {
+            "id": "638",
+            "jawaban": "Berkisar dari nilai -32768 dan 32767",
+            "soal": "Yang bukan ciri dari variabel numerik kecepatan ganda (double precision) adalah :"
+        },
+        {
+            "id": "639",
+            "jawaban": "Hasil pembulatan suatu bilang",
+            "soal": "Yang bukan ciri dari variabel numerik ketepatan tunggal (single precision) ialah :"
+        },
+        {
+            "id": "640",
+            "jawaban": "harus dimulai dengan angka",
+            "soal": "Yang BUKAN merupakan syarat-syarat penamaan suatu variabel adalah :"
+        },
+        {
+            "id": "641",
+            "jawaban": "Penelusuran kesalahan program secara keseluruhan sebelum program\n   dieksekusi",
+            "soal": "Yang dimasuk dengan kompiler adalah :"
+        }
+    ]
+}
