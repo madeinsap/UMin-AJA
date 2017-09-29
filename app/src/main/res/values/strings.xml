@@ -10,4 +10,8 @@
         <item>Other</item>
     </string-array>
 
+    <string name="tips1">Feature pencarian ini digunakan untuk mencari soal pada database. Feature ini mewajibkan anda untuk memasukan kata di awal pencarian</string>
+    <string name="tips2">Feature report ini digunakan untuk melakukan laporan keluhan user. Feature ini mewajibkan anda untuk melaporkan keluhan user</string>
+    <string name="tips3">Connectionless application. Aplikasi ini dapat digunakan pada smartphone Android tanpa jaringan internet aktif pada smartphone</string>
+
 </resources>
