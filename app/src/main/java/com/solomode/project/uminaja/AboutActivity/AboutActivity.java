@@ -1,12 +1,17 @@
 package com.solomode.project.uminaja.AboutActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.GridView;
 
+import com.solomode.project.uminaja.MatkulActivity.MatkulActivity;
 import com.solomode.project.uminaja.MatkulActivity.MatkulAdapter;
 import com.solomode.project.uminaja.R;
 
@@ -42,6 +47,15 @@ public class AboutActivity extends AppCompatActivity {
 
         AboutAdapter aboutAdapter = new AboutAdapter(getApplicationContext(), labels, logos);
         grid.setAdapter(aboutAdapter);
+
+        grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Uri uri = Uri.parse("http://www.freepik.com/"+labels[position]);
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

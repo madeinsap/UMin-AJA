@@ -1,7 +1,6 @@
 package com.solomode.project.uminaja.TipsActivity;
 
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -16,7 +15,6 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 import com.solomode.project.uminaja.R;
-import com.solomode.project.uminaja.SplashActivity.SplashActivity;
 
 /**
  * Created by madeinsap on 10/1/2017.
@@ -156,5 +154,11 @@ public class TipsActivityInside extends AppCompatActivity implements View.OnClic
             View view = (View) object;
             container.removeView(view);
         }
+    }
+
+    @Override
+    public void onBackPressed(){
+        Globals.saveFirstTimeLaunch(false);
+        super.onBackPressed();
     }
 }
