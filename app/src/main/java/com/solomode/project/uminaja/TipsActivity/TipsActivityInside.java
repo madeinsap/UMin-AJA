@@ -4,24 +4,25 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
+import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import com.solomode.project.uminaja.R;
 import com.solomode.project.uminaja.SplashActivity.SplashActivity;
 
-public class TipsActivity extends AppCompatActivity implements View.OnClickListener{
+/**
+ * Created by madeinsap on 10/1/2017.
+ */
+
+public class TipsActivityInside extends AppCompatActivity implements View.OnClickListener {
 
     private ViewPager viewPager;
 
@@ -33,13 +34,6 @@ public class TipsActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Checking for first time launch - before calling setContentView()
-        if (!Globals.shouldShowSlider()) {
-            launchHomeScreen();
-            finish();
-        }
-
-        // Making notification bar transparent
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Window window = getWindow();
             if (window != null) {
@@ -56,7 +50,7 @@ public class TipsActivity extends AppCompatActivity implements View.OnClickListe
         setBtnClickListener(R.id.btn_next);
         setBtnClickListener(R.id.btn_prev);
 
-        viewPager.setAdapter(new MyViewPagerAdapter());
+        viewPager.setAdapter(new TipsActivityInside.MyViewPagerAdapter());
         viewPager.addOnPageChangeListener(pageChangeListener);
     }
 
@@ -76,8 +70,7 @@ public class TipsActivity extends AppCompatActivity implements View.OnClickListe
 
     private void launchHomeScreen() {
         Globals.saveFirstTimeLaunch(false);
-        startActivity(new Intent(TipsActivity.this, SplashActivity.class));
-        finish();
+        super.onBackPressed();
     }
 
     ViewPager.OnPageChangeListener pageChangeListener = new ViewPager.OnPageChangeListener() {

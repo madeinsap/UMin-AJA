@@ -21,7 +21,9 @@ import com.solomode.project.uminaja.MainActivity.MainFragment.News.News;
 import com.solomode.project.uminaja.MainActivity.MainFragment.Report.Report;
 import com.solomode.project.uminaja.MainActivity.MainFragment.Home.Home;
 import com.solomode.project.uminaja.R;
+import com.solomode.project.uminaja.TipsActivity.Globals;
 import com.solomode.project.uminaja.TipsActivity.TipsActivity;
+import com.solomode.project.uminaja.TipsActivity.TipsActivityInside;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -150,7 +152,8 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         else if (id == R.id.tips){
-            Intent intent = new Intent(this, TipsActivity.class);
+            Globals.saveFirstTimeLaunch(true);
+            Intent intent = new Intent(this, TipsActivityInside.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
             return true;

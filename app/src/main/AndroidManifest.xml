@@ -25,6 +25,7 @@
         <activity android:name=".SoalActivity.SoalActivity" />
         <activity android:name=".InsertReportActivity.InsertReportActivity" />
         <activity android:name=".AboutActivity.AboutActivity" />
+        <activity android:name=".TipsActivity.TipsActivityInside" />
     </application>
 
 </manifest>

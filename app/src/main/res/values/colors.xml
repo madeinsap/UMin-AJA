@@ -3,11 +3,4 @@
     <color name="colorPrimary">#9c27b0</color>
     <color name="colorPrimaryDark">#7b1fa2</color>
     <color name="colorAccent">#9c27b0</color>
-
-    <!-- dots inactive colors -->
-    <color name="dot_inactive">#6c6c6c</color>
-
-    <!-- dots active colors -->
-    <color name="dot_active">#ffffff</color>
-
 </resources>
